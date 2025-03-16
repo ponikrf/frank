@@ -7,7 +7,7 @@
 	(title_block
 		(title "TurboFRANK")
 		(date "2025-03-03")
-		(rev "1.02")
+		(rev "1.03")
 		(company "Mikhail Matveev")
 		(comment 1 "https://github.com/xtremespb/frank")
 	)
@@ -2072,16 +2072,6 @@
 			(type default)
 		)
 		(uuid "d1f02112-251a-47bc-891c-8487da164159")
-	)
-	(label "LOAD_IN"
-		(at 49.53 72.39 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "50b3d582-1d57-4e02-8abc-b8d61ff40837")
 	)
 	(hierarchical_label "LOAD_IN"
 		(shape input)
