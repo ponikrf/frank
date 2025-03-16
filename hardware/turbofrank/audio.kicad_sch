@@ -7,7 +7,7 @@
 	(title_block
 		(title "TurboFRANK")
 		(date "2025-03-03")
-		(rev "1.02")
+		(rev "1.03")
 		(company "Mikhail Matveev")
 		(comment 1 "https://github.com/xtremespb/frank")
 	)
@@ -3162,7 +3162,7 @@
 				)
 			)
 		)
-		(property "Footprint" "FRANK:SOIC-8"
+		(property "Footprint" "FRANK:SO-8"
 			(at 186.69 59.69 0)
 			(effects
 				(font
