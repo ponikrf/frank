@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "MiniFRANK RM1")
-		(date "2025-03-04")
-		(rev "2.01")
+		(date "2025-03-16")
+		(rev "2.02")
 		(company "Mikhail Matveev")
 		(comment 1 "https://github.com/xtremespb/frank")
 	)
@@ -893,17 +893,6 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "As PSRAM is optional, you need to solder JP1\nif you are going to use it."
-		(exclude_from_sim no)
-		(at 44.196 24.892 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "31b537bd-68fd-4c0a-8b41-573b14007620")
-	)
 	(junction
 		(at 67.31 45.72)
 		(diameter 0)
@@ -1252,7 +1241,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "FRANK:SOIC-8"
+		(property "Footprint" "FRANK:SO-8"
 			(at 69.85 73.66 0)
 			(effects
 				(font
