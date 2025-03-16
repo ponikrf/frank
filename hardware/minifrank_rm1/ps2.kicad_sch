@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "MiniFRANK RM1")
-		(date "2025-03-04")
-		(rev "2.01")
+		(date "2025-03-16")
+		(rev "2.02")
 		(company "Mikhail Matveev")
 		(comment 1 "https://github.com/xtremespb/frank")
 	)

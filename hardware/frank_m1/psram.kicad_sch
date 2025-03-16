@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "FRANK M1")
-		(date "2025-03-03")
-		(rev "1.14")
+		(date "2025-03-16")
+		(rev "1.15")
 		(company "Mikhail Matveev")
 		(comment 1 "https://github.com/xtremespb/frank")
 	)
@@ -1252,7 +1252,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "FRANK:SOIC-8"
+		(property "Footprint" "FRANK:SO-8"
 			(at 69.85 73.66 0)
 			(effects
 				(font

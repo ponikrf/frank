@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "MiniFRANK RM1")
-		(date "2025-03-04")
-		(rev "2.01")
+		(date "2025-03-16")
+		(rev "2.02")
 		(company "Mikhail Matveev")
 		(comment 1 "https://github.com/xtremespb/frank")
 	)
@@ -2254,16 +2254,6 @@
 			(justify left bottom)
 		)
 		(uuid "28d4fd17-f169-43fb-a282-388b6dfefd69")
-	)
-	(label "LOAD_IN"
-		(at 49.53 72.39 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "50b3d582-1d57-4e02-8abc-b8d61ff40837")
 	)
 	(hierarchical_label "LOAD_IN"
 		(shape input)
