@@ -34,10 +34,10 @@ FRANK supports emulation for a variety of platforms, including:
 
 Currently there are the following versions of FRANK available:
 
-* [FRANK M1](./hardware/frank_m1) (latest hardware revision: 1.14)
-* [FRANK M2](./hardware/frank_m2) (latest hardware revision: 1.02)
-* [MiniFRANK RM1](./hardware/minifrank_rm1) (latest hardware revision: 2.01)
-* [TurboFRANK](./hardware/turbofrank) (latest hardware revision: 1.02)
+* [FRANK M1](./hardware/frank_m1) (latest hardware revision: 1.15)
+* [FRANK M2](./hardware/frank_m2) (latest hardware revision: 1.03)
+* [MiniFRANK RM1](./hardware/minifrank_rm1) (latest hardware revision: 2.02)
+* [TurboFRANK](./hardware/turbofrank) (latest hardware revision: 1.03)
 
 ## Side Projects
 
