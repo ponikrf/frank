@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "TurboFRANK")
-		(date "2025-03-03")
-		(rev "1.03")
+		(date "2025-03-17")
+		(rev "1.04")
 		(company "Mikhail Matveev")
 		(comment 1 "https://github.com/xtremespb/frank")
 	)
@@ -1612,7 +1612,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0bdfeba4-77f8-4615-bb7d-148f012d4d0e")
-		(property "Reference" "USB2"
+		(property "Reference" "J7"
 			(at 38.1 30.48 0)
 			(effects
 				(font
@@ -1666,36 +1666,40 @@
 			)
 		)
 		(pin "5"
-			(uuid "2cff8d91-6c53-4960-bf17-1e9d7d977598")
+			(uuid "57082d1d-e69c-449b-92ed-a5958a2c7b1c")
 		)
 		(pin "1"
-			(uuid "794999cc-347a-4ba5-a40b-7709be2eeba9")
+			(uuid "a4f8aabe-af3c-4cb4-a8aa-8ef027db9d66")
 		)
 		(pin "8"
-			(uuid "fbca8573-276a-4fd1-ba66-bda41cb9fee6")
+			(uuid "821a51be-fd3f-4a94-909e-c9d6d88fcde2")
 		)
 		(pin "9"
-			(uuid "5decaf3f-61c6-4a16-903d-984defd2c9f5")
+			(uuid "cf5a703b-a321-4a10-af24-17579f10a9c9")
 		)
 		(pin "4"
-			(uuid "1c26c22d-9703-4fb8-b3f4-2f87eb6bf20f")
+			(uuid "035d7200-9c56-467a-bc0a-5e838b01c1a1")
 		)
 		(pin "6"
-			(uuid "cebd9881-8270-45e4-a874-9d127a9a746a")
+			(uuid "cd4b1eae-ecaa-418f-85d9-f3c6c486a13b")
 		)
 		(pin "2"
-			(uuid "9c7bfe3c-f57d-4860-af87-6030903d5b0f")
+			(uuid "b88841a0-469b-4914-9d18-9a9cc3c3739b")
 		)
 		(pin "3"
-			(uuid "11e79e76-fa9c-4436-a154-871cf92fe9d6")
+			(uuid "0bb509b4-3fb1-463a-afb0-3475ca8f6d9a")
 		)
 		(pin "7"
-			(uuid "f5bf1b2e-2c98-43ae-b415-afa2e906a1ab")
+			(uuid "25567e2e-b240-4432-9984-68af61b0b819")
 		)
 		(instances
-			(project "usb2ps2"
+			(project "turbofrank"
+				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/363c63a2-6afd-440e-9891-102dc1fa9944"
+					(reference "J7")
+					(unit 1)
+				)
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/b237c830-8b62-42ca-9271-338aede27b72"
-					(reference "USB2")
+					(reference "J18")
 					(unit 1)
 				)
 			)
@@ -1710,7 +1714,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "14d74d73-55ac-43cc-b2e7-f8c098551b88")
-		(property "Reference" "C30"
+		(property "Reference" "C6"
 			(at 84.201 44.5516 0)
 			(effects
 				(font
@@ -1765,15 +1769,19 @@
 			)
 		)
 		(pin "1"
-			(uuid "e4551858-acb8-4608-8696-e38990c8d0e8")
+			(uuid "028eb421-76b4-4602-8bed-8afed8e69ea7")
 		)
 		(pin "2"
-			(uuid "d0c9c3df-b9e4-49d8-adc3-c103d09ebca4")
+			(uuid "af202683-9f9f-422e-bd7f-1ad687a26ae6")
 		)
 		(instances
-			(project "usb2ps2"
+			(project "turbofrank"
+				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/363c63a2-6afd-440e-9891-102dc1fa9944"
+					(reference "C6")
+					(unit 1)
+				)
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/b237c830-8b62-42ca-9271-338aede27b72"
-					(reference "C30")
+					(reference "C12")
 					(unit 1)
 				)
 			)
@@ -1789,7 +1797,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2b236318-aee0-4986-9366-9f5de15741ac")
-		(property "Reference" "R84"
+		(property "Reference" "R14"
 			(at 61.722 66.04 90)
 			(effects
 				(font
@@ -1842,15 +1850,19 @@
 			)
 		)
 		(pin "1"
-			(uuid "951eef93-c96e-439f-a4bf-5351ec9c697c")
+			(uuid "815eadc9-247d-423a-be0e-f719f6edcb12")
 		)
 		(pin "2"
-			(uuid "5dea57fb-b6c5-4ace-a5a7-9c5125ba554f")
+			(uuid "84a4f6ee-9ec9-453c-b732-40ac1e495b76")
 		)
 		(instances
-			(project "usb2ps2"
+			(project "turbofrank"
+				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/363c63a2-6afd-440e-9891-102dc1fa9944"
+					(reference "R14")
+					(unit 1)
+				)
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/b237c830-8b62-42ca-9271-338aede27b72"
-					(reference "R84")
+					(reference "R33")
 					(unit 1)
 				)
 			)
@@ -1865,7 +1877,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "33ecd39b-745b-4382-b20b-ac45fdbdaee7")
-		(property "Reference" "C31"
+		(property "Reference" "C7"
 			(at 95.631 44.5516 0)
 			(effects
 				(font
@@ -1920,15 +1932,19 @@
 			)
 		)
 		(pin "1"
-			(uuid "1492e874-40be-4553-901f-96ad9f4f9ede")
+			(uuid "9d63785d-2a87-411e-926a-8590c1ce8768")
 		)
 		(pin "2"
-			(uuid "ae3760b2-1727-42d5-b734-9712a8900e67")
+			(uuid "7cea7451-a491-4efa-a398-ff37832c862e")
 		)
 		(instances
-			(project "usb2ps2"
+			(project "turbofrank"
+				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/363c63a2-6afd-440e-9891-102dc1fa9944"
+					(reference "C7")
+					(unit 1)
+				)
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/b237c830-8b62-42ca-9271-338aede27b72"
-					(reference "C31")
+					(reference "C13")
 					(unit 1)
 				)
 			)
@@ -1944,7 +1960,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "408ea11a-0d89-4d7a-a6a9-976b1fa2a90c")
-		(property "Reference" "#PWR098"
+		(property "Reference" "#PWR033"
 			(at 52.07 40.64 0)
 			(effects
 				(font
@@ -1989,12 +2005,16 @@
 			)
 		)
 		(pin "1"
-			(uuid "47af3b8e-f9fa-4bc5-8b1c-e7bcb02b8a1d")
+			(uuid "ba88704e-6306-4569-9755-19b670a484bc")
 		)
 		(instances
-			(project "usb2ps2"
+			(project "turbofrank"
+				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/363c63a2-6afd-440e-9891-102dc1fa9944"
+					(reference "#PWR033")
+					(unit 1)
+				)
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/b237c830-8b62-42ca-9271-338aede27b72"
-					(reference "#PWR098")
+					(reference "#PWR068")
 					(unit 1)
 				)
 			)
@@ -2009,7 +2029,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4c893dd3-6e15-40ff-afe6-95f360e54ae5")
-		(property "Reference" "#PWR0100"
+		(property "Reference" "#PWR035"
 			(at 81.28 57.15 0)
 			(effects
 				(font
@@ -2054,12 +2074,16 @@
 			)
 		)
 		(pin "1"
-			(uuid "cc9bb90b-8505-4010-94ec-0629425ca5d2")
+			(uuid "e401580e-e659-47ca-9592-39d1e79ea1d7")
 		)
 		(instances
-			(project "usb2ps2"
+			(project "turbofrank"
+				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/363c63a2-6afd-440e-9891-102dc1fa9944"
+					(reference "#PWR035")
+					(unit 1)
+				)
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/b237c830-8b62-42ca-9271-338aede27b72"
-					(reference "#PWR0100")
+					(reference "#PWR070")
 					(unit 1)
 				)
 			)
@@ -2075,7 +2099,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "582ccf44-e6fd-42d8-be40-46a5dc3e829c")
-		(property "Reference" "R83"
+		(property "Reference" "R13"
 			(at 70.612 64.77 90)
 			(effects
 				(font
@@ -2128,15 +2152,19 @@
 			)
 		)
 		(pin "1"
-			(uuid "3caa7ca2-fda0-4773-8d5c-bc7ea9ba2330")
+			(uuid "4b9ce1bc-69d6-42c3-be82-53c11a85a74f")
 		)
 		(pin "2"
-			(uuid "4ba75848-d90e-4acb-acea-40e18c718daa")
+			(uuid "4412a150-2f1b-440c-b6f9-1cda9a07c237")
 		)
 		(instances
-			(project "usb2ps2"
+			(project "turbofrank"
+				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/363c63a2-6afd-440e-9891-102dc1fa9944"
+					(reference "R13")
+					(unit 1)
+				)
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/b237c830-8b62-42ca-9271-338aede27b72"
-					(reference "R83")
+					(reference "R32")
 					(unit 1)
 				)
 			)
@@ -2152,7 +2180,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a7676a6d-a984-4841-9bd6-c39ae7845892")
-		(property "Reference" "#PWR0101"
+		(property "Reference" "#PWR036"
 			(at 92.71 57.15 0)
 			(effects
 				(font
@@ -2197,12 +2225,16 @@
 			)
 		)
 		(pin "1"
-			(uuid "4a606309-48a7-4eff-b105-41133f720569")
+			(uuid "15331ff4-da2e-40ce-9bd7-eb0f0a80ecdc")
 		)
 		(instances
-			(project "usb2ps2"
+			(project "turbofrank"
+				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/363c63a2-6afd-440e-9891-102dc1fa9944"
+					(reference "#PWR036")
+					(unit 1)
+				)
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/b237c830-8b62-42ca-9271-338aede27b72"
-					(reference "#PWR0101")
+					(reference "#PWR071")
 					(unit 1)
 				)
 			)
@@ -2218,7 +2250,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "db5e383d-fb6a-4607-9fda-3c40f76195a6")
-		(property "Reference" "R82"
+		(property "Reference" "R12"
 			(at 57.912 59.69 90)
 			(effects
 				(font
@@ -2271,15 +2303,19 @@
 			)
 		)
 		(pin "1"
-			(uuid "4992258e-c165-492d-aa45-ca5b89f50bee")
+			(uuid "1ba45083-d3bb-4859-94c8-0ebc9e604760")
 		)
 		(pin "2"
-			(uuid "fe2d9495-3248-4f8e-8ba8-95f7db145d0d")
+			(uuid "a1180b55-471a-4fef-88c9-f86437179039")
 		)
 		(instances
-			(project "usb2ps2"
+			(project "turbofrank"
+				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/363c63a2-6afd-440e-9891-102dc1fa9944"
+					(reference "R12")
+					(unit 1)
+				)
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/b237c830-8b62-42ca-9271-338aede27b72"
-					(reference "R82")
+					(reference "R31")
 					(unit 1)
 				)
 			)
@@ -2294,7 +2330,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ec15ef34-0187-4cea-8701-0eeb491628d5")
-		(property "Reference" "#PWR099"
+		(property "Reference" "#PWR034"
 			(at 58.42 40.64 0)
 			(effects
 				(font
@@ -2339,12 +2375,16 @@
 			)
 		)
 		(pin "1"
-			(uuid "08d972dc-df0f-4657-974e-a00af73b9549")
+			(uuid "db88e11c-119f-4106-8bbc-72338ae35bfe")
 		)
 		(instances
-			(project "usb2ps2"
+			(project "turbofrank"
+				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/363c63a2-6afd-440e-9891-102dc1fa9944"
+					(reference "#PWR034")
+					(unit 1)
+				)
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/b237c830-8b62-42ca-9271-338aede27b72"
-					(reference "#PWR099")
+					(reference "#PWR069")
 					(unit 1)
 				)
 			)
@@ -2361,7 +2401,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f0b9bdf3-09d1-480f-95c0-72aac9717088")
-		(property "Reference" "#PWR0102"
+		(property "Reference" "#PWR037"
 			(at 38.1 73.66 0)
 			(effects
 				(font
@@ -2406,12 +2446,16 @@
 			)
 		)
 		(pin "1"
-			(uuid "8ea1193d-61a8-4950-b00a-7fe835d3f471")
+			(uuid "a4ec881e-e040-4dc6-b69b-f703ebac1d3f")
 		)
 		(instances
-			(project ""
+			(project "turbofrank"
+				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/363c63a2-6afd-440e-9891-102dc1fa9944"
+					(reference "#PWR037")
+					(unit 1)
+				)
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/b237c830-8b62-42ca-9271-338aede27b72"
-					(reference "#PWR0102")
+					(reference "#PWR072")
 					(unit 1)
 				)
 			)
@@ -2427,7 +2471,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "fdb7960e-d102-40df-b235-dbb8261b5659")
-		(property "Reference" "R85"
+		(property "Reference" "R15"
 			(at 74.422 71.12 90)
 			(effects
 				(font
@@ -2480,15 +2524,19 @@
 			)
 		)
 		(pin "1"
-			(uuid "6e31a30f-1d7b-4078-9f25-c9f09e0d2d36")
+			(uuid "80ad3ba8-c2cc-4290-acf8-d54f8336f760")
 		)
 		(pin "2"
-			(uuid "26033cd7-3bd7-43c7-90f6-8d85ce680bde")
+			(uuid "caeb0f88-d485-4282-8955-bea9cc59d00e")
 		)
 		(instances
-			(project "usb2ps2"
+			(project "turbofrank"
+				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/363c63a2-6afd-440e-9891-102dc1fa9944"
+					(reference "R15")
+					(unit 1)
+				)
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/b237c830-8b62-42ca-9271-338aede27b72"
-					(reference "R85")
+					(reference "R34")
 					(unit 1)
 				)
 			)
