@@ -48,7 +48,7 @@
         "silk_text_thickness": 0.15,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.1
+          "min_clearance": 0.15
         }
       },
       "diff_pair_dimensions": [
@@ -1047,12 +1047,12 @@
       "TS"
     ],
     [
-      "dfdb40d1-6b7d-4a5b-ad0a-2259a10d95ae",
-      "PWM"
-    ],
-    [
       "3a0b6cee-28de-4cf4-a8a0-557e76ef8313",
       "Amplifier"
+    ],
+    [
+      "dfdb40d1-6b7d-4a5b-ad0a-2259a10d95ae",
+      "PWM"
     ],
     [
       "0dccd710-fd54-4e53-9f08-059759dd7a75",

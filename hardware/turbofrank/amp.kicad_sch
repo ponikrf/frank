@@ -3918,7 +3918,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "FRANK:SO-8"
 			(at 181.61 102.87 0)
 			(effects
 				(font
@@ -6058,7 +6058,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "FRANK:SO-8"
 			(at 166.37 113.03 0)
 			(effects
 				(font
@@ -6440,7 +6440,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "FRANK:SO-8"
 			(at 166.37 148.59 0)
 			(effects
 				(font

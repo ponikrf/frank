@@ -1241,7 +1241,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "FRANK:SOIC-8"
+		(property "Footprint" "FRANK:SO-8"
 			(at 69.85 73.66 0)
 			(effects
 				(font
