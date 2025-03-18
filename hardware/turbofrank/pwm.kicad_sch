@@ -828,7 +828,7 @@
 		(dnp no)
 		(uuid "02bd41c0-ff03-4aeb-b66c-c3fdfa939334")
 		(property "Reference" "R88"
-			(at 88.9 57.15 90)
+			(at 88.9 57.404 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -836,7 +836,7 @@
 			)
 		)
 		(property "Value" "1K"
-			(at 88.9 61.976 90)
+			(at 88.9 61.722 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -904,14 +904,14 @@
 		(dnp no)
 		(uuid "209b7ee5-0120-46ad-bd67-e4a8dcd6ba64")
 		(property "Reference" "R89"
-			(at 88.9 64.77 90)
+			(at 88.9 65.532 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "2K"
+		(property "Value" "1K"
 			(at 88.9 69.596 90)
 			(effects
 				(font
