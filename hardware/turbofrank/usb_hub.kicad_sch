@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "TurboFRANK")
-		(date "2025-03-17")
+		(date "2025-03-19")
 		(rev "1.04")
 		(company "Mikhail Matveev")
 		(comment 1 "https://github.com/xtremespb/frank")
@@ -1572,7 +1572,7 @@
 				)
 			)
 		)
-		(property "Footprint" "FRANK:Connector Female ZH 1.50mm (2 pins)"
+		(property "Footprint" "FRANK:Connector Female ZH 1.50mm (2 pins + tracks)"
 			(at 59.69 85.09 0)
 			(effects
 				(font
@@ -1640,7 +1640,7 @@
 				)
 			)
 		)
-		(property "Footprint" "FRANK:SO-16"
+		(property "Footprint" "FRANK:SOP-16"
 			(at 68.58 43.18 0)
 			(effects
 				(font

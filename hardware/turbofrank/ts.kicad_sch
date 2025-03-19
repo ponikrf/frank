@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "TurboFRANK")
-		(date "2025-03-17")
+		(date "2025-03-19")
 		(rev "1.04")
 		(company "Mikhail Matveev")
 		(comment 1 "https://github.com/xtremespb/frank")
@@ -8332,7 +8332,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0c8b9fbb-6528-47f0-a62b-8b54848eb946")
-		(property "Reference" "L1"
+		(property "Reference" "LD2"
 			(at 196.5325 59.8002 0)
 			(effects
 				(font
@@ -8402,7 +8402,7 @@
 		(instances
 			(project "megafrank"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/fdd0a4b5-db0c-4dc9-b795-8762778e5187/090ca9bf-29cc-416b-bf68-ea856129de0f"
-					(reference "L1")
+					(reference "LD2")
 					(unit 1)
 				)
 			)
@@ -8690,7 +8690,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "FRANK:74HCT74D"
+		(property "Footprint" "FRANK:SOIC-14"
 			(at 87.63 181.61 0)
 			(effects
 				(font
@@ -9522,7 +9522,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4b8ab3c0-3237-4162-8314-d7df0e746fab")
-		(property "Reference" "L2"
+		(property "Reference" "LD3"
 			(at 196.5325 71.2302 0)
 			(effects
 				(font
@@ -9592,7 +9592,7 @@
 		(instances
 			(project "megafrank"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/fdd0a4b5-db0c-4dc9-b795-8762778e5187/090ca9bf-29cc-416b-bf68-ea856129de0f"
-					(reference "L2")
+					(reference "LD3")
 					(unit 1)
 				)
 			)
@@ -10516,7 +10516,7 @@
 				)
 			)
 		)
-		(property "Value" "KLS7-TS3302"
+		(property "Value" "TS-1233"
 			(at 106.68 88.6261 0)
 			(effects
 				(font
@@ -13063,7 +13063,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "FRANK:74HCT74D"
+		(property "Footprint" "FRANK:SOIC-14"
 			(at 66.04 153.67 0)
 			(effects
 				(font
@@ -13825,7 +13825,7 @@
 				)
 			)
 		)
-		(property "Value" "KLS7-TS3302"
+		(property "Value" "TS-1233"
 			(at 106.68 100.0561 0)
 			(effects
 				(font

@@ -262,15 +262,15 @@
 		(uuid "7fe4c926-3015-4b05-9734-e5448267cfe8")
 	)
 	(embedded_fonts no)
-	(model "74HCT74D,653.stp"
+	(model "${KIPRJMOD}/3D/soic-14.stp"
 		(offset
-			(xyz -3.609999841 6.699999709 -4.239999707)
+			(xyz 0 0 0)
 		)
 		(scale
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz -90 0 0)
+			(xyz 90 -0 -0)
 		)
 	)
 )
