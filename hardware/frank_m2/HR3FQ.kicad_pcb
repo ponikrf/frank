@@ -19005,6 +19005,7 @@
 		)
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/3D/RP2040-ZERO-WAVESHARE with headers.STEP"
+			(hide yes)
 			(offset
 				(xyz 0 0 11.04)
 			)
@@ -29207,6 +29208,7 @@
 		)
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/3D/PICO Clone-Black .step"
+			(hide yes)
 			(offset
 				(xyz 9 -24.5 11.04)
 			)

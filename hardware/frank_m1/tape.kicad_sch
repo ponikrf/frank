@@ -1754,17 +1754,6 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "This schematics is used to load data from\nexternal audio source, e.g. tape."
-		(exclude_from_sim no)
-		(at 38.1 27.178 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "229a09bc-94f4-4558-b867-a5bde4e59ed5")
-	)
 	(junction
 		(at 116.84 58.42)
 		(diameter 0)
@@ -3250,7 +3239,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+		(property "Footprint" "FRANK:SOT-23"
 			(at 101.6 74.295 0)
 			(effects
 				(font
@@ -3426,7 +3415,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+		(property "Footprint" "FRANK:SOT-23"
 			(at 119.38 66.675 0)
 			(effects
 				(font
