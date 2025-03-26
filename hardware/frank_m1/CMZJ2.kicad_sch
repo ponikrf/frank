@@ -5828,7 +5828,7 @@
 				)
 			)
 		)
-		(property "Footprint" "DIP Switch (10)"
+		(property "Footprint" "FRANK:DIP Switch (10)"
 			(at 213.36 64.77 0)
 			(effects
 				(font
@@ -6030,7 +6030,7 @@
 				)
 			)
 		)
-		(property "Footprint" "DIP Switch (6)"
+		(property "Footprint" "FRANK:DIP Switch (6)"
 			(at 213.36 33.02 0)
 			(effects
 				(font
