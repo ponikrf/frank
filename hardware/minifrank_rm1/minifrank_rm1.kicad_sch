@@ -3475,7 +3475,7 @@
 				)
 			)
 		)
-		(property "Footprint" "DIP Switch (5x5)"
+		(property "Footprint" "FRANK:DIP Switch (5x5)"
 			(at 143.51 58.42 0)
 			(effects
 				(font
