@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "MiniFRANK RM1")
-		(date "2025-03-16")
-		(rev "2.02")
+		(date "2025-04-01")
+		(rev "2.03")
 		(company "Mikhail Matveev")
 		(comment 1 "https://github.com/xtremespb/frank")
 	)
@@ -1086,17 +1086,6 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "HDMI video output requires the resistors to\nbe close to the HDMI socket in order to\nwork properly."
-		(exclude_from_sim no)
-		(at 43.18 27.432 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "129531c7-b6b1-4ca2-a8c9-2e05c6fef06e")
-	)
 	(junction
 		(at 71.12 77.47)
 		(diameter 0)
@@ -1638,7 +1627,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "087b9add-468f-46f7-862a-07ce9b0e8a21")
-		(property "Reference" "R18"
+		(property "Reference" "R34"
 			(at 90.17 104.14 90)
 			(effects
 				(font
@@ -1697,9 +1686,9 @@
 			(uuid "47488998-efaf-49cc-b77d-e1694bfbb047")
 		)
 		(instances
-			(project "frank2"
-				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/db853a64-9343-4a36-b5b8-71001392b936"
-					(reference "R18")
+			(project "minifrank_rm1"
+				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/1ea0e9ac-8f42-4d3d-8b47-067d751f5a51"
+					(reference "R34")
 					(unit 1)
 				)
 			)
@@ -1714,7 +1703,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0ed8da71-445b-41e4-83d8-cab00d58f782")
-		(property "Reference" "R20"
+		(property "Reference" "R36"
 			(at 100.33 111.76 90)
 			(effects
 				(font
@@ -1773,9 +1762,9 @@
 			(uuid "b1e01402-1104-42e0-a90c-93f206611f7a")
 		)
 		(instances
-			(project "frank2"
-				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/db853a64-9343-4a36-b5b8-71001392b936"
-					(reference "R20")
+			(project "minifrank_rm1"
+				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/1ea0e9ac-8f42-4d3d-8b47-067d751f5a51"
+					(reference "R36")
 					(unit 1)
 				)
 			)
@@ -1790,7 +1779,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2c78e6c8-1e96-48b9-a990-8f4a927d522f")
-		(property "Reference" "R15"
+		(property "Reference" "R31"
 			(at 90.17 91.44 90)
 			(effects
 				(font
@@ -1849,9 +1838,9 @@
 			(uuid "acc3d44c-4678-4262-b4aa-d105007aef56")
 		)
 		(instances
-			(project "frank2"
-				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/db853a64-9343-4a36-b5b8-71001392b936"
-					(reference "R15")
+			(project "minifrank_rm1"
+				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/1ea0e9ac-8f42-4d3d-8b47-067d751f5a51"
+					(reference "R31")
 					(unit 1)
 				)
 			)
@@ -1867,7 +1856,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2c886f1d-d0e3-4aff-b4f3-3b63a5bfbb44")
-		(property "Reference" "#PWR045"
+		(property "Reference" "#PWR064"
 			(at 71.12 81.28 0)
 			(effects
 				(font
@@ -1915,9 +1904,9 @@
 			(uuid "649d74b1-6f33-4cfe-884d-a17e7f08a231")
 		)
 		(instances
-			(project ""
-				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/db853a64-9343-4a36-b5b8-71001392b936"
-					(reference "#PWR045")
+			(project "minifrank_rm1"
+				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/1ea0e9ac-8f42-4d3d-8b47-067d751f5a51"
+					(reference "#PWR064")
 					(unit 1)
 				)
 			)
@@ -1932,7 +1921,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "30c6935a-bae6-47b9-ac7e-633b33236df8")
-		(property "Reference" "R19"
+		(property "Reference" "R35"
 			(at 90.17 106.68 90)
 			(effects
 				(font
@@ -1991,9 +1980,9 @@
 			(uuid "adc57e0b-4ed8-43c4-9642-d0d86f9316ee")
 		)
 		(instances
-			(project "frank2"
-				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/db853a64-9343-4a36-b5b8-71001392b936"
-					(reference "R19")
+			(project "minifrank_rm1"
+				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/1ea0e9ac-8f42-4d3d-8b47-067d751f5a51"
+					(reference "R35")
 					(unit 1)
 				)
 			)
@@ -2008,7 +1997,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "35288ac0-a1b1-4c3e-a0f7-47865b74dd7b")
-		(property "Reference" "C20"
+		(property "Reference" "C28"
 			(at 76.3016 74.549 0)
 			(effects
 				(font
@@ -2035,7 +2024,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://eu.mouser.com/datasheet/2/447/KEM_C1075_X7R_HT_SMD-3316221.pdf"
+		(property "Datasheet" "https://eu.mouser.com/datasheet/2/40/KGM_X7R-3223212.pdf"
 			(at 77.47 77.47 0)
 			(effects
 				(font
@@ -2069,9 +2058,9 @@
 			(uuid "ddfccd83-8cd4-455e-95ea-501915261dae")
 		)
 		(instances
-			(project "frank2"
-				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/db853a64-9343-4a36-b5b8-71001392b936"
-					(reference "C20")
+			(project "minifrank_rm1"
+				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/1ea0e9ac-8f42-4d3d-8b47-067d751f5a51"
+					(reference "C28")
 					(unit 1)
 				)
 			)
@@ -2086,7 +2075,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "362ccc75-1f22-45b2-b2c2-304e26596adf")
-		(property "Reference" "R17"
+		(property "Reference" "R33"
 			(at 80.01 99.06 90)
 			(effects
 				(font
@@ -2145,9 +2134,9 @@
 			(uuid "4d2ac93f-0c9e-45c2-85bd-cb4d3a2c61e0")
 		)
 		(instances
-			(project "frank2"
-				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/db853a64-9343-4a36-b5b8-71001392b936"
-					(reference "R17")
+			(project "minifrank_rm1"
+				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/1ea0e9ac-8f42-4d3d-8b47-067d751f5a51"
+					(reference "R33")
 					(unit 1)
 				)
 			)
@@ -2163,7 +2152,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "391dba26-ff80-4f1b-bff5-c48ba58e52de")
-		(property "Reference" "#PWR047"
+		(property "Reference" "#PWR066"
 			(at 67.31 137.16 0)
 			(effects
 				(font
@@ -2211,9 +2200,9 @@
 			(uuid "8c3708f0-43cb-45fb-8083-b76bc843c977")
 		)
 		(instances
-			(project "frank2"
-				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/db853a64-9343-4a36-b5b8-71001392b936"
-					(reference "#PWR047")
+			(project "minifrank_rm1"
+				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/1ea0e9ac-8f42-4d3d-8b47-067d751f5a51"
+					(reference "#PWR066")
 					(unit 1)
 				)
 			)
@@ -2230,7 +2219,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8636a5e4-d77a-4e27-8242-c451dc8d7fb1")
-		(property "Reference" "#PWR046"
+		(property "Reference" "#PWR065"
 			(at 87.63 77.47 0)
 			(effects
 				(font
@@ -2279,9 +2268,9 @@
 			(uuid "aad582ad-04a9-4706-a02f-303c31c1178d")
 		)
 		(instances
-			(project ""
-				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/db853a64-9343-4a36-b5b8-71001392b936"
-					(reference "#PWR046")
+			(project "minifrank_rm1"
+				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/1ea0e9ac-8f42-4d3d-8b47-067d751f5a51"
+					(reference "#PWR065")
 					(unit 1)
 				)
 			)
@@ -2296,7 +2285,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9d13a545-b175-443c-9bc1-737c1183dd5f")
-		(property "Reference" "R16"
+		(property "Reference" "R32"
 			(at 100.33 96.52 90)
 			(effects
 				(font
@@ -2355,9 +2344,9 @@
 			(uuid "62e7d3b0-cdbd-4d43-8ea0-2232273b987e")
 		)
 		(instances
-			(project "frank2"
-				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/db853a64-9343-4a36-b5b8-71001392b936"
-					(reference "R16")
+			(project "minifrank_rm1"
+				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/1ea0e9ac-8f42-4d3d-8b47-067d751f5a51"
+					(reference "R32")
 					(unit 1)
 				)
 			)
@@ -2373,7 +2362,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ad010c1a-f0cc-461f-a485-b62f135afe1f")
-		(property "Reference" "HDMI1"
+		(property "Reference" "J8"
 			(at 43.18 91.4399 0)
 			(effects
 				(font
@@ -2382,7 +2371,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "HDMI Female"
+		(property "Value" "DC3RX19JA2"
 			(at 43.18 93.9799 0)
 			(effects
 				(font
@@ -2400,7 +2389,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://eu.mouser.com/datasheet/2/418/8/ENG_CD_1747981_G-2018509.pdf"
+		(property "Datasheet" "https://www.mouser.com/datasheet/2/206/B_0233_2E_DC3-784461.pdf?srsltid=AfmBOopfNOwkdmYR2Zf10LYIa6wS_lfZGGRTVzb0297kvAyc-1zmhqWc"
 			(at 55.88 107.95 0)
 			(effects
 				(font
@@ -2497,9 +2486,9 @@
 			(uuid "5caf328d-9029-47e0-97dd-55436934f74b")
 		)
 		(instances
-			(project "frank2"
-				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/db853a64-9343-4a36-b5b8-71001392b936"
-					(reference "HDMI1")
+			(project "minifrank_rm1"
+				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/1ea0e9ac-8f42-4d3d-8b47-067d751f5a51"
+					(reference "J8")
 					(unit 1)
 				)
 			)
@@ -2514,7 +2503,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "cfbd2b3b-6e32-4ace-aef9-740b27a19758")
-		(property "Reference" "R22"
+		(property "Reference" "R38"
 			(at 90.17 119.38 90)
 			(effects
 				(font
@@ -2573,9 +2562,9 @@
 			(uuid "98b9116e-8ed2-48c0-9490-3573e61c08b1")
 		)
 		(instances
-			(project "frank2"
-				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/db853a64-9343-4a36-b5b8-71001392b936"
-					(reference "R22")
+			(project "minifrank_rm1"
+				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/1ea0e9ac-8f42-4d3d-8b47-067d751f5a51"
+					(reference "R38")
 					(unit 1)
 				)
 			)
@@ -2590,7 +2579,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e7854425-9b11-435b-a532-a21d93fc17dc")
-		(property "Reference" "R21"
+		(property "Reference" "R37"
 			(at 80.01 114.3 90)
 			(effects
 				(font
@@ -2649,9 +2638,9 @@
 			(uuid "f85386be-b5f6-4dcb-812a-a3a5c3ddc09f")
 		)
 		(instances
-			(project "frank2"
-				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/db853a64-9343-4a36-b5b8-71001392b936"
-					(reference "R21")
+			(project "minifrank_rm1"
+				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/1ea0e9ac-8f42-4d3d-8b47-067d751f5a51"
+					(reference "R37")
 					(unit 1)
 				)
 			)

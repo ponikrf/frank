@@ -6,8 +6,8 @@
 	(paper "A3")
 	(title_block
 		(title "HDMI to VGA Passive Adapter")
-		(date "2025-03-04")
-		(rev "2.01")
+		(date "2025-04-01")
+		(rev "2.02")
 		(company "Mikhail Matveev")
 		(comment 1 "https://github.com/xtremespb/frank")
 	)
@@ -1091,7 +1091,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1411b0b8-6fe6-4e8d-a250-ebf9f5b72978")
-		(property "Reference" "SC1"
+		(property "Reference" "J6"
 			(at 100.33 31.7499 0)
 			(effects
 				(font
@@ -1151,7 +1151,7 @@
 			)
 			(project "CMZJ2"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/41f3c986-8cc8-43f4-917d-7c89a2c675d6"
-					(reference "SC1")
+					(reference "J6")
 					(unit 1)
 				)
 			)
