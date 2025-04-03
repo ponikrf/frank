@@ -5,9 +5,9 @@
 	(uuid "fd607dcf-b8d4-4d57-b42b-2a3dedb89321")
 	(paper "A4")
 	(title_block
-		(title "MiniFRANK RM24")
-		(date "2025-03-14")
-		(rev "1.00")
+		(title "Protea")
+		(date "2025-04-02")
+		(rev "1.01")
 		(company "Mikhail Matveev")
 		(comment 1 "https://github.com/xtremespb/frank")
 	)
@@ -1454,7 +1454,7 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 111.76) (xy 129.54 111.76)
+			(xy 113.03 111.76) (xy 123.19 111.76)
 		)
 		(stroke
 			(width 0)
@@ -1784,7 +1784,7 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 109.22) (xy 129.54 109.22)
+			(xy 113.03 109.22) (xy 123.19 109.22)
 		)
 		(stroke
 			(width 0)
@@ -1822,46 +1822,6 @@
 		)
 		(uuid "fea857e8-dadb-427c-8c55-afedca95a1db")
 	)
-	(label "RXD"
-		(at 111.76 59.69 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "28ac19a1-3e51-4043-a469-0cd7ec7e2277")
-	)
-	(label "TXD"
-		(at 129.54 111.76 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "40fff7ae-b1eb-4a80-9781-0a5527dd25bf")
-	)
-	(label "RXD"
-		(at 129.54 109.22 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "7a3ddabf-03a1-495c-aec5-5e812c894861")
-	)
-	(label "TXD"
-		(at 167.64 62.23 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "d346eacc-7aca-4049-bd22-92b774b76222")
-	)
 	(hierarchical_label "SCLK"
 		(shape input)
 		(at 111.76 62.23 180)
@@ -1872,6 +1832,17 @@
 			(justify right)
 		)
 		(uuid "109e46f6-becd-4714-81bf-9f4d53b158df")
+	)
+	(hierarchical_label "TXD"
+		(shape input)
+		(at 167.64 62.23 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "129364a1-2e37-4116-9408-7079cba740f3")
 	)
 	(hierarchical_label "GPIO10"
 		(shape input)
@@ -1884,6 +1855,17 @@
 		)
 		(uuid "1573ce0e-94d5-4885-9b79-5dcc4c8f4f5c")
 	)
+	(hierarchical_label "RXD"
+		(shape input)
+		(at 123.19 109.22 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "19dd7a70-9fb2-4a00-949d-4156b2468f15")
+	)
 	(hierarchical_label "GPIO4"
 		(shape input)
 		(at 111.76 80.01 180)
@@ -1894,6 +1876,28 @@
 			(justify right)
 		)
 		(uuid "1eb6ecb8-f6ea-448d-b42c-36302cc4be29")
+	)
+	(hierarchical_label "RXD"
+		(shape input)
+		(at 111.76 59.69 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "20736539-c12e-43fa-be9f-f2fb76a6e30b")
+	)
+	(hierarchical_label "TXD"
+		(shape input)
+		(at 123.19 111.76 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3d1478f2-5226-442b-85e4-29964d0c803f")
 	)
 	(hierarchical_label "ADC"
 		(shape input)
@@ -3531,7 +3535,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "ff4d11b9-bf4e-4c27-9f12-c11f58a522a6")
 		(property "Reference" "#PWR052"
 			(at 128.27 114.3 0)

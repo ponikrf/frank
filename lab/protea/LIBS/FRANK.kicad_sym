@@ -1668,6 +1668,185 @@
 		)
 		(embedded_fonts no)
 	)
+	(symbol "Jumper_1_Slot"
+		(pin_numbers
+			(hide yes)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "JP"
+			(at 0 6.35 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 0 0 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "Jumper_1_Slot_1_1"
+			(rectangle
+				(start -4.0513 4.8133)
+				(end -3.3147 1.5621)
+				(stroke
+					(width -0.0001)
+					(type default)
+				)
+				(fill
+					(type color)
+					(color 215 236 255 1)
+				)
+			)
+			(rectangle
+				(start -3.81 4.8133)
+				(end 3.81 2.8067)
+				(stroke
+					(width -0.0001)
+					(type default)
+				)
+				(fill
+					(type color)
+					(color 215 236 255 1)
+				)
+			)
+			(circle
+				(center -3.81 0)
+				(radius 0.762)
+				(stroke
+					(width 0.5)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -3.302 1.5367) (xy -4.064 1.5367) (xy -4.064 4.826) (xy 4.064 4.826) (xy 4.064 1.524) (xy 3.3147 1.524)
+					(xy 3.3147 2.794) (xy -3.302 2.794) (xy -3.302 1.5367)
+				)
+				(stroke
+					(width 0.025)
+					(type default)
+					(color 146 154 255 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start 3.302 4.826)
+				(end 4.064 1.524)
+				(stroke
+					(width -0.0001)
+					(type default)
+				)
+				(fill
+					(type color)
+					(color 215 236 255 1)
+				)
+			)
+			(circle
+				(center 3.81 0)
+				(radius 0.762)
+				(stroke
+					(width 0.5)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(text "1"
+				(at -2.032 0 0)
+				(effects
+					(font
+						(size 0.8 0.8)
+					)
+				)
+			)
+			(text "2"
+				(at 2.032 0 0)
+				(effects
+					(font
+						(size 0.8 0.8)
+					)
+				)
+			)
+			(pin passive line
+				(at -3.81 0 0)
+				(length 0)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 3.81 0 180)
+				(length 0)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
 	(symbol "MAX232CSE+"
 		(exclude_from_sim no)
 		(in_bom yes)
