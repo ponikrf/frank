@@ -851,7 +851,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "506f9b4e-3802-4d23-8d62-47ff0d8f9d00")
-		(property "Reference" "J17"
+		(property "Reference" "J15"
 			(at 62.23 24.13 0)
 			(effects
 				(font
@@ -976,7 +976,7 @@
 		(instances
 			(project "frank2"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/fddc4167-45e2-4dc5-97ca-2de47a569f97"
-					(reference "J17")
+					(reference "J15")
 					(unit 1)
 				)
 			)
@@ -993,7 +993,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f2ec1fa8-205e-4048-80db-e6b1ef4be611")
-		(property "Reference" "#PWR067"
+		(property "Reference" "#PWR062"
 			(at 43.18 34.29 0)
 			(effects
 				(font
@@ -1044,7 +1044,7 @@
 		(instances
 			(project "frank2"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/fddc4167-45e2-4dc5-97ca-2de47a569f97"
-					(reference "#PWR067")
+					(reference "#PWR062")
 					(unit 1)
 				)
 			)

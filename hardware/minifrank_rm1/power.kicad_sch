@@ -5,9 +5,9 @@
 	(uuid "177bde90-bd8a-463b-bdae-e9d72a38388c")
 	(paper "A4")
 	(title_block
-		(title "MiniFRANK RM24")
-		(date "2025-03-14")
-		(rev "1.00")
+		(title "MiniFRANK RM1")
+		(date "2025-04-04")
+		(rev "2.04")
 		(company "Mikhail Matveev")
 		(comment 1 "https://github.com/xtremespb/frank")
 	)
@@ -2913,7 +2913,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "23aaed4f-9664-4d89-9a82-e0506fdfbe25")
-		(property "Reference" "L1"
+		(property "Reference" "LD2"
 			(at 172.4025 50.8 0)
 			(effects
 				(font
@@ -2991,7 +2991,7 @@
 		(instances
 			(project "frank2"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/84d5e8f7-bda8-4f18-8ff8-1a8273c38b01"
-					(reference "L1")
+					(reference "LD2")
 					(unit 1)
 				)
 			)

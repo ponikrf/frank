@@ -398,22 +398,6 @@
 			)
 		)
 	)
-	(pad "0" thru_hole circle
-		(at -6.96 0.3)
-		(size 4 4)
-		(drill 3.2)
-		(layers "*.Cu" "*.Mask")
-		(remove_unused_layers no)
-		(uuid "4652e708-2b93-48b5-809a-b4d643652694")
-	)
-	(pad "0" thru_hole circle
-		(at 18.04 0.3)
-		(size 4 4)
-		(drill 3.2)
-		(layers "*.Cu" "*.Mask")
-		(remove_unused_layers no)
-		(uuid "96df7f5b-2641-4f4a-a599-ca6f945094eb")
-	)
 	(pad "1" thru_hole rect
 		(at 0 0)
 		(size 1.6 1.6)
@@ -447,12 +431,28 @@
 		(uuid "f320de5e-ab85-462d-978d-1e2319abf5ba")
 	)
 	(pad "5" thru_hole circle
+		(at -6.96 0.3)
+		(size 4 4)
+		(drill 3.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "4652e708-2b93-48b5-809a-b4d643652694")
+	)
+	(pad "5" thru_hole circle
 		(at 11.08 0)
 		(size 1.6 1.6)
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(uuid "70cc197b-7e49-4038-adc2-e702cd79afe7")
+	)
+	(pad "5" thru_hole circle
+		(at 18.04 0.3)
+		(size 4 4)
+		(drill 3.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "96df7f5b-2641-4f4a-a599-ca6f945094eb")
 	)
 	(pad "6" thru_hole circle
 		(at 1.385 2.84)
@@ -487,9 +487,9 @@
 		(uuid "5954ff78-578e-471b-af50-021aa989f5b0")
 	)
 	(embedded_fonts no)
-	(model "${KICAD9_3DMODEL_DIR}/Connector_Dsub.3dshapes/DSUB-9_Socket_Horizontal_P2.77x2.84mm_EdgePinOffset7.70mm_Housed_MountingHolesOffset9.12mm.wrl"
+	(model "${KICAD9_3DMODEL_DIR}/Connector_Dsub.3dshapes/DSUB-9_Pins_Horizontal_P2.77x2.84mm_EdgePinOffset7.70mm_Housed_MountingHolesOffset9.12mm.step"
 		(offset
-			(xyz 11 0 0)
+			(xyz 0 0 0)
 		)
 		(scale
 			(xyz 1 1 1)
