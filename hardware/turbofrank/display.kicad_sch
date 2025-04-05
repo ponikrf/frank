@@ -650,7 +650,7 @@
 	)
 	(wire
 		(pts
-			(xy 34.29 41.91) (xy 54.61 41.91)
+			(xy 139.7 100.33) (xy 160.02 100.33)
 		)
 		(stroke
 			(width 0)
@@ -660,7 +660,7 @@
 	)
 	(wire
 		(pts
-			(xy 34.29 39.37) (xy 54.61 39.37)
+			(xy 139.7 97.79) (xy 160.02 97.79)
 		)
 		(stroke
 			(width 0)
@@ -670,7 +670,7 @@
 	)
 	(wire
 		(pts
-			(xy 34.29 44.45) (xy 54.61 44.45)
+			(xy 139.7 102.87) (xy 160.02 102.87)
 		)
 		(stroke
 			(width 0)
@@ -680,7 +680,7 @@
 	)
 	(wire
 		(pts
-			(xy 34.29 34.29) (xy 54.61 34.29)
+			(xy 139.7 92.71) (xy 160.02 92.71)
 		)
 		(stroke
 			(width 0)
@@ -690,7 +690,7 @@
 	)
 	(wire
 		(pts
-			(xy 34.29 52.07) (xy 54.61 52.07)
+			(xy 139.7 110.49) (xy 160.02 110.49)
 		)
 		(stroke
 			(width 0)
@@ -700,7 +700,7 @@
 	)
 	(wire
 		(pts
-			(xy 34.29 46.99) (xy 54.61 46.99)
+			(xy 139.7 105.41) (xy 160.02 105.41)
 		)
 		(stroke
 			(width 0)
@@ -710,7 +710,7 @@
 	)
 	(wire
 		(pts
-			(xy 34.29 36.83) (xy 54.61 36.83)
+			(xy 139.7 95.25) (xy 160.02 95.25)
 		)
 		(stroke
 			(width 0)
@@ -720,7 +720,7 @@
 	)
 	(wire
 		(pts
-			(xy 34.29 49.53) (xy 54.61 49.53)
+			(xy 139.7 107.95) (xy 160.02 107.95)
 		)
 		(stroke
 			(width 0)
@@ -730,7 +730,7 @@
 	)
 	(hierarchical_label "TFT_SCL"
 		(shape input)
-		(at 54.61 39.37 0)
+		(at 160.02 97.79 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -741,7 +741,7 @@
 	)
 	(hierarchical_label "TFT_RST"
 		(shape input)
-		(at 54.61 44.45 0)
+		(at 160.02 102.87 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -752,7 +752,7 @@
 	)
 	(hierarchical_label "TFT_BL"
 		(shape input)
-		(at 54.61 52.07 0)
+		(at 160.02 110.49 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -763,7 +763,7 @@
 	)
 	(hierarchical_label "TFT_DC"
 		(shape input)
-		(at 54.61 46.99 0)
+		(at 160.02 105.41 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -774,7 +774,7 @@
 	)
 	(hierarchical_label "TFT_SDA"
 		(shape input)
-		(at 54.61 41.91 0)
+		(at 160.02 100.33 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -785,7 +785,7 @@
 	)
 	(hierarchical_label "TFT_CS"
 		(shape input)
-		(at 54.61 49.53 0)
+		(at 160.02 107.95 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -797,7 +797,7 @@
 	(symbol
 		(lib_name "GND_8")
 		(lib_id "power:GND")
-		(at 54.61 34.29 90)
+		(at 160.02 92.71 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -806,7 +806,7 @@
 		(fields_autoplaced yes)
 		(uuid "20857e43-4456-4c0c-80b3-bc858326d72c")
 		(property "Reference" "#PWR069"
-			(at 60.96 34.29 0)
+			(at 166.37 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -815,7 +815,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 58.42 34.2899 90)
+			(at 163.83 92.7099 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -824,7 +824,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 54.61 34.29 0)
+			(at 160.02 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -833,7 +833,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 54.61 34.29 0)
+			(at 160.02 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -842,7 +842,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 54.61 34.29 0)
+			(at 160.02 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -864,7 +864,7 @@
 	)
 	(symbol
 		(lib_id "power:VBUS")
-		(at 54.61 36.83 270)
+		(at 160.02 95.25 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -873,7 +873,7 @@
 		(fields_autoplaced yes)
 		(uuid "767015f5-7bc0-41de-a657-2ae018f9314b")
 		(property "Reference" "#PWR070"
-			(at 50.8 36.83 0)
+			(at 156.21 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -882,7 +882,7 @@
 			)
 		)
 		(property "Value" "VBUS"
-			(at 58.42 36.8299 90)
+			(at 163.83 95.2499 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -891,7 +891,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 54.61 36.83 0)
+			(at 160.02 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -900,7 +900,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 54.61 36.83 0)
+			(at 160.02 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -909,7 +909,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VBUS\""
-			(at 54.61 36.83 0)
+			(at 160.02 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -931,7 +931,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x08_Pin")
-		(at 29.21 41.91 0)
+		(at 134.62 100.33 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -940,7 +940,7 @@
 		(fields_autoplaced yes)
 		(uuid "d24155c0-486e-4df7-b632-8d01667da949")
 		(property "Reference" "J18"
-			(at 29.845 29.21 0)
+			(at 135.255 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -948,7 +948,7 @@
 			)
 		)
 		(property "Value" "Pin Header 1x08"
-			(at 29.845 31.75 0)
+			(at 135.255 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -956,7 +956,7 @@
 			)
 		)
 		(property "Footprint" "FRANK:Pin Header (1x08)"
-			(at 29.21 41.91 0)
+			(at 134.62 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -964,8 +964,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 29.21 41.91 0)
+		(property "Datasheet" "https://www.mouser.com/datasheet/2/154/basics-us_2-54mm-125848.pdf"
+			(at 134.62 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -974,7 +974,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x08, script generated"
-			(at 29.21 41.91 0)
+			(at 134.62 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -983,7 +983,7 @@
 			)
 		)
 		(property "AliExpress" "https://www.aliexpress.com/item/1005007039504981.html"
-			(at 29.21 41.91 0)
+			(at 134.62 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)

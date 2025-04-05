@@ -643,50 +643,50 @@
 		)
 	)
 	(junction
-		(at 66.04 93.98)
+		(at 144.78 116.84)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "29229485-363d-4b78-b920-5d28cc1899a1")
 	)
 	(junction
-		(at 66.04 59.69)
+		(at 144.78 82.55)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "313cf6cf-a356-4f1d-a462-31ba59d56a79")
 	)
 	(junction
-		(at 66.04 71.12)
+		(at 144.78 93.98)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "777d2d77-a14d-436e-a078-14e6ab2f5771")
 	)
 	(junction
-		(at 66.04 105.41)
+		(at 144.78 128.27)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c0f3d793-3f0a-41b7-977f-40994e79321f")
 	)
 	(junction
-		(at 66.04 38.1)
+		(at 144.78 60.96)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c881dacf-46d5-4cef-a7ba-e843cfeddaac")
 	)
 	(junction
-		(at 66.04 82.55)
+		(at 144.78 105.41)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e7ac6331-5c17-47a5-85b2-864d4a336dab")
 	)
 	(junction
-		(at 66.04 48.26)
+		(at 144.78 71.12)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ec5edb0f-b02f-47fd-b293-0df430b820ea")
 	)
 	(wire
 		(pts
-			(xy 66.04 57.15) (xy 66.04 59.69)
+			(xy 144.78 80.01) (xy 144.78 82.55)
 		)
 		(stroke
 			(width 0)
@@ -696,7 +696,7 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 91.44) (xy 66.04 93.98)
+			(xy 144.78 114.3) (xy 144.78 116.84)
 		)
 		(stroke
 			(width 0)
@@ -706,7 +706,7 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 59.69) (xy 66.04 59.69)
+			(xy 137.16 82.55) (xy 144.78 82.55)
 		)
 		(stroke
 			(width 0)
@@ -716,7 +716,7 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 93.98) (xy 66.04 93.98)
+			(xy 137.16 116.84) (xy 144.78 116.84)
 		)
 		(stroke
 			(width 0)
@@ -726,7 +726,7 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 48.26) (xy 66.04 49.53)
+			(xy 144.78 71.12) (xy 144.78 72.39)
 		)
 		(stroke
 			(width 0)
@@ -736,7 +736,7 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 82.55) (xy 66.04 82.55)
+			(xy 137.16 105.41) (xy 144.78 105.41)
 		)
 		(stroke
 			(width 0)
@@ -746,7 +746,7 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 48.26) (xy 66.04 48.26)
+			(xy 137.16 71.12) (xy 144.78 71.12)
 		)
 		(stroke
 			(width 0)
@@ -756,7 +756,7 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 49.53) (xy 104.14 49.53)
+			(xy 179.07 72.39) (xy 182.88 72.39)
 		)
 		(stroke
 			(width 0)
@@ -766,7 +766,7 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 113.03) (xy 40.64 113.03)
+			(xy 129.54 135.89) (xy 119.38 135.89)
 		)
 		(stroke
 			(width 0)
@@ -776,7 +776,7 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 93.98) (xy 50.8 93.98)
+			(xy 119.38 116.84) (xy 129.54 116.84)
 		)
 		(stroke
 			(width 0)
@@ -786,7 +786,7 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 49.53) (xy 100.33 45.72)
+			(xy 179.07 72.39) (xy 179.07 68.58)
 		)
 		(stroke
 			(width 0)
@@ -796,7 +796,7 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 59.69) (xy 66.04 60.96)
+			(xy 144.78 82.55) (xy 144.78 83.82)
 		)
 		(stroke
 			(width 0)
@@ -806,7 +806,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 49.53) (xy 104.14 53.34)
+			(xy 182.88 72.39) (xy 182.88 76.2)
 		)
 		(stroke
 			(width 0)
@@ -816,7 +816,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 38.1) (xy 99.06 38.1)
+			(xy 185.42 60.96) (xy 177.8 60.96)
 		)
 		(stroke
 			(width 0)
@@ -826,7 +826,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 43.18) (xy 100.33 43.18)
+			(xy 185.42 66.04) (xy 179.07 66.04)
 		)
 		(stroke
 			(width 0)
@@ -836,7 +836,7 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 105.41) (xy 50.8 105.41)
+			(xy 119.38 128.27) (xy 129.54 128.27)
 		)
 		(stroke
 			(width 0)
@@ -846,7 +846,7 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 105.41) (xy 66.04 113.03)
+			(xy 144.78 128.27) (xy 144.78 135.89)
 		)
 		(stroke
 			(width 0)
@@ -856,7 +856,7 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 102.87) (xy 66.04 105.41)
+			(xy 144.78 125.73) (xy 144.78 128.27)
 		)
 		(stroke
 			(width 0)
@@ -866,7 +866,7 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 38.1) (xy 66.04 38.1)
+			(xy 137.16 60.96) (xy 144.78 60.96)
 		)
 		(stroke
 			(width 0)
@@ -876,7 +876,7 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 68.58) (xy 66.04 71.12)
+			(xy 144.78 91.44) (xy 144.78 93.98)
 		)
 		(stroke
 			(width 0)
@@ -886,7 +886,7 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 71.12) (xy 50.8 71.12)
+			(xy 119.38 93.98) (xy 129.54 93.98)
 		)
 		(stroke
 			(width 0)
@@ -896,7 +896,7 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 113.03) (xy 40.64 119.38)
+			(xy 119.38 135.89) (xy 119.38 142.24)
 		)
 		(stroke
 			(width 0)
@@ -906,7 +906,7 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 38.1) (xy 73.66 38.1)
+			(xy 144.78 60.96) (xy 152.4 60.96)
 		)
 		(stroke
 			(width 0)
@@ -916,7 +916,7 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 82.55) (xy 50.8 82.55)
+			(xy 119.38 105.41) (xy 129.54 105.41)
 		)
 		(stroke
 			(width 0)
@@ -926,7 +926,7 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 48.26) (xy 50.8 48.26)
+			(xy 119.38 71.12) (xy 129.54 71.12)
 		)
 		(stroke
 			(width 0)
@@ -936,7 +936,7 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 113.03) (xy 58.42 113.03)
+			(xy 144.78 135.89) (xy 137.16 135.89)
 		)
 		(stroke
 			(width 0)
@@ -946,7 +946,7 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 71.12) (xy 66.04 72.39)
+			(xy 144.78 93.98) (xy 144.78 95.25)
 		)
 		(stroke
 			(width 0)
@@ -956,7 +956,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 43.18) (xy 106.68 38.1)
+			(xy 185.42 66.04) (xy 185.42 60.96)
 		)
 		(stroke
 			(width 0)
@@ -966,7 +966,7 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 80.01) (xy 66.04 82.55)
+			(xy 144.78 102.87) (xy 144.78 105.41)
 		)
 		(stroke
 			(width 0)
@@ -976,7 +976,7 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 38.1) (xy 91.44 38.1)
+			(xy 160.02 60.96) (xy 170.18 60.96)
 		)
 		(stroke
 			(width 0)
@@ -986,7 +986,7 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 93.98) (xy 66.04 95.25)
+			(xy 144.78 116.84) (xy 144.78 118.11)
 		)
 		(stroke
 			(width 0)
@@ -996,7 +996,7 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 38.1) (xy 66.04 48.26)
+			(xy 144.78 60.96) (xy 144.78 71.12)
 		)
 		(stroke
 			(width 0)
@@ -1006,7 +1006,7 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 71.12) (xy 66.04 71.12)
+			(xy 137.16 93.98) (xy 144.78 93.98)
 		)
 		(stroke
 			(width 0)
@@ -1016,7 +1016,7 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 105.41) (xy 66.04 105.41)
+			(xy 137.16 128.27) (xy 144.78 128.27)
 		)
 		(stroke
 			(width 0)
@@ -1026,7 +1026,7 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 38.1) (xy 50.8 38.1)
+			(xy 119.38 60.96) (xy 129.54 60.96)
 		)
 		(stroke
 			(width 0)
@@ -1036,7 +1036,7 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 59.69) (xy 50.8 59.69)
+			(xy 119.38 82.55) (xy 129.54 82.55)
 		)
 		(stroke
 			(width 0)
@@ -1046,7 +1046,7 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 82.55) (xy 66.04 83.82)
+			(xy 144.78 105.41) (xy 144.78 106.68)
 		)
 		(stroke
 			(width 0)
@@ -1055,7 +1055,7 @@
 		(uuid "fecdfe75-0362-4439-9fce-0e2a982158f2")
 	)
 	(label "CVBS"
-		(at 104.14 38.1 0)
+		(at 182.88 60.96 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1066,7 +1066,7 @@
 	)
 	(hierarchical_label "SC_R"
 		(shape input)
-		(at 40.64 82.55 180)
+		(at 119.38 105.41 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1077,7 +1077,7 @@
 	)
 	(hierarchical_label "SC_RH"
 		(shape input)
-		(at 40.64 71.12 180)
+		(at 119.38 93.98 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1088,7 +1088,7 @@
 	)
 	(hierarchical_label "SC_GH"
 		(shape input)
-		(at 40.64 48.26 180)
+		(at 119.38 71.12 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1099,7 +1099,7 @@
 	)
 	(hierarchical_label "SC_G"
 		(shape input)
-		(at 40.64 59.69 180)
+		(at 119.38 82.55 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1110,7 +1110,7 @@
 	)
 	(hierarchical_label "SC_B"
 		(shape input)
-		(at 40.64 105.41 180)
+		(at 119.38 128.27 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1121,7 +1121,7 @@
 	)
 	(hierarchical_label "SC_BH"
 		(shape input)
-		(at 40.64 93.98 180)
+		(at 119.38 116.84 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1132,7 +1132,7 @@
 	)
 	(hierarchical_label "SC_HS"
 		(shape input)
-		(at 40.64 38.1 180)
+		(at 119.38 60.96 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1143,7 +1143,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 66.04 99.06 180)
+		(at 144.78 121.92 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1151,7 +1151,7 @@
 		(dnp no)
 		(uuid "3cad7154-2205-476e-b27c-67677e8f00a3")
 		(property "Reference" "R50"
-			(at 69.85 97.79 0)
+			(at 148.59 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1159,7 +1159,7 @@
 			)
 		)
 		(property "Value" "150R"
-			(at 69.85 100.33 0)
+			(at 148.59 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1167,7 +1167,7 @@
 			)
 		)
 		(property "Footprint" "FRANK:Resistor (0805)"
-			(at 67.818 99.06 90)
+			(at 146.558 121.92 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1176,7 +1176,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.vishay.com/docs/28952/mcs0402at-mct0603at-mcu0805at-mca1206at.pdf"
-			(at 66.04 99.06 0)
+			(at 144.78 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1185,7 +1185,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 66.04 99.06 0)
+			(at 144.78 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1194,7 +1194,7 @@
 			)
 		)
 		(property "AliExpress" "https://www.aliexpress.com/item/1005005945735199.html"
-			(at 66.04 99.06 0)
+			(at 144.78 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1219,7 +1219,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 54.61 93.98 90)
+		(at 133.35 116.84 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1227,7 +1227,7 @@
 		(dnp no)
 		(uuid "43b7f118-e8ea-45bd-a088-b06f32e84859")
 		(property "Reference" "R49"
-			(at 49.53 92.71 90)
+			(at 128.27 115.57 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1235,7 +1235,7 @@
 			)
 		)
 		(property "Value" "270R"
-			(at 60.96 92.71 90)
+			(at 139.7 115.57 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1243,7 +1243,7 @@
 			)
 		)
 		(property "Footprint" "FRANK:Resistor (0805)"
-			(at 54.61 95.758 90)
+			(at 133.35 118.618 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1252,7 +1252,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.vishay.com/docs/28952/mcs0402at-mct0603at-mcu0805at-mca1206at.pdf"
-			(at 54.61 93.98 0)
+			(at 133.35 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1261,7 +1261,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 54.61 93.98 0)
+			(at 133.35 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1270,7 +1270,7 @@
 			)
 		)
 		(property "AliExpress" "https://www.aliexpress.com/item/1005005945735199.html"
-			(at 54.61 93.98 0)
+			(at 133.35 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1296,7 +1296,7 @@
 	(symbol
 		(lib_name "GND_1")
 		(lib_id "power:GND")
-		(at 104.14 53.34 0)
+		(at 182.88 76.2 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1305,7 +1305,7 @@
 		(fields_autoplaced yes)
 		(uuid "6be7003e-bfd8-43bb-a4c5-1bf6cf26ddab")
 		(property "Reference" "#PWR071"
-			(at 104.14 59.69 0)
+			(at 182.88 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1314,7 +1314,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 106.045 55.0438 0)
+			(at 184.785 77.9038 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1323,7 +1323,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 104.14 53.34 0)
+			(at 182.88 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1332,7 +1332,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 104.14 53.34 0)
+			(at 182.88 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1341,7 +1341,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 104.14 53.34 0)
+			(at 182.88 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1363,7 +1363,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 54.61 71.12 90)
+		(at 133.35 93.98 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1371,7 +1371,7 @@
 		(dnp no)
 		(uuid "6dfa4f7b-7397-4697-a901-1f7ab637888e")
 		(property "Reference" "R45"
-			(at 49.53 69.85 90)
+			(at 128.27 92.71 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1379,7 +1379,7 @@
 			)
 		)
 		(property "Value" "270R"
-			(at 60.96 69.85 90)
+			(at 139.7 92.71 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1387,7 +1387,7 @@
 			)
 		)
 		(property "Footprint" "FRANK:Resistor (0805)"
-			(at 54.61 72.898 90)
+			(at 133.35 95.758 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1396,7 +1396,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.vishay.com/docs/28952/mcs0402at-mct0603at-mcu0805at-mca1206at.pdf"
-			(at 54.61 71.12 0)
+			(at 133.35 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1405,7 +1405,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 54.61 71.12 0)
+			(at 133.35 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1414,7 +1414,7 @@
 			)
 		)
 		(property "AliExpress" "https://www.aliexpress.com/item/1005005945735199.html"
-			(at 54.61 71.12 0)
+			(at 133.35 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1439,7 +1439,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 54.61 48.26 90)
+		(at 133.35 71.12 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1447,7 +1447,7 @@
 		(dnp no)
 		(uuid "72ceab61-6d7a-426e-9cc3-0565287e3487")
 		(property "Reference" "R41"
-			(at 49.53 46.99 90)
+			(at 128.27 69.85 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1455,7 +1455,7 @@
 			)
 		)
 		(property "Value" "270R"
-			(at 60.96 46.99 90)
+			(at 139.7 69.85 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1463,7 +1463,7 @@
 			)
 		)
 		(property "Footprint" "FRANK:Resistor (0805)"
-			(at 54.61 50.038 90)
+			(at 133.35 72.898 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1472,7 +1472,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.vishay.com/docs/28952/mcs0402at-mct0603at-mcu0805at-mca1206at.pdf"
-			(at 54.61 48.26 0)
+			(at 133.35 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1481,7 +1481,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 54.61 48.26 0)
+			(at 133.35 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1490,7 +1490,7 @@
 			)
 		)
 		(property "AliExpress" "https://www.aliexpress.com/item/1005005945735199.html"
-			(at 54.61 48.26 0)
+			(at 133.35 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1515,7 +1515,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 54.61 38.1 90)
+		(at 133.35 60.96 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1523,7 +1523,7 @@
 		(dnp no)
 		(uuid "762f8577-6765-459f-bd42-b84aa0ae808e")
 		(property "Reference" "R39"
-			(at 49.53 36.83 90)
+			(at 128.27 59.69 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1531,7 +1531,7 @@
 			)
 		)
 		(property "Value" "750R"
-			(at 60.96 36.83 90)
+			(at 139.7 59.69 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1539,7 +1539,7 @@
 			)
 		)
 		(property "Footprint" "FRANK:Resistor (0805)"
-			(at 54.61 39.878 90)
+			(at 133.35 62.738 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1548,7 +1548,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.vishay.com/docs/28952/mcs0402at-mct0603at-mcu0805at-mca1206at.pdf"
-			(at 54.61 38.1 0)
+			(at 133.35 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1557,7 +1557,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 54.61 38.1 0)
+			(at 133.35 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1566,7 +1566,7 @@
 			)
 		)
 		(property "AliExpress" "https://www.aliexpress.com/item/1005005945735199.html"
-			(at 54.61 38.1 0)
+			(at 133.35 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1591,7 +1591,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 66.04 76.2 180)
+		(at 144.78 99.06 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1599,7 +1599,7 @@
 		(dnp no)
 		(uuid "82fd33bd-a080-4949-8d7d-aa64506f4af9")
 		(property "Reference" "R46"
-			(at 69.85 74.93 0)
+			(at 148.59 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1607,7 +1607,7 @@
 			)
 		)
 		(property "Value" "150R"
-			(at 69.85 77.47 0)
+			(at 148.59 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1615,7 +1615,7 @@
 			)
 		)
 		(property "Footprint" "FRANK:Resistor (0805)"
-			(at 67.818 76.2 90)
+			(at 146.558 99.06 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1624,7 +1624,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.vishay.com/docs/28952/mcs0402at-mct0603at-mcu0805at-mca1206at.pdf"
-			(at 66.04 76.2 0)
+			(at 144.78 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1633,7 +1633,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 66.04 76.2 0)
+			(at 144.78 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1642,7 +1642,7 @@
 			)
 		)
 		(property "AliExpress" "https://www.aliexpress.com/item/1005005945735199.html"
-			(at 66.04 76.2 0)
+			(at 144.78 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1667,7 +1667,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 54.61 113.03 90)
+		(at 133.35 135.89 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1675,7 +1675,7 @@
 		(dnp no)
 		(uuid "84b52eec-6e47-43b4-8d15-ff7cb38ce129")
 		(property "Reference" "R52"
-			(at 49.53 111.76 90)
+			(at 128.27 134.62 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1683,7 +1683,7 @@
 			)
 		)
 		(property "Value" "300R"
-			(at 60.96 111.76 90)
+			(at 139.7 134.62 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1691,7 +1691,7 @@
 			)
 		)
 		(property "Footprint" "FRANK:Resistor (0805)"
-			(at 54.61 114.808 90)
+			(at 133.35 137.668 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1700,7 +1700,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.vishay.com/docs/28952/mcs0402at-mct0603at-mcu0805at-mca1206at.pdf"
-			(at 54.61 113.03 0)
+			(at 133.35 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1709,7 +1709,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 54.61 113.03 0)
+			(at 133.35 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1718,7 +1718,7 @@
 			)
 		)
 		(property "AliExpress" "https://www.aliexpress.com/item/1005005945735199.html"
-			(at 54.61 113.03 0)
+			(at 133.35 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1743,7 +1743,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Polarized")
-		(at 95.25 38.1 90)
+		(at 173.99 60.96 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1752,7 +1752,7 @@
 		(fields_autoplaced yes)
 		(uuid "8ff912cf-a005-4279-934d-3b428dac414b")
 		(property "Reference" "C11"
-			(at 94.361 32.2412 90)
+			(at 173.101 55.1012 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1760,7 +1760,7 @@
 			)
 		)
 		(property "Value" "220u"
-			(at 94.361 34.7781 90)
+			(at 173.101 57.6381 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1768,7 +1768,7 @@
 			)
 		)
 		(property "Footprint" "FRANK:Capacitor (3528, tantalum, polar)"
-			(at 99.06 37.1348 0)
+			(at 177.8 59.9948 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1777,7 +1777,7 @@
 			)
 		)
 		(property "Datasheet" "https://eu.mouser.com/datasheet/2/447/KEM_T2005_T491-3316937.pdf"
-			(at 95.25 38.1 0)
+			(at 173.99 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1786,7 +1786,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 95.25 38.1 0)
+			(at 173.99 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1795,7 +1795,7 @@
 			)
 		)
 		(property "AliExpress" "https://www.aliexpress.com/item/1005006870280809.html"
-			(at 95.25 38.1 0)
+			(at 173.99 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1820,7 +1820,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 54.61 59.69 90)
+		(at 133.35 82.55 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1828,7 +1828,7 @@
 		(dnp no)
 		(uuid "90960fc0-db68-46f7-9df5-d58f2a410d9e")
 		(property "Reference" "R43"
-			(at 49.53 58.42 90)
+			(at 128.27 81.28 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1836,7 +1836,7 @@
 			)
 		)
 		(property "Value" "270R"
-			(at 60.96 58.42 90)
+			(at 139.7 81.28 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1844,7 +1844,7 @@
 			)
 		)
 		(property "Footprint" "FRANK:Resistor (0805)"
-			(at 54.61 61.468 90)
+			(at 133.35 84.328 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1853,7 +1853,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.vishay.com/docs/28952/mcs0402at-mct0603at-mcu0805at-mca1206at.pdf"
-			(at 54.61 59.69 0)
+			(at 133.35 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1862,7 +1862,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 54.61 59.69 0)
+			(at 133.35 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1871,7 +1871,7 @@
 			)
 		)
 		(property "AliExpress" "https://www.aliexpress.com/item/1005005945735199.html"
-			(at 54.61 59.69 0)
+			(at 133.35 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1896,7 +1896,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 77.47 38.1 90)
+		(at 156.21 60.96 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1904,7 +1904,7 @@
 		(dnp no)
 		(uuid "94d26268-6284-4156-9356-9e3f4ec03a15")
 		(property "Reference" "R40"
-			(at 72.39 36.83 90)
+			(at 151.13 59.69 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1912,7 +1912,7 @@
 			)
 		)
 		(property "Value" "51R"
-			(at 83.82 36.83 90)
+			(at 162.56 59.69 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1920,7 +1920,7 @@
 			)
 		)
 		(property "Footprint" "FRANK:Resistor (0805)"
-			(at 77.47 39.878 90)
+			(at 156.21 62.738 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1929,7 +1929,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.vishay.com/docs/28952/mcs0402at-mct0603at-mcu0805at-mca1206at.pdf"
-			(at 77.47 38.1 0)
+			(at 156.21 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1938,7 +1938,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 77.47 38.1 0)
+			(at 156.21 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1947,7 +1947,7 @@
 			)
 		)
 		(property "AliExpress" "https://www.aliexpress.com/item/1005005945735199.html"
-			(at 77.47 38.1 0)
+			(at 156.21 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1972,7 +1972,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 54.61 82.55 90)
+		(at 133.35 105.41 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1980,7 +1980,7 @@
 		(dnp no)
 		(uuid "c79c5f4b-4de4-42e0-a147-ace572c5d261")
 		(property "Reference" "R47"
-			(at 49.53 81.28 90)
+			(at 128.27 104.14 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1988,7 +1988,7 @@
 			)
 		)
 		(property "Value" "270R"
-			(at 60.96 81.28 90)
+			(at 139.7 104.14 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1996,7 +1996,7 @@
 			)
 		)
 		(property "Footprint" "FRANK:Resistor (0805)"
-			(at 54.61 84.328 90)
+			(at 133.35 107.188 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2005,7 +2005,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.vishay.com/docs/28952/mcs0402at-mct0603at-mcu0805at-mca1206at.pdf"
-			(at 54.61 82.55 0)
+			(at 133.35 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2014,7 +2014,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 54.61 82.55 0)
+			(at 133.35 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2023,7 +2023,7 @@
 			)
 		)
 		(property "AliExpress" "https://www.aliexpress.com/item/1005005945735199.html"
-			(at 54.61 82.55 0)
+			(at 133.35 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2048,7 +2048,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 66.04 87.63 180)
+		(at 144.78 110.49 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2056,7 +2056,7 @@
 		(dnp no)
 		(uuid "d2d75c09-2f03-437a-9c14-abc56e63cc47")
 		(property "Reference" "R48"
-			(at 69.85 86.36 0)
+			(at 148.59 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2064,7 +2064,7 @@
 			)
 		)
 		(property "Value" "150R"
-			(at 69.85 88.9 0)
+			(at 148.59 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2072,7 +2072,7 @@
 			)
 		)
 		(property "Footprint" "FRANK:Resistor (0805)"
-			(at 67.818 87.63 90)
+			(at 146.558 110.49 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2081,7 +2081,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.vishay.com/docs/28952/mcs0402at-mct0603at-mcu0805at-mca1206at.pdf"
-			(at 66.04 87.63 0)
+			(at 144.78 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2090,7 +2090,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 66.04 87.63 0)
+			(at 144.78 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2099,7 +2099,7 @@
 			)
 		)
 		(property "AliExpress" "https://www.aliexpress.com/item/1005005945735199.html"
-			(at 66.04 87.63 0)
+			(at 144.78 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2124,7 +2124,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 54.61 105.41 90)
+		(at 133.35 128.27 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2132,7 +2132,7 @@
 		(dnp no)
 		(uuid "d4022c9a-4d07-4322-aeb4-8528610324a0")
 		(property "Reference" "R51"
-			(at 49.53 104.14 90)
+			(at 128.27 127 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2140,7 +2140,7 @@
 			)
 		)
 		(property "Value" "270R"
-			(at 60.96 104.14 90)
+			(at 139.7 127 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2148,7 +2148,7 @@
 			)
 		)
 		(property "Footprint" "FRANK:Resistor (0805)"
-			(at 54.61 107.188 90)
+			(at 133.35 130.048 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2157,7 +2157,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.vishay.com/docs/28952/mcs0402at-mct0603at-mcu0805at-mca1206at.pdf"
-			(at 54.61 105.41 0)
+			(at 133.35 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2166,7 +2166,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 54.61 105.41 0)
+			(at 133.35 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2175,7 +2175,7 @@
 			)
 		)
 		(property "AliExpress" "https://www.aliexpress.com/item/1005005945735199.html"
-			(at 54.61 105.41 0)
+			(at 133.35 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2200,7 +2200,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
-		(at 105.41 43.18 0)
+		(at 184.15 66.04 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2209,7 +2209,7 @@
 		(fields_autoplaced yes)
 		(uuid "deb5657b-d9f5-46ad-ac9b-3ae5145f503c")
 		(property "Reference" "J19"
-			(at 107.95 43.1799 0)
+			(at 186.69 66.0399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2218,7 +2218,7 @@
 			)
 		)
 		(property "Value" "RCA-103"
-			(at 107.95 45.7199 0)
+			(at 186.69 68.5799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2227,7 +2227,7 @@
 			)
 		)
 		(property "Footprint" "FRANK:RCA"
-			(at 105.41 43.18 0)
+			(at 184.15 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2236,7 +2236,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.kosmodrom.com.ua/pdf/RCA-103.pdf"
-			(at 105.41 43.18 0)
+			(at 184.15 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2245,7 +2245,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 105.41 43.18 0)
+			(at 184.15 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2254,7 +2254,7 @@
 			)
 		)
 		(property "AliExpress" "https://www.aliexpress.com/item/1005006152724809.html"
-			(at 105.41 43.18 0)
+			(at 184.15 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2279,7 +2279,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 66.04 53.34 180)
+		(at 144.78 76.2 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2287,7 +2287,7 @@
 		(dnp no)
 		(uuid "debe1b3c-8230-4249-b55d-b0a6fa5d934c")
 		(property "Reference" "R42"
-			(at 69.85 52.07 0)
+			(at 148.59 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2295,7 +2295,7 @@
 			)
 		)
 		(property "Value" "150R"
-			(at 69.85 54.61 0)
+			(at 148.59 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2303,7 +2303,7 @@
 			)
 		)
 		(property "Footprint" "FRANK:Resistor (0805)"
-			(at 67.818 53.34 90)
+			(at 146.558 76.2 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2312,7 +2312,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.vishay.com/docs/28952/mcs0402at-mct0603at-mcu0805at-mca1206at.pdf"
-			(at 66.04 53.34 0)
+			(at 144.78 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2321,7 +2321,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 66.04 53.34 0)
+			(at 144.78 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2330,7 +2330,7 @@
 			)
 		)
 		(property "AliExpress" "https://www.aliexpress.com/item/1005005945735199.html"
-			(at 66.04 53.34 0)
+			(at 144.78 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2355,7 +2355,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 66.04 64.77 180)
+		(at 144.78 87.63 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2363,7 +2363,7 @@
 		(dnp no)
 		(uuid "f3482495-5dbd-46a5-b3d6-82db54a81e2b")
 		(property "Reference" "R44"
-			(at 69.85 63.5 0)
+			(at 148.59 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2371,7 +2371,7 @@
 			)
 		)
 		(property "Value" "150R"
-			(at 69.85 66.04 0)
+			(at 148.59 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2379,7 +2379,7 @@
 			)
 		)
 		(property "Footprint" "FRANK:Resistor (0805)"
-			(at 67.818 64.77 90)
+			(at 146.558 87.63 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2388,7 +2388,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.vishay.com/docs/28952/mcs0402at-mct0603at-mcu0805at-mca1206at.pdf"
-			(at 66.04 64.77 0)
+			(at 144.78 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2397,7 +2397,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 66.04 64.77 0)
+			(at 144.78 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2406,7 +2406,7 @@
 			)
 		)
 		(property "AliExpress" "https://www.aliexpress.com/item/1005005945735199.html"
-			(at 66.04 64.77 0)
+			(at 144.78 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2431,7 +2431,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 40.64 119.38 0)
+		(at 119.38 142.24 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2440,7 +2440,7 @@
 		(fields_autoplaced yes)
 		(uuid "fcd7efd9-62e8-4533-ba1e-ea2f10ad0807")
 		(property "Reference" "#PWR072"
-			(at 40.64 125.73 0)
+			(at 119.38 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2449,7 +2449,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 40.64 123.8234 0)
+			(at 119.38 146.6834 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2457,7 +2457,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 40.64 119.38 0)
+			(at 119.38 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2466,7 +2466,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 40.64 119.38 0)
+			(at 119.38 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2475,7 +2475,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 40.64 119.38 0)
+			(at 119.38 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)

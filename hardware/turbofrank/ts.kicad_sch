@@ -10539,7 +10539,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "74xx/74hc_hct74.pdf"
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/74HC_HCT74.pdf"
 			(at 64.77 156.21 0)
 			(effects
 				(font
@@ -10728,7 +10728,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.farnell.com/datasheets/1760130.pdf"
 			(at 133.35 143.51 0)
 			(effects
 				(font
@@ -11043,7 +11043,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "74xx/74hc_hct74.pdf"
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/74HC_HCT74.pdf"
 			(at 78.74 173.99 0)
 			(effects
 				(font
@@ -11669,7 +11669,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.farnell.com/datasheets/1760130.pdf"
 			(at 133.35 153.67 0)
 			(effects
 				(font
@@ -11755,7 +11755,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.de/datasheet/2/115/Diodes_Inc_GC0350016_Datasheet-3305934.pdf"
 			(at 34.29 146.05 0)
 			(effects
 				(font

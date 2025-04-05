@@ -1225,7 +1225,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "PJ-320D"
 			(at 184.15 92.71 0)
 			(effects
 				(font
@@ -1244,7 +1244,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1810121716_Korean-Hroparts-Elec-PJ-320D-4A_C95562.pdf"
 			(at 186.69 104.14 0)
 			(effects
 				(font
@@ -1262,7 +1262,7 @@
 				(hide yes)
 			)
 		)
-		(property "AliExpress" ""
+		(property "AliExpress" "https://www.aliexpress.com/item/4001158231104.html"
 			(at 186.69 104.14 0)
 			(effects
 				(font
@@ -1297,7 +1297,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "5d72edea-f1b2-4cc9-a476-80674787f0df")
 		(property "Reference" "J11"
 			(at 170.815 69.85 0)
@@ -1324,7 +1323,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.aliexpress.com/item/1005001649158434.html"
 			(at 170.18 74.93 0)
 			(effects
 				(font
@@ -1335,6 +1334,15 @@
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
 			(at 170.18 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "AliExpress" "https://www.aliexpress.com/item/1005001649158434.html"
+			(at 180.594 82.296 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1365,7 +1373,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "93f94f67-d2d1-4fe6-bd94-078544eca7f6")
 		(property "Reference" "J10"
 			(at 170.815 58.42 0)
@@ -1392,7 +1399,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.aliexpress.com/item/1005001649158434.html"
 			(at 170.18 63.5 0)
 			(effects
 				(font
@@ -1403,6 +1410,15 @@
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
 			(at 170.18 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "AliExpress" "https://www.aliexpress.com/item/1005001649158434.html"
+			(at 182.118 51.816 0)
 			(effects
 				(font
 					(size 1.27 1.27)

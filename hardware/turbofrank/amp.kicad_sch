@@ -2917,7 +2917,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://eu.mouser.com/datasheet/2/40/KGM_X7R-3223212.pdf"
 			(at 120.65 157.48 0)
 			(effects
 				(font
@@ -3344,7 +3344,7 @@
 				)
 			)
 		)
-		(property "Value" "Mono"
+		(property "Value" "MONO"
 			(at 67.056 73.914 0)
 			(effects
 				(font
@@ -3361,7 +3361,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.com/datasheet/2/154/basics-us_2-54mm-125848.pdf"
 			(at 59.69 77.47 0)
 			(effects
 				(font
@@ -3371,6 +3371,15 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 59.69 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "AliExpress" "https://vi.aliexpress.com/item/1005006454399822.html"
 			(at 59.69 77.47 0)
 			(effects
 				(font
@@ -3572,7 +3581,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://eu.mouser.com/datasheet/2/40/KGM_X7R-3223212.pdf"
 			(at 176.53 137.16 0)
 			(effects
 				(font
@@ -3714,7 +3723,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://eu.mouser.com/datasheet/2/40/KGM_X7R-3223212.pdf"
 			(at 101.6 137.16 0)
 			(effects
 				(font
@@ -3955,6 +3964,14 @@
 				(hide yes)
 			)
 		)
+		(property "AliExpress" "https://www.aliexpress.com/item/1005006785079218.html"
+			(at 157.48 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "6"
 			(uuid "cea6b67e-7dc6-4512-a257-4b9c9d4fe7bd")
 		)
@@ -4100,7 +4117,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://eu.mouser.com/datasheet/2/40/KGM_X7R-3223212.pdf"
 			(at 198.12 62.23 0)
 			(effects
 				(font
@@ -4176,7 +4193,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://eu.mouser.com/datasheet/2/40/KGM_X7R-3223212.pdf"
 			(at 132.08 74.93 0)
 			(effects
 				(font
@@ -4318,7 +4335,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.vishay.com/docs/28952/mcs0402at-mct0603at-mcu0805at-mca1206at.pdf"
 			(at 189.23 73.66 0)
 			(effects
 				(font
@@ -4607,6 +4624,14 @@
 				)
 				(justify left top)
 				(hide yes)
+			)
+		)
+		(property "AliExpress" "https://www.aliexpress.com/item/1005004671019166.html"
+			(at 134.62 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -4974,7 +4999,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://eu.mouser.com/datasheet/2/40/KGM_X7R-3223212.pdf"
 			(at 101.6 127 0)
 			(effects
 				(font
@@ -5050,7 +5075,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.vishay.com/docs/28952/mcs0402at-mct0603at-mcu0805at-mca1206at.pdf"
 			(at 115.57 69.85 0)
 			(effects
 				(font
@@ -5193,7 +5218,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://eu.mouser.com/datasheet/2/40/KGM_X7R-3223212.pdf"
 			(at 168.91 104.14 0)
 			(effects
 				(font
@@ -5269,7 +5294,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://eu.mouser.com/datasheet/2/40/KGM_X7R-3223212.pdf"
 			(at 179.07 104.14 0)
 			(effects
 				(font
@@ -5345,7 +5370,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://eu.mouser.com/datasheet/2/40/KGM_X7R-3223212.pdf"
 			(at 100.33 69.85 0)
 			(effects
 				(font
@@ -5855,7 +5880,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.vishay.com/docs/28952/mcs0402at-mct0603at-mcu0805at-mca1206at.pdf"
 			(at 158.75 87.63 0)
 			(effects
 				(font
@@ -6095,6 +6120,14 @@
 				(hide yes)
 			)
 		)
+		(property "AliExpress" "https://www.aliexpress.com/item/1005006785079218.html"
+			(at 142.24 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "6"
 			(uuid "95c5a473-6cc4-49bf-ae33-9e74a8fce8c7")
 		)
@@ -6240,7 +6273,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://eu.mouser.com/datasheet/2/40/KGM_X7R-3223212.pdf"
 			(at 142.24 87.63 0)
 			(effects
 				(font
@@ -6382,7 +6415,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://eu.mouser.com/datasheet/2/40/KGM_X7R-3223212.pdf"
 			(at 176.53 127 0)
 			(effects
 				(font
@@ -6475,6 +6508,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "AliExpress" "https://www.aliexpress.com/item/1005006785079218.html"
+			(at 142.24 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "6"

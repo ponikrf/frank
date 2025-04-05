@@ -2954,7 +2954,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.farnell.com/datasheets/1760130.pdf"
 			(at 118.11 132.08 0)
 			(effects
 				(font

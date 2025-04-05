@@ -1441,7 +1441,7 @@
 				(hide yes)
 			)
 		)
-		(property "AliExpress" "https://www.aliexpress.com/item/1005006454399822.html"
+		(property "AliExpress" ""
 			(at 96.52 67.31 0)
 			(effects
 				(font
