@@ -7,7 +7,7 @@
 	(title_block
 		(title "TurboFRANK")
 		(date "2025-04-04")
-		(rev "1.05")
+		(rev "${VERSION}")
 		(company "Mikhail Matveev")
 		(comment 1 "https://github.com/xtremespb/frank")
 	)

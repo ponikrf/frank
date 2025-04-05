@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "TurboFRANK")
-		(date "2025-03-19")
-		(rev "1.04")
+		(date "2025-04-04")
+		(rev "${VERSION}")
 		(company "Mikhail Matveev")
 		(comment 1 "https://github.com/xtremespb/frank")
 	)
@@ -994,7 +994,7 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 87.63) (xy 83.82 87.63)
+			(xy 62.23 72.39) (xy 80.01 72.39)
 		)
 		(stroke
 			(width 0)
@@ -1024,7 +1024,7 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 85.09) (xy 83.82 85.09)
+			(xy 62.23 69.85) (xy 80.01 69.85)
 		)
 		(stroke
 			(width 0)
@@ -1163,7 +1163,7 @@
 		(uuid "8c993a20-9bc8-4b65-8d1a-fb2c8e6597b6")
 	)
 	(label "DM_IN"
-		(at 83.82 87.63 180)
+		(at 80.01 72.39 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1173,7 +1173,7 @@
 		(uuid "985cb4d1-4834-4649-9497-7f67b3e46bc9")
 	)
 	(label "DP_IN"
-		(at 83.82 85.09 180)
+		(at 80.01 69.85 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1280,7 +1280,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0140dcea-806e-45ef-a4ef-f2b8473a76b3")
-		(property "Reference" "#PWR080"
+		(property "Reference" "#PWR0136"
 			(at 110.49 66.04 0)
 			(effects
 				(font
@@ -1329,8 +1329,8 @@
 		)
 		(instances
 			(project "turbofrank"
-				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/2b27f9a5-aaa8-45c5-9eab-ce9c55507cf0"
-					(reference "#PWR080")
+				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/c2769f78-f968-472a-a3d7-89c385b7d62d"
+					(reference "#PWR0136")
 					(unit 1)
 				)
 			)
@@ -1346,7 +1346,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "29f2092d-1eba-4af2-8ddf-712fcbe9cec7")
-		(property "Reference" "#PWR079"
+		(property "Reference" "#PWR0135"
 			(at 109.22 41.91 0)
 			(effects
 				(font
@@ -1396,8 +1396,8 @@
 		)
 		(instances
 			(project ""
-				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/2b27f9a5-aaa8-45c5-9eab-ce9c55507cf0"
-					(reference "#PWR079")
+				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/c2769f78-f968-472a-a3d7-89c385b7d62d"
+					(reference "#PWR0135")
 					(unit 1)
 				)
 			)
@@ -1413,7 +1413,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3633e96d-6956-4c0a-8c42-2095840ba3ad")
-		(property "Reference" "#PWR078"
+		(property "Reference" "#PWR0134"
 			(at 104.14 34.29 0)
 			(effects
 				(font
@@ -1463,8 +1463,8 @@
 		)
 		(instances
 			(project "turbofrank"
-				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/2b27f9a5-aaa8-45c5-9eab-ce9c55507cf0"
-					(reference "#PWR078")
+				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/c2769f78-f968-472a-a3d7-89c385b7d62d"
+					(reference "#PWR0134")
 					(unit 1)
 				)
 			)
@@ -1479,7 +1479,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "cbf0e33d-0c18-496e-8fe6-ac1d91bf2cc0")
-		(property "Reference" "C14"
+		(property "Reference" "C40"
 			(at 113.538 56.134 90)
 			(effects
 				(font
@@ -1539,8 +1539,8 @@
 		)
 		(instances
 			(project "turbofrank"
-				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/2b27f9a5-aaa8-45c5-9eab-ce9c55507cf0"
-					(reference "C14")
+				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/c2769f78-f968-472a-a3d7-89c385b7d62d"
+					(reference "C40")
 					(unit 1)
 				)
 			)
@@ -1548,7 +1548,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x02_Pin")
-		(at 59.69 85.09 0)
+		(at 57.15 69.85 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1557,7 +1557,7 @@
 		(fields_autoplaced yes)
 		(uuid "d255ba23-712c-4bf4-9bd9-25796798d19a")
 		(property "Reference" "J21"
-			(at 60.325 80.01 0)
+			(at 57.785 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1565,7 +1565,7 @@
 			)
 		)
 		(property "Value" "USB HUB Data"
-			(at 60.325 82.55 0)
+			(at 57.785 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1573,7 +1573,7 @@
 			)
 		)
 		(property "Footprint" "FRANK:Connector Female ZH 1.50mm (2 pins + tracks)"
-			(at 59.69 85.09 0)
+			(at 57.15 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1582,7 +1582,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 59.69 85.09 0)
+			(at 57.15 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1591,7 +1591,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 59.69 85.09 0)
+			(at 57.15 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1607,7 +1607,7 @@
 		)
 		(instances
 			(project ""
-				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/2b27f9a5-aaa8-45c5-9eab-ce9c55507cf0"
+				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/c2769f78-f968-472a-a3d7-89c385b7d62d"
 					(reference "J21")
 					(unit 1)
 				)
@@ -1624,7 +1624,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fa540da6-89c6-42a6-930a-e2b53a33b09b")
-		(property "Reference" "U3"
+		(property "Reference" "U12"
 			(at 68.58 24.13 0)
 			(effects
 				(font
@@ -1716,8 +1716,8 @@
 		)
 		(instances
 			(project "turbofrank"
-				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/2b27f9a5-aaa8-45c5-9eab-ce9c55507cf0"
-					(reference "U3")
+				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/c2769f78-f968-472a-a3d7-89c385b7d62d"
+					(reference "U12")
 					(unit 1)
 				)
 			)

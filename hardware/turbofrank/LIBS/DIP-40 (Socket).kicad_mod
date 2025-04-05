@@ -532,6 +532,7 @@
 	)
 	(embedded_fonts no)
 	(model "${KICAD9_3DMODEL_DIR}/Package_DIP.3dshapes/DIP-40_W15.24mm_Socket.wrl"
+		(hide yes)
 		(offset
 			(xyz 0 0 0)
 		)
@@ -540,6 +541,17 @@
 		)
 		(rotate
 			(xyz 0 0 0)
+		)
+	)
+	(model "${KIPRJMOD}/3D/DIP40 & Socket.stp"
+		(offset
+			(xyz 7.65 -24.3 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
 		)
 	)
 )

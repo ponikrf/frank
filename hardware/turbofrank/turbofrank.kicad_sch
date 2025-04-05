@@ -7,7 +7,7 @@
 	(title_block
 		(title "TurboFRANK")
 		(date "2025-04-04")
-		(rev "1.05")
+		(rev "${VERSION}")
 		(company "Mikhail Matveev")
 		(comment 1 "https://github.com/xtremespb/frank")
 	)
@@ -1942,12 +1942,20 @@
 		(uuid "586c720c-4014-4c4e-9c20-8e80d0adeb64")
 	)
 	(no_connect
+		(at 129.54 114.3)
+		(uuid "5a3f0350-2d68-4b8f-b25e-660c80a22f92")
+	)
+	(no_connect
 		(at 104.14 72.39)
 		(uuid "5c9b2040-ea16-4121-9697-d8a68d8a91db")
 	)
 	(no_connect
 		(at 104.14 118.11)
 		(uuid "68256eb9-c450-4ae6-8922-7f7f65c9be2d")
+	)
+	(no_connect
+		(at 129.54 124.46)
+		(uuid "70149c56-2dec-4b20-acdd-2e24e45345ab")
 	)
 	(no_connect
 		(at 143.51 24.13)
@@ -1964,6 +1972,10 @@
 	(no_connect
 		(at 104.14 113.03)
 		(uuid "ae22a909-d780-4c1d-944f-d402671f2b25")
+	)
+	(no_connect
+		(at 129.54 116.84)
+		(uuid "b2210d0d-a04d-4d6f-8770-13a9766bdd02")
 	)
 	(no_connect
 		(at 104.14 69.85)
@@ -2008,6 +2020,10 @@
 	(no_connect
 		(at 104.14 41.91)
 		(uuid "f943bb37-73f1-4223-8d14-ebaf920cac94")
+	)
+	(no_connect
+		(at 129.54 127)
+		(uuid "fb70d6ac-2116-4030-acdd-a1b2417d28c4")
 	)
 	(no_connect
 		(at 104.14 39.37)
@@ -2135,6 +2151,16 @@
 	)
 	(wire
 		(pts
+			(xy 129.54 114.3) (xy 143.51 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1d8e467d-0066-4a51-a701-e759a32fa84c")
+	)
+	(wire
+		(pts
 			(xy 199.39 58.42) (xy 217.17 58.42)
 		)
 		(stroke
@@ -2205,6 +2231,16 @@
 	)
 	(wire
 		(pts
+			(xy 129.54 127) (xy 143.51 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "32139153-f8c7-4aad-8968-e9e3bd3e252f")
+	)
+	(wire
+		(pts
 			(xy 54.61 110.49) (xy 67.31 110.49)
 		)
 		(stroke
@@ -2232,6 +2268,16 @@
 			(type default)
 		)
 		(uuid "3721c849-59b7-43d6-b580-9011a57d2b46")
+	)
+	(wire
+		(pts
+			(xy 129.54 111.76) (xy 143.51 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3753ed0e-37a6-4c80-97e3-6f99b2a895ba")
 	)
 	(wire
 		(pts
@@ -3235,6 +3281,16 @@
 	)
 	(wire
 		(pts
+			(xy 129.54 116.84) (xy 143.51 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c8f99367-c8bf-4916-8137-451c745a010d")
+	)
+	(wire
+		(pts
 			(xy 129.54 69.85) (xy 143.51 69.85)
 		)
 		(stroke
@@ -3325,6 +3381,26 @@
 	)
 	(wire
 		(pts
+			(xy 129.54 109.22) (xy 143.51 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d798a518-712a-482e-bfe1-820f9b1581f3")
+	)
+	(wire
+		(pts
+			(xy 129.54 124.46) (xy 143.51 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d9d62735-15fa-40c7-8074-a3409581e567")
+	)
+	(wire
+		(pts
 			(xy 129.54 49.53) (xy 143.51 49.53)
 		)
 		(stroke
@@ -3372,6 +3448,16 @@
 			(type default)
 		)
 		(uuid "e19cae88-9f8e-4174-9c11-1b2bdeec3ede")
+	)
+	(wire
+		(pts
+			(xy 129.54 119.38) (xy 143.51 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e2e08cd9-4cf2-4766-9be0-87d9c0141dc1")
 	)
 	(wire
 		(pts
@@ -3472,6 +3558,16 @@
 			(type default)
 		)
 		(uuid "f5c7452a-27b5-4d1f-a214-574a9b9aeee2")
+	)
+	(wire
+		(pts
+			(xy 129.54 121.92) (xy 143.51 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f7d4b494-ed3f-4e7b-a421-68ce9370708f")
 	)
 	(wire
 		(pts
@@ -3592,6 +3688,26 @@
 			(justify left bottom)
 		)
 		(uuid "0a0195cc-45d7-4767-abf4-20c191af9cc9")
+	)
+	(label "USB_D2P"
+		(at 129.54 121.92 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0b96ddf5-cbe3-4f80-8e31-d1e149dd580c")
+	)
+	(label "USB_D1M"
+		(at 129.54 109.22 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0c2d16b9-35a0-49a6-827a-fc03e5a16a57")
 	)
 	(label "GPIO7"
 		(at 20.32 55.88 0)
@@ -3723,6 +3839,16 @@
 		)
 		(uuid "2524d49d-23bc-4d4f-aaca-61dd73f55f6e")
 	)
+	(label "USB_D3M"
+		(at 129.54 114.3 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2652e543-0414-4133-9c71-98d7322a130f")
+	)
 	(label "GPIO26"
 		(at 54.61 57.15 0)
 		(effects
@@ -3833,6 +3959,16 @@
 		)
 		(uuid "34a6df8a-5e49-41f3-a43d-132341c29215")
 	)
+	(label "USB_D3P"
+		(at 129.54 124.46 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "35cb354f-3b8d-4b91-913a-cbc9bffd5a06")
+	)
 	(label "RS232_RTS"
 		(at 199.39 68.58 0)
 		(effects
@@ -3842,6 +3978,16 @@
 			(justify left bottom)
 		)
 		(uuid "36f73ac9-d50c-4d6b-8541-906717d2b974")
+	)
+	(label "USB_D4M"
+		(at 129.54 116.84 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "389cbd81-f38d-4e74-82ec-6549a5109d7b")
 	)
 	(label "GPIO16"
 		(at 248.92 60.96 180)
@@ -4443,6 +4589,16 @@
 		)
 		(uuid "937ff19b-8ea2-466a-a047-f19d9ad511b4")
 	)
+	(label "USB_D4P"
+		(at 129.54 127 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "94346827-a0bb-4420-bb03-caafcc85964b")
+	)
 	(label "GPIO5"
 		(at 129.54 85.09 0)
 		(effects
@@ -4692,6 +4848,16 @@
 			(justify left bottom)
 		)
 		(uuid "b38bdfbf-b07c-4546-9578-99a287f3024c")
+	)
+	(label "USB_D2M"
+		(at 129.54 111.76 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b3924c87-44e1-4701-8f45-5a1eaee8f345")
 	)
 	(label "GPIO4"
 		(at 129.54 77.47 0)
@@ -4983,6 +5149,16 @@
 		)
 		(uuid "ea80f969-f44c-4395-b9b6-78681024998b")
 	)
+	(label "USB_D1P"
+		(at 129.54 119.38 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "eae0edf8-389f-4f19-9344-e993b3985c5f")
+	)
 	(label "GP1_DATA"
 		(at 199.39 50.8 0)
 		(effects
@@ -5120,7 +5296,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2ac51aa3-6cfa-4b40-a5a9-93e873553ada")
-		(property "Reference" "SW1"
+		(property "Reference" "S1"
 			(at 210.82 108.9492 0)
 			(effects
 				(font
@@ -5181,7 +5357,7 @@
 		(instances
 			(project "turbofrank"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61"
-					(reference "SW1")
+					(reference "S1")
 					(unit 1)
 				)
 			)
@@ -7435,7 +7611,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "b237c830-8b62-42ca-9271-338aede27b72")
-		(property "Sheetname" "USB Zero"
+		(property "Sheetname" "USB A"
 			(at 67.31 99.6184 0)
 			(effects
 				(font
@@ -7498,6 +7674,129 @@
 			(project "turbofrank"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61"
 					(page "15")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 143.51 106.68)
+		(size 12.7 22.86)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "c2769f78-f968-472a-a3d7-89c385b7d62d")
+		(property "Sheetname" "USB Hub"
+			(at 143.51 105.9684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "usb_hub.kicad_sch"
+			(at 143.51 130.1246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "DM1" input
+			(at 143.51 109.22 180)
+			(uuid "56061d95-02aa-47d7-a97b-b072faed5cc3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DM2" input
+			(at 143.51 111.76 180)
+			(uuid "4054eb1c-046e-48fc-9097-db6285369d1b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DM3" input
+			(at 143.51 114.3 180)
+			(uuid "834dd571-50d9-435e-8e91-b26f566559a5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DM4" input
+			(at 143.51 116.84 180)
+			(uuid "06228715-9475-40ed-898b-5efe19d85507")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DP1" input
+			(at 143.51 119.38 180)
+			(uuid "df3c5186-23f6-45e3-a42f-7cdf7ade0633")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DP2" input
+			(at 143.51 121.92 180)
+			(uuid "f862e06f-c3ed-4ae3-b47b-6e435a511143")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DP3" input
+			(at 143.51 124.46 180)
+			(uuid "f102e392-550d-49b5-969c-b550480d446e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DP4" input
+			(at 143.51 127 180)
+			(uuid "c56b46d5-05e3-4893-9101-f8ed4851341c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "turbofrank"
+				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61"
+					(page "22")
 				)
 			)
 		)
