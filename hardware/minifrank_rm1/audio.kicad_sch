@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "MiniFRANK RM1")
-		(date "2025-04-04")
-		(rev "2.04")
+		(date "2025-04-07")
+		(rev "${VERSION}")
 		(company "Mikhail Matveev")
 		(comment 1 "https://github.com/xtremespb/frank")
 	)
@@ -736,7 +736,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "PJ-320D"
 			(at 209.55 54.61 0)
 			(effects
 				(font
@@ -755,7 +755,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1810121716_Korean-Hroparts-Elec-PJ-320D-4A_C95562.pdf"
 			(at 212.09 66.04 0)
 			(effects
 				(font
@@ -773,13 +773,21 @@
 				(hide yes)
 			)
 		)
-		(property "AliExpress" ""
+		(property "AliExpress" "https://www.aliexpress.com/item/4001158231104.html"
 			(at 212.09 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "LCSC" "C95562"
+			(at 212.09 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "R"

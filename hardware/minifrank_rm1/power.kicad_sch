@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "MiniFRANK RM1")
-		(date "2025-04-04")
-		(rev "2.04")
+		(date "2025-04-07")
+		(rev "${VERSION}")
 		(company "Mikhail Matveev")
 		(comment 1 "https://github.com/xtremespb/frank")
 	)
@@ -3066,6 +3066,14 @@
 				)
 			)
 		)
+		(property "LCSC" "C5346136"
+			(at 110.49 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "525c06fd-30fc-45f5-b18d-5e3f60d3fbb9")
 		)
@@ -3148,6 +3156,14 @@
 			)
 		)
 		(property "Sim.Device" ""
+			(at 128.27 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C1713"
 			(at 128.27 55.88 0)
 			(effects
 				(font
@@ -3246,7 +3262,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "498c09b4-c487-468b-9ca0-ea594b94186d")
-		(property "Reference" "USB1"
+		(property "Reference" "J10"
 			(at 49.53 50.8 0)
 			(effects
 				(font
@@ -3360,7 +3376,7 @@
 		(instances
 			(project "frank2"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/84d5e8f7-bda8-4f18-8ff8-1a8273c38b01"
-					(reference "USB1")
+					(reference "J10")
 					(unit 1)
 				)
 			)
@@ -3430,6 +3446,14 @@
 			)
 		)
 		(property "Sim.Device" ""
+			(at 92.71 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C1713"
 			(at 92.71 55.88 0)
 			(effects
 				(font
@@ -3522,6 +3546,14 @@
 				)
 			)
 		)
+		(property "LCSC" "C17513"
+			(at 181.61 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "72f1f801-a945-4f09-b021-15e468eb79ee")
 		)
@@ -3589,7 +3621,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" " "
+		(property "LCSC" "C3152211"
 			(at 60.96 69.85 0)
 			(effects
 				(font
@@ -3880,7 +3912,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" " "
+		(property "LCSC" "C3152211"
 			(at 60.96 54.61 0)
 			(effects
 				(font
@@ -4118,6 +4150,14 @@
 			)
 		)
 		(property "Sim.Device" ""
+			(at 64.77 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C3152182"
 			(at 64.77 86.36 0)
 			(effects
 				(font

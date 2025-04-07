@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "MiniFRANK RM1")
-		(date "2025-04-04")
-		(rev "2.04")
+		(date "2025-04-07")
+		(rev "${VERSION}")
 		(company "Mikhail Matveev")
 		(comment 1 "https://github.com/xtremespb/frank")
 	)
@@ -2399,6 +2399,14 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C19334"
+			(at 97.79 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "71414068-c6d3-40cc-9dac-aca2ef11dfa3")
 		)
@@ -2539,6 +2547,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "LCSC" "C17513"
+			(at 49.53 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -2685,6 +2701,14 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C3152174"
+			(at 83.82 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "d5b5106e-fe91-47d8-a19a-de0d6c5a6297")
 		)
@@ -2759,6 +2783,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "LCSC" "C17513"
+			(at 69.85 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -2837,6 +2869,14 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C3152174"
+			(at 83.82 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "d6aecf8e-9c23-42ee-b9f1-dbad4666991b")
 		)
@@ -2911,6 +2951,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "LCSC" "C3152174"
+			(at 57.15 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -3057,6 +3105,14 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C19334"
+			(at 49.53 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "cb78900d-548d-4d5a-b748-6de66966cb01")
 		)
@@ -3199,6 +3255,14 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C17513"
+			(at 63.5 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "4f156e9b-5764-4656-9f4a-df2309d511bc")
 		)
@@ -3273,6 +3337,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "LCSC" "C17513"
+			(at 63.5 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -3574,6 +3646,14 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C19334"
+			(at 97.79 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "44c7885b-7f0e-4399-a034-f1ce81ecad2a")
 		)
@@ -3648,6 +3728,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "LCSC" "C3152174"
+			(at 62.23 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -3726,6 +3814,14 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C19334"
+			(at 69.85 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "debd94a0-a819-435b-93e9-cee8f8a78c5f")
 		)
@@ -3802,6 +3898,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "LCSC" "C1711"
+			(at 31.75 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
