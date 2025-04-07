@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "TurboFRANK")
-		(date "2025-03-19")
-		(rev "1.04")
+		(date "2025-04-04")
+		(rev "${VERSION}")
 		(company "Mikhail Matveev")
 		(comment 1 "https://github.com/xtremespb/frank")
 	)
@@ -1291,26 +1291,26 @@
 		)
 	)
 	(junction
-		(at 58.42 38.1)
+		(at 142.24 76.2)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "47154ad1-7c04-479e-9dfa-21048208a98a")
 	)
 	(junction
-		(at 52.07 40.64)
+		(at 135.89 78.74)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "94e91caf-617a-4ffd-8605-df39efe42ec2")
 	)
 	(junction
-		(at 38.1 63.5)
+		(at 121.92 101.6)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c40b187f-d1ba-4213-b4c5-bbc23af23c06")
 	)
 	(wire
 		(pts
-			(xy 58.42 36.83) (xy 58.42 38.1)
+			(xy 142.24 74.93) (xy 142.24 76.2)
 		)
 		(stroke
 			(width 0)
@@ -1320,7 +1320,7 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 45.72) (xy 55.88 55.88)
+			(xy 139.7 83.82) (xy 139.7 93.98)
 		)
 		(stroke
 			(width 0)
@@ -1330,7 +1330,7 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 53.34) (xy 72.39 53.34)
+			(xy 132.08 91.44) (xy 156.21 91.44)
 		)
 		(stroke
 			(width 0)
@@ -1340,7 +1340,7 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 50.8) (xy 68.58 50.8)
+			(xy 132.08 88.9) (xy 152.4 88.9)
 		)
 		(stroke
 			(width 0)
@@ -1350,7 +1350,7 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 40.64) (xy 81.28 40.64)
+			(xy 135.89 78.74) (xy 165.1 78.74)
 		)
 		(stroke
 			(width 0)
@@ -1360,7 +1360,7 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 63.5) (xy 55.88 74.93)
+			(xy 139.7 101.6) (xy 139.7 113.03)
 		)
 		(stroke
 			(width 0)
@@ -1370,7 +1370,7 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 49.53) (xy 81.28 50.8)
+			(xy 165.1 87.63) (xy 165.1 88.9)
 		)
 		(stroke
 			(width 0)
@@ -1380,7 +1380,7 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 53.34) (xy 72.39 67.31)
+			(xy 156.21 91.44) (xy 156.21 105.41)
 		)
 		(stroke
 			(width 0)
@@ -1390,7 +1390,7 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 49.53) (xy 92.71 50.8)
+			(xy 176.53 87.63) (xy 176.53 88.9)
 		)
 		(stroke
 			(width 0)
@@ -1400,7 +1400,7 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 63.5) (xy 38.1 63.5)
+			(xy 119.38 101.6) (xy 121.92 101.6)
 		)
 		(stroke
 			(width 0)
@@ -1410,7 +1410,7 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 48.26) (xy 59.69 62.23)
+			(xy 143.51 86.36) (xy 143.51 100.33)
 		)
 		(stroke
 			(width 0)
@@ -1420,7 +1420,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 68.58) (xy 68.58 80.01)
+			(xy 152.4 106.68) (xy 152.4 118.11)
 		)
 		(stroke
 			(width 0)
@@ -1430,7 +1430,7 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 40.64) (xy 81.28 41.91)
+			(xy 165.1 78.74) (xy 165.1 80.01)
 		)
 		(stroke
 			(width 0)
@@ -1440,7 +1440,7 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 63.5) (xy 38.1 67.31)
+			(xy 121.92 101.6) (xy 121.92 105.41)
 		)
 		(stroke
 			(width 0)
@@ -1450,7 +1450,7 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 48.26) (xy 59.69 48.26)
+			(xy 132.08 86.36) (xy 143.51 86.36)
 		)
 		(stroke
 			(width 0)
@@ -1460,7 +1460,7 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 41.91) (xy 92.71 38.1)
+			(xy 176.53 80.01) (xy 176.53 76.2)
 		)
 		(stroke
 			(width 0)
@@ -1470,7 +1470,7 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 74.93) (xy 72.39 80.01)
+			(xy 156.21 113.03) (xy 156.21 118.11)
 		)
 		(stroke
 			(width 0)
@@ -1480,7 +1480,7 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 63.5) (xy 40.64 63.5)
+			(xy 121.92 101.6) (xy 124.46 101.6)
 		)
 		(stroke
 			(width 0)
@@ -1490,7 +1490,7 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 36.83) (xy 52.07 40.64)
+			(xy 135.89 74.93) (xy 135.89 78.74)
 		)
 		(stroke
 			(width 0)
@@ -1500,7 +1500,7 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 38.1) (xy 92.71 38.1)
+			(xy 142.24 76.2) (xy 176.53 76.2)
 		)
 		(stroke
 			(width 0)
@@ -1510,7 +1510,7 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 40.64) (xy 52.07 40.64)
+			(xy 132.08 78.74) (xy 135.89 78.74)
 		)
 		(stroke
 			(width 0)
@@ -1520,7 +1520,7 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 69.85) (xy 59.69 74.93)
+			(xy 143.51 107.95) (xy 143.51 113.03)
 		)
 		(stroke
 			(width 0)
@@ -1530,7 +1530,7 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 38.1) (xy 58.42 38.1)
+			(xy 132.08 76.2) (xy 142.24 76.2)
 		)
 		(stroke
 			(width 0)
@@ -1540,7 +1540,7 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 45.72) (xy 55.88 45.72)
+			(xy 132.08 83.82) (xy 139.7 83.82)
 		)
 		(stroke
 			(width 0)
@@ -1550,7 +1550,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 50.8) (xy 68.58 60.96)
+			(xy 152.4 88.9) (xy 152.4 99.06)
 		)
 		(stroke
 			(width 0)
@@ -1560,7 +1560,7 @@
 	)
 	(hierarchical_label "D2+"
 		(shape input)
-		(at 68.58 80.01 270)
+		(at 152.4 118.11 270)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1571,7 +1571,7 @@
 	)
 	(hierarchical_label "D1-"
 		(shape input)
-		(at 59.69 74.93 270)
+		(at 143.51 113.03 270)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1582,7 +1582,7 @@
 	)
 	(hierarchical_label "D1+"
 		(shape input)
-		(at 55.88 74.93 270)
+		(at 139.7 113.03 270)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1593,7 +1593,7 @@
 	)
 	(hierarchical_label "D2-"
 		(shape input)
-		(at 72.39 80.01 270)
+		(at 156.21 118.11 270)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1604,7 +1604,7 @@
 	)
 	(symbol
 		(lib_id "Connector:USB_A_Stacked")
-		(at 38.1 48.26 0)
+		(at 121.92 86.36 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1612,8 +1612,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0bdfeba4-77f8-4615-bb7d-148f012d4d0e")
-		(property "Reference" "J7"
-			(at 38.1 30.48 0)
+		(property "Reference" "J9"
+			(at 121.92 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1621,7 +1621,7 @@
 			)
 		)
 		(property "Value" "SS-52100-004"
-			(at 38.1 33.02 0)
+			(at 121.92 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1629,7 +1629,7 @@
 			)
 		)
 		(property "Footprint" "FRANK:USB Type A (stacked)"
-			(at 41.91 62.23 0)
+			(at 125.73 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1639,7 +1639,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.belfuse.com/resources/datasheets/stewartconnector/ds-stw-usb-2.0-and-3.0-connectors.pdf"
-			(at 43.18 46.99 0)
+			(at 127 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1648,7 +1648,7 @@
 			)
 		)
 		(property "Description" "USB Type A connector, stacked"
-			(at 38.1 48.26 0)
+			(at 121.92 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1657,7 +1657,7 @@
 			)
 		)
 		(property "AliExpress" "https://www.aliexpress.com/item/1005007077769791.html"
-			(at 38.1 48.26 0)
+			(at 121.92 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1694,12 +1694,8 @@
 		)
 		(instances
 			(project "turbofrank"
-				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/363c63a2-6afd-440e-9891-102dc1fa9944"
-					(reference "J7")
-					(unit 1)
-				)
-				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/b237c830-8b62-42ca-9271-338aede27b72"
-					(reference "J18")
+				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/9f9f8cbe-7394-4892-9c0f-378226b1a9ff"
+					(reference "J9")
 					(unit 1)
 				)
 			)
@@ -1707,15 +1703,15 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 81.28 45.72 0)
+		(at 165.1 83.82 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "14d74d73-55ac-43cc-b2e7-f8c098551b88")
-		(property "Reference" "C6"
-			(at 84.201 44.5516 0)
+		(property "Reference" "C44"
+			(at 168.021 82.6516 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1724,7 +1720,7 @@
 			)
 		)
 		(property "Value" "10u"
-			(at 84.201 46.863 0)
+			(at 168.021 84.963 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1733,7 +1729,7 @@
 			)
 		)
 		(property "Footprint" "FRANK:Capacitor (0805)"
-			(at 82.2452 49.53 0)
+			(at 166.0652 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1742,7 +1738,7 @@
 			)
 		)
 		(property "Datasheet" "https://eu.mouser.com/datasheet/2/447/KEM_C1075_X7R_HT_SMD-3316221.pdf"
-			(at 81.28 45.72 0)
+			(at 165.1 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1751,7 +1747,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 81.28 45.72 0)
+			(at 165.1 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1760,7 +1756,7 @@
 			)
 		)
 		(property "AliExpress" "https://www.aliexpress.com/item/33008008276.html"
-			(at 81.28 45.72 0)
+			(at 165.1 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1776,12 +1772,8 @@
 		)
 		(instances
 			(project "turbofrank"
-				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/363c63a2-6afd-440e-9891-102dc1fa9944"
-					(reference "C6")
-					(unit 1)
-				)
-				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/b237c830-8b62-42ca-9271-338aede27b72"
-					(reference "C12")
+				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/9f9f8cbe-7394-4892-9c0f-378226b1a9ff"
+					(reference "C44")
 					(unit 1)
 				)
 			)
@@ -1789,7 +1781,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 59.69 66.04 0)
+		(at 143.51 104.14 0)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -1797,8 +1789,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2b236318-aee0-4986-9366-9f5de15741ac")
-		(property "Reference" "R14"
-			(at 61.722 66.04 90)
+		(property "Reference" "R56"
+			(at 145.542 104.14 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1806,7 +1798,7 @@
 			)
 		)
 		(property "Value" "22R"
-			(at 57.404 66.04 90)
+			(at 141.224 104.14 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1814,7 +1806,7 @@
 			)
 		)
 		(property "Footprint" "FRANK:Resistor (0805)"
-			(at 57.912 66.04 90)
+			(at 141.732 104.14 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1823,7 +1815,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.vishay.com/docs/28952/mcs0402at-mct0603at-mcu0805at-mca1206at.pdf"
-			(at 59.69 66.04 0)
+			(at 143.51 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1832,7 +1824,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 59.69 66.04 0)
+			(at 143.51 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1841,7 +1833,7 @@
 			)
 		)
 		(property "AliExpress" "https://www.aliexpress.com/item/1005005945735199.html"
-			(at 59.69 66.04 0)
+			(at 143.51 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1857,12 +1849,8 @@
 		)
 		(instances
 			(project "turbofrank"
-				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/363c63a2-6afd-440e-9891-102dc1fa9944"
-					(reference "R14")
-					(unit 1)
-				)
-				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/b237c830-8b62-42ca-9271-338aede27b72"
-					(reference "R33")
+				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/9f9f8cbe-7394-4892-9c0f-378226b1a9ff"
+					(reference "R56")
 					(unit 1)
 				)
 			)
@@ -1870,15 +1858,15 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 92.71 45.72 0)
+		(at 176.53 83.82 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "33ecd39b-745b-4382-b20b-ac45fdbdaee7")
-		(property "Reference" "C7"
-			(at 95.631 44.5516 0)
+		(property "Reference" "C45"
+			(at 179.451 82.6516 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1887,7 +1875,7 @@
 			)
 		)
 		(property "Value" "10u"
-			(at 95.631 46.863 0)
+			(at 179.451 84.963 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1896,7 +1884,7 @@
 			)
 		)
 		(property "Footprint" "FRANK:Capacitor (0805)"
-			(at 93.6752 49.53 0)
+			(at 177.4952 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1905,7 +1893,7 @@
 			)
 		)
 		(property "Datasheet" "https://eu.mouser.com/datasheet/2/447/KEM_C1075_X7R_HT_SMD-3316221.pdf"
-			(at 92.71 45.72 0)
+			(at 176.53 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1914,7 +1902,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 92.71 45.72 0)
+			(at 176.53 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1923,7 +1911,7 @@
 			)
 		)
 		(property "AliExpress" "https://www.aliexpress.com/item/33008008276.html"
-			(at 92.71 45.72 0)
+			(at 176.53 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1939,12 +1927,8 @@
 		)
 		(instances
 			(project "turbofrank"
-				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/363c63a2-6afd-440e-9891-102dc1fa9944"
-					(reference "C7")
-					(unit 1)
-				)
-				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/b237c830-8b62-42ca-9271-338aede27b72"
-					(reference "C13")
+				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/9f9f8cbe-7394-4892-9c0f-378226b1a9ff"
+					(reference "C45")
 					(unit 1)
 				)
 			)
@@ -1953,15 +1937,15 @@
 	(symbol
 		(lib_name "VBUS_1")
 		(lib_id "power:VBUS")
-		(at 52.07 36.83 0)
+		(at 135.89 74.93 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "408ea11a-0d89-4d7a-a6a9-976b1fa2a90c")
-		(property "Reference" "#PWR033"
-			(at 52.07 40.64 0)
+		(property "Reference" "#PWR063"
+			(at 135.89 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1970,7 +1954,7 @@
 			)
 		)
 		(property "Value" "VBUS"
-			(at 52.451 32.4358 0)
+			(at 136.271 70.5358 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1978,7 +1962,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 52.07 36.83 0)
+			(at 135.89 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1987,7 +1971,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 52.07 36.83 0)
+			(at 135.89 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1996,7 +1980,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VBUS\""
-			(at 52.07 36.83 0)
+			(at 135.89 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2009,12 +1993,8 @@
 		)
 		(instances
 			(project "turbofrank"
-				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/363c63a2-6afd-440e-9891-102dc1fa9944"
-					(reference "#PWR033")
-					(unit 1)
-				)
-				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/b237c830-8b62-42ca-9271-338aede27b72"
-					(reference "#PWR068")
+				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/9f9f8cbe-7394-4892-9c0f-378226b1a9ff"
+					(reference "#PWR063")
 					(unit 1)
 				)
 			)
@@ -2022,15 +2002,15 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 81.28 50.8 0)
+		(at 165.1 88.9 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "4c893dd3-6e15-40ff-afe6-95f360e54ae5")
-		(property "Reference" "#PWR035"
-			(at 81.28 57.15 0)
+		(property "Reference" "#PWR065"
+			(at 165.1 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2039,7 +2019,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 77.47 52.07 0)
+			(at 161.29 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2047,7 +2027,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 81.28 50.8 0)
+			(at 165.1 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2056,7 +2036,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 81.28 50.8 0)
+			(at 165.1 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2065,7 +2045,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 81.28 50.8 0)
+			(at 165.1 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2078,12 +2058,8 @@
 		)
 		(instances
 			(project "turbofrank"
-				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/363c63a2-6afd-440e-9891-102dc1fa9944"
-					(reference "#PWR035")
-					(unit 1)
-				)
-				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/b237c830-8b62-42ca-9271-338aede27b72"
-					(reference "#PWR070")
+				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/9f9f8cbe-7394-4892-9c0f-378226b1a9ff"
+					(reference "#PWR065")
 					(unit 1)
 				)
 			)
@@ -2091,7 +2067,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 68.58 64.77 0)
+		(at 152.4 102.87 0)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2099,8 +2075,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "582ccf44-e6fd-42d8-be40-46a5dc3e829c")
-		(property "Reference" "R13"
-			(at 70.612 64.77 90)
+		(property "Reference" "R57"
+			(at 154.432 102.87 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2108,7 +2084,7 @@
 			)
 		)
 		(property "Value" "22R"
-			(at 66.294 64.77 90)
+			(at 150.114 102.87 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2116,7 +2092,7 @@
 			)
 		)
 		(property "Footprint" "FRANK:Resistor (0805)"
-			(at 66.802 64.77 90)
+			(at 150.622 102.87 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2125,7 +2101,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.vishay.com/docs/28952/mcs0402at-mct0603at-mcu0805at-mca1206at.pdf"
-			(at 68.58 64.77 0)
+			(at 152.4 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2134,7 +2110,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 68.58 64.77 0)
+			(at 152.4 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2143,7 +2119,7 @@
 			)
 		)
 		(property "AliExpress" "https://www.aliexpress.com/item/1005005945735199.html"
-			(at 68.58 64.77 0)
+			(at 152.4 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2159,12 +2135,8 @@
 		)
 		(instances
 			(project "turbofrank"
-				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/363c63a2-6afd-440e-9891-102dc1fa9944"
-					(reference "R13")
-					(unit 1)
-				)
-				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/b237c830-8b62-42ca-9271-338aede27b72"
-					(reference "R32")
+				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/9f9f8cbe-7394-4892-9c0f-378226b1a9ff"
+					(reference "R57")
 					(unit 1)
 				)
 			)
@@ -2173,15 +2145,15 @@
 	(symbol
 		(lib_name "GND_2")
 		(lib_id "power:GND")
-		(at 92.71 50.8 0)
+		(at 176.53 88.9 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "a7676a6d-a984-4841-9bd6-c39ae7845892")
-		(property "Reference" "#PWR036"
-			(at 92.71 57.15 0)
+		(property "Reference" "#PWR066"
+			(at 176.53 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2190,7 +2162,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 88.9 52.07 0)
+			(at 172.72 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2198,7 +2170,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 92.71 50.8 0)
+			(at 176.53 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2207,7 +2179,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 92.71 50.8 0)
+			(at 176.53 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2216,7 +2188,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 92.71 50.8 0)
+			(at 176.53 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2229,12 +2201,8 @@
 		)
 		(instances
 			(project "turbofrank"
-				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/363c63a2-6afd-440e-9891-102dc1fa9944"
-					(reference "#PWR036")
-					(unit 1)
-				)
-				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/b237c830-8b62-42ca-9271-338aede27b72"
-					(reference "#PWR071")
+				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/9f9f8cbe-7394-4892-9c0f-378226b1a9ff"
+					(reference "#PWR066")
 					(unit 1)
 				)
 			)
@@ -2242,7 +2210,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 55.88 59.69 0)
+		(at 139.7 97.79 0)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2250,8 +2218,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "db5e383d-fb6a-4607-9fda-3c40f76195a6")
-		(property "Reference" "R12"
-			(at 57.912 59.69 90)
+		(property "Reference" "R55"
+			(at 141.732 97.79 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2259,7 +2227,7 @@
 			)
 		)
 		(property "Value" "22R"
-			(at 53.594 59.69 90)
+			(at 137.414 97.79 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2267,7 +2235,7 @@
 			)
 		)
 		(property "Footprint" "FRANK:Resistor (0805)"
-			(at 54.102 59.69 90)
+			(at 137.922 97.79 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2276,7 +2244,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.vishay.com/docs/28952/mcs0402at-mct0603at-mcu0805at-mca1206at.pdf"
-			(at 55.88 59.69 0)
+			(at 139.7 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2285,7 +2253,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 55.88 59.69 0)
+			(at 139.7 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2294,7 +2262,7 @@
 			)
 		)
 		(property "AliExpress" "https://www.aliexpress.com/item/1005005945735199.html"
-			(at 55.88 59.69 0)
+			(at 139.7 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2310,12 +2278,8 @@
 		)
 		(instances
 			(project "turbofrank"
-				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/363c63a2-6afd-440e-9891-102dc1fa9944"
-					(reference "R12")
-					(unit 1)
-				)
-				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/b237c830-8b62-42ca-9271-338aede27b72"
-					(reference "R31")
+				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/9f9f8cbe-7394-4892-9c0f-378226b1a9ff"
+					(reference "R55")
 					(unit 1)
 				)
 			)
@@ -2323,15 +2287,15 @@
 	)
 	(symbol
 		(lib_id "power:VBUS")
-		(at 58.42 36.83 0)
+		(at 142.24 74.93 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "ec15ef34-0187-4cea-8701-0eeb491628d5")
-		(property "Reference" "#PWR034"
-			(at 58.42 40.64 0)
+		(property "Reference" "#PWR064"
+			(at 142.24 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2340,7 +2304,7 @@
 			)
 		)
 		(property "Value" "VBUS"
-			(at 58.801 32.4358 0)
+			(at 142.621 70.5358 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2348,7 +2312,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 58.42 36.83 0)
+			(at 142.24 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2357,7 +2321,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 58.42 36.83 0)
+			(at 142.24 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2366,7 +2330,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VBUS\""
-			(at 58.42 36.83 0)
+			(at 142.24 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2379,12 +2343,8 @@
 		)
 		(instances
 			(project "turbofrank"
-				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/363c63a2-6afd-440e-9891-102dc1fa9944"
-					(reference "#PWR034")
-					(unit 1)
-				)
-				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/b237c830-8b62-42ca-9271-338aede27b72"
-					(reference "#PWR069")
+				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/9f9f8cbe-7394-4892-9c0f-378226b1a9ff"
+					(reference "#PWR064")
 					(unit 1)
 				)
 			)
@@ -2393,7 +2353,7 @@
 	(symbol
 		(lib_name "GND_1")
 		(lib_id "power:GND")
-		(at 38.1 67.31 0)
+		(at 121.92 105.41 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2401,8 +2361,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f0b9bdf3-09d1-480f-95c0-72aac9717088")
-		(property "Reference" "#PWR037"
-			(at 38.1 73.66 0)
+		(property "Reference" "#PWR067"
+			(at 121.92 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2411,7 +2371,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 38.1 72.39 0)
+			(at 121.92 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2419,7 +2379,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 38.1 67.31 0)
+			(at 121.92 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2428,7 +2388,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 38.1 67.31 0)
+			(at 121.92 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2437,7 +2397,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 38.1 67.31 0)
+			(at 121.92 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2450,12 +2410,8 @@
 		)
 		(instances
 			(project "turbofrank"
-				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/363c63a2-6afd-440e-9891-102dc1fa9944"
-					(reference "#PWR037")
-					(unit 1)
-				)
-				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/b237c830-8b62-42ca-9271-338aede27b72"
-					(reference "#PWR072")
+				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/9f9f8cbe-7394-4892-9c0f-378226b1a9ff"
+					(reference "#PWR067")
 					(unit 1)
 				)
 			)
@@ -2463,7 +2419,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 72.39 71.12 0)
+		(at 156.21 109.22 0)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2471,8 +2427,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "fdb7960e-d102-40df-b235-dbb8261b5659")
-		(property "Reference" "R15"
-			(at 74.422 71.12 90)
+		(property "Reference" "R58"
+			(at 158.242 109.22 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2480,7 +2436,7 @@
 			)
 		)
 		(property "Value" "22R"
-			(at 70.104 71.12 90)
+			(at 153.924 109.22 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2488,7 +2444,7 @@
 			)
 		)
 		(property "Footprint" "FRANK:Resistor (0805)"
-			(at 70.612 71.12 90)
+			(at 154.432 109.22 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2497,7 +2453,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.vishay.com/docs/28952/mcs0402at-mct0603at-mcu0805at-mca1206at.pdf"
-			(at 72.39 71.12 0)
+			(at 156.21 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2506,7 +2462,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 72.39 71.12 0)
+			(at 156.21 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2515,7 +2471,7 @@
 			)
 		)
 		(property "AliExpress" "https://www.aliexpress.com/item/1005005945735199.html"
-			(at 72.39 71.12 0)
+			(at 156.21 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2531,12 +2487,8 @@
 		)
 		(instances
 			(project "turbofrank"
-				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/363c63a2-6afd-440e-9891-102dc1fa9944"
-					(reference "R15")
-					(unit 1)
-				)
-				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/b237c830-8b62-42ca-9271-338aede27b72"
-					(reference "R34")
+				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/9f9f8cbe-7394-4892-9c0f-378226b1a9ff"
+					(reference "R58")
 					(unit 1)
 				)
 			)

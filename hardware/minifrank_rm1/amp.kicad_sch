@@ -1590,7 +1590,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "06ecbaf1-64db-494c-9e76-391bc79dbd46")
-		(property "Reference" "#PWR067"
+		(property "Reference" "#PWR0104"
 			(at 179.07 101.6 0)
 			(effects
 				(font
@@ -1640,7 +1640,7 @@
 		(instances
 			(project "minifrank_rm1"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/765ae3f7-f5ac-49b6-99ac-a22ffc934361/3a0b6cee-28de-4cf4-a8a0-557e76ef8313"
-					(reference "#PWR067")
+					(reference "#PWR0104")
 					(unit 1)
 				)
 			)
@@ -1866,7 +1866,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4f105eef-ba6a-4d02-92be-58ab4cff2679")
-		(property "Reference" "#PWR063"
+		(property "Reference" "#PWR0105"
 			(at 102.87 36.83 0)
 			(effects
 				(font
@@ -1916,7 +1916,7 @@
 		(instances
 			(project "minifrank_rm1"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/765ae3f7-f5ac-49b6-99ac-a22ffc934361/3a0b6cee-28de-4cf4-a8a0-557e76ef8313"
-					(reference "#PWR063")
+					(reference "#PWR0105")
 					(unit 1)
 				)
 			)
@@ -3086,7 +3086,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "bc896ed4-cb6c-4272-be80-d999a7de7a05")
-		(property "Reference" "#PWR065"
+		(property "Reference" "#PWR0103"
 			(at 181.61 99.06 0)
 			(effects
 				(font
@@ -3136,7 +3136,7 @@
 		(instances
 			(project "minifrank_rm1"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/765ae3f7-f5ac-49b6-99ac-a22ffc934361/3a0b6cee-28de-4cf4-a8a0-557e76ef8313"
-					(reference "#PWR065")
+					(reference "#PWR0103")
 					(unit 1)
 				)
 			)
@@ -3309,7 +3309,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dfebbd64-be9a-471c-9c40-10f9d041ed04")
-		(property "Reference" "#PWR064"
+		(property "Reference" "#PWR0102"
 			(at 205.74 83.82 0)
 			(effects
 				(font
@@ -3360,7 +3360,7 @@
 		(instances
 			(project "minifrank_rm1"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/765ae3f7-f5ac-49b6-99ac-a22ffc934361/3a0b6cee-28de-4cf4-a8a0-557e76ef8313"
-					(reference "#PWR064")
+					(reference "#PWR0102")
 					(unit 1)
 				)
 			)
@@ -3452,7 +3452,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e2c3d1a6-fbc5-497a-b7d2-7b2832454c60")
-		(property "Reference" "#PWR066"
+		(property "Reference" "#PWR0101"
 			(at 191.77 99.06 0)
 			(effects
 				(font
@@ -3502,7 +3502,7 @@
 		(instances
 			(project "minifrank_rm1"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/765ae3f7-f5ac-49b6-99ac-a22ffc934361/3a0b6cee-28de-4cf4-a8a0-557e76ef8313"
-					(reference "#PWR066")
+					(reference "#PWR0101")
 					(unit 1)
 				)
 			)
