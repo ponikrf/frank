@@ -2510,7 +2510,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7e54e0f3-104b-40df-8c66-200cba5c8566")
-		(property "Reference" "MD1"
+		(property "Reference" "J7"
 			(at 76.2177 62.3402 0)
 			(effects
 				(font
@@ -2597,7 +2597,7 @@
 			)
 			(project "valera-2350A"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/00663deb-9223-42ea-87d4-eaa7c4db347e"
-					(reference "MD1")
+					(reference "J7")
 					(unit 1)
 				)
 			)

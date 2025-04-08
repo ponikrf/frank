@@ -995,6 +995,133 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:R_Small"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 0.762 0.508 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "R_Small"
+				(at 0.762 -1.016 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor, small symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_Small_0_1"
+				(rectangle
+					(start -0.762 1.778)
+					(end 0.762 -1.778)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_Small_1_1"
+				(pin passive line
+					(at 0 2.54 270)
+					(length 0.762)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 0.762)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "FRANK:ESP-PSRAM32"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -1230,8 +1357,8 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "U2"
-				(at 2.1941 -50.8 0)
+			(property "Reference" "U3"
+				(at 2.1433 -50.8 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1239,8 +1366,8 @@
 					(justify left)
 				)
 			)
-			(property "Value" "RP2350A"
-				(at 2.1941 -53.34 0)
+			(property "Value" "RP2350"
+				(at 2.1433 -53.34 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1257,7 +1384,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" ""
+			(property "Datasheet" "https://datasheets.raspberrypi.com/rp2350/rp2350-datasheet.pdf"
 				(at -19.05 0 0)
 				(effects
 					(font
@@ -1267,6 +1394,23 @@
 				)
 			)
 			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Device" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "AliExpress" "https://www.aliexpress.com/item/1005008141674230.html"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2414,7 +2558,7 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "U3"
+			(property "Reference" "U5"
 				(at -8.89 10.16 0)
 				(effects
 					(font
@@ -2422,7 +2566,7 @@
 					)
 				)
 			)
-			(property "Value" "W25Q128JVSQ"
+			(property "Value" "W25Q128JVS"
 				(at 7.62 -10.16 0)
 				(effects
 					(font
@@ -2449,6 +2593,23 @@
 				)
 			)
 			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Device" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "AliExpress" "https://www.aliexpress.com/item/1005004755562189.html?spm=a2g0o.order_list.order_list_main.57.5aa71802Thv4AB"
 				(at 0 0 0)
 				(effects
 					(font
@@ -3645,6 +3806,12 @@
 		(uuid "0138756e-ab35-4c0b-937c-4da828e41880")
 	)
 	(junction
+		(at 73.66 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "090b8399-0df2-4db6-8b86-00af63e737d0")
+	)
+	(junction
 		(at 195.58 40.64)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3685,6 +3852,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "22953411-2e87-485d-bf0c-5d2308d990ab")
+	)
+	(junction
+		(at 62.23 173.99)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2672235a-cbff-41ba-bb00-b7a247c01a37")
 	)
 	(junction
 		(at 151.13 20.32)
@@ -3789,6 +3962,12 @@
 		(uuid "7ee8c8b5-ad79-4e12-9a62-a37c006c1bca")
 	)
 	(junction
+		(at 81.28 115.57)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "84b3ecb9-1460-4bfb-9eb9-6da782868a78")
+	)
+	(junction
 		(at 104.14 74.93)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3859,6 +4038,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e7edbeab-5a9d-4b3f-98fc-b82a4a2cb8a9")
+	)
+	(junction
+		(at 77.47 154.94)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ecca76c1-bfd7-44f4-9946-ccbdf28fd11f")
 	)
 	(junction
 		(at 219.71 20.32)
@@ -3968,6 +4153,16 @@
 	)
 	(wire
 		(pts
+			(xy 77.47 154.94) (xy 77.47 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "07d9e9e5-3ae2-4aa4-9fd9-ff7edf61bed5")
+	)
+	(wire
+		(pts
 			(xy 214.63 99.06) (xy 229.87 99.06)
 		)
 		(stroke
@@ -3995,6 +4190,16 @@
 			(type default)
 		)
 		(uuid "0a77dde9-e7ab-4abd-9272-fee072d195c6")
+	)
+	(wire
+		(pts
+			(xy 77.47 149.86) (xy 77.47 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0bcfc35c-3cb1-4b33-ab8c-ebe6b9db218a")
 	)
 	(wire
 		(pts
@@ -4268,6 +4473,26 @@
 	)
 	(wire
 		(pts
+			(xy 81.28 115.57) (xy 86.36 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3e4277fa-e1d6-4855-b9d6-cdddfaa7f25b")
+	)
+	(wire
+		(pts
+			(xy 62.23 161.29) (xy 62.23 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f10a0a9-d3fe-4a6d-a8cc-ec5084ece2c4")
+	)
+	(wire
+		(pts
 			(xy 104.14 62.23) (xy 119.38 62.23)
 		)
 		(stroke
@@ -4278,7 +4503,7 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 102.87) (xy 73.66 110.49)
+			(xy 73.66 97.79) (xy 73.66 101.6)
 		)
 		(stroke
 			(width 0)
@@ -4508,7 +4733,7 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 115.57) (xy 86.36 115.57)
+			(xy 74.93 115.57) (xy 81.28 115.57)
 		)
 		(stroke
 			(width 0)
@@ -4788,6 +5013,16 @@
 	)
 	(wire
 		(pts
+			(xy 62.23 154.94) (xy 77.47 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "80a030c5-888b-4756-8c7b-5c20fecd9da4")
+	)
+	(wire
+		(pts
 			(xy 234.95 63.5) (xy 234.95 67.31)
 		)
 		(stroke
@@ -4848,7 +5083,27 @@
 	)
 	(wire
 		(pts
-			(xy 214.63 134.62) (xy 229.87 134.62)
+			(xy 62.23 166.37) (xy 62.23 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "86fa723f-c0f6-49f6-a72c-5f5347743e88")
+	)
+	(wire
+		(pts
+			(xy 62.23 173.99) (xy 64.77 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8710a814-c2ac-480d-a4b7-9fb319cb6cb6")
+	)
+	(wire
+		(pts
+			(xy 214.63 134.62) (xy 246.38 134.62)
 		)
 		(stroke
 			(width 0)
@@ -4868,7 +5123,7 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 173.99) (xy 64.77 173.99)
+			(xy 45.72 173.99) (xy 62.23 173.99)
 		)
 		(stroke
 			(width 0)
@@ -5078,6 +5333,16 @@
 	)
 	(wire
 		(pts
+			(xy 73.66 101.6) (xy 81.28 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a4ddb91d-006f-434b-b64b-de7867ee797e")
+	)
+	(wire
+		(pts
 			(xy 219.71 29.21) (xy 219.71 31.75)
 		)
 		(stroke
@@ -5268,16 +5533,6 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 149.86) (xy 77.47 166.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c3f096d7-ad88-4349-8a2b-37e23b1457e0")
-	)
-	(wire
-		(pts
 			(xy 214.63 88.9) (xy 229.87 88.9)
 		)
 		(stroke
@@ -5345,6 +5600,16 @@
 			(type default)
 		)
 		(uuid "cecba7c5-1436-4067-b2a9-3ff1080bb01f")
+	)
+	(wire
+		(pts
+			(xy 81.28 101.6) (xy 81.28 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cee000a8-00fa-4475-a3fd-ef0e78522119")
 	)
 	(wire
 		(pts
@@ -5468,6 +5733,16 @@
 	)
 	(wire
 		(pts
+			(xy 73.66 101.6) (xy 73.66 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dabdcc47-f979-4d38-893c-cab3cf6f3d5b")
+	)
+	(wire
+		(pts
 			(xy 137.16 86.36) (xy 151.13 86.36)
 		)
 		(stroke
@@ -5475,6 +5750,16 @@
 			(type default)
 		)
 		(uuid "db322b3c-f483-41fb-bf5a-4c92985b8460")
+	)
+	(wire
+		(pts
+			(xy 81.28 110.49) (xy 81.28 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dc10817e-55f4-4968-b9c5-9cd5a617d254")
 	)
 	(wire
 		(pts
@@ -5977,7 +6262,7 @@
 		(uuid "679bc290-d88b-4e72-bfb5-6dba7e4fab02")
 	)
 	(label "GPIO25"
-		(at 229.87 134.62 180)
+		(at 246.38 134.62 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6538,6 +6823,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -6623,6 +6909,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -6708,6 +6995,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -6856,6 +7144,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -6941,6 +7230,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -7091,6 +7381,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -7273,6 +7564,90 @@
 			(project "valera-2350A"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/8bee434d-b73e-4983-be7d-d7713b037f0d"
 					(reference "#PWR044")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 81.28 107.95 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "234ad280-e69d-4f00-9ec5-e68ce24fa6e5")
+		(property "Reference" "R37"
+			(at 86.5378 107.95 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10K"
+			(at 84.2264 107.95 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "FRANK:Resistor (0805)"
+			(at 81.28 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 81.28 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 81.28 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 81.28 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "AliExpress" "https://www.vishay.com/docs/28952/mcs0402at-mct0603at-mcu0805at-mca1206at.pdf"
+			(at 81.28 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9f6b959a-1f35-4594-b7f7-98ee57b02f13")
+		)
+		(pin "2"
+			(uuid "998bb16c-de9e-4b05-9463-9cd83747e729")
+		)
+		(instances
+			(project "minifrank_rm24"
+				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/8bee434d-b73e-4983-be7d-d7713b037f0d"
+					(reference "R37")
 					(unit 1)
 				)
 			)
@@ -7477,6 +7852,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -7627,6 +8003,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -7860,6 +8237,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -8359,6 +8737,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -8512,6 +8891,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -8595,6 +8975,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -8640,8 +9021,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "92e4811c-f840-4058-ab97-5d47de9e9559")
-		(property "Reference" "L2"
-			(at 120.65 66.04 0)
+		(property "Reference" "L1"
+			(at 120.65 66.0399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8650,7 +9031,7 @@
 			)
 		)
 		(property "Value" "3.3u"
-			(at 120.65 68.58 0)
+			(at 120.65 68.5799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8699,6 +9080,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -8710,7 +9092,7 @@
 		(instances
 			(project "frank_rm2-2350A"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/8bee434d-b73e-4983-be7d-d7713b037f0d"
-					(reference "L2")
+					(reference "L1")
 					(unit 1)
 				)
 			)
@@ -8727,7 +9109,7 @@
 		(fields_autoplaced yes)
 		(uuid "943fd5c9-dd28-4ad5-9a62-27f86c2e7bb7")
 		(property "Reference" "C23"
-			(at 107.95 66.04 0)
+			(at 107.95 66.0399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8736,7 +9118,7 @@
 			)
 		)
 		(property "Value" "4.7u"
-			(at 107.95 68.58 0)
+			(at 107.95 68.5799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8785,6 +9167,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -8936,6 +9319,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -9150,6 +9534,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -9235,6 +9620,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -9263,7 +9649,7 @@
 		(fields_autoplaced yes)
 		(uuid "be0dc91b-949d-4e68-a350-a93e57173867")
 		(property "Reference" "C22"
-			(at 95.631 66.4753 0)
+			(at 96.52 66.0399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9272,7 +9658,7 @@
 			)
 		)
 		(property "Value" "4.7u"
-			(at 95.631 69.0122 0)
+			(at 96.52 68.5799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9321,6 +9707,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -9339,9 +9726,93 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_Small")
+		(at 62.23 163.83 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c57a127c-c1c3-4502-a1d3-811c3788a63d")
+		(property "Reference" "R38"
+			(at 56.9722 163.83 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10K"
+			(at 59.2836 163.83 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "FRANK:Resistor (0805)"
+			(at 62.23 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 62.23 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 62.23 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 62.23 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "AliExpress" "https://www.vishay.com/docs/28952/mcs0402at-mct0603at-mcu0805at-mca1206at.pdf"
+			(at 62.23 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d2fd0807-28b2-4d1f-b683-4373a50a4302")
+		)
+		(pin "2"
+			(uuid "bbbdf001-48c8-4a8c-8c68-af4fe64d639c")
+		)
+		(instances
+			(project "minifrank_rm24"
+				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/8bee434d-b73e-4983-be7d-d7713b037f0d"
+					(reference "R38")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_name "+3V3_3")
 		(lib_id "power:+3V3")
-		(at 73.66 102.87 0)
+		(at 73.66 97.79 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9350,7 +9821,7 @@
 		(fields_autoplaced yes)
 		(uuid "c98fd2d9-c8f9-428a-abdd-6b19574b0a3e")
 		(property "Reference" "#PWR043"
-			(at 73.66 106.68 0)
+			(at 73.66 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9359,7 +9830,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 73.66 97.79 0)
+			(at 73.66 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9367,7 +9838,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 73.66 102.87 0)
+			(at 73.66 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9376,7 +9847,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 73.66 102.87 0)
+			(at 73.66 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9385,7 +9856,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 73.66 102.87 0)
+			(at 73.66 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9471,6 +9942,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -9499,7 +9971,7 @@
 		(fields_autoplaced yes)
 		(uuid "cc14373d-3e62-4c3e-8400-e75af547202f")
 		(property "Reference" "U3"
-			(at 185.0741 154.94 0)
+			(at 185.0233 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9508,7 +9980,7 @@
 			)
 		)
 		(property "Value" "RP2350"
-			(at 185.0741 157.48 0)
+			(at 185.0233 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9557,6 +10029,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -9818,6 +10291,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "4"
@@ -9907,6 +10381,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -9992,6 +10467,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -10019,7 +10495,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dac2b9bc-9f83-4580-bd4a-478c8b7466dd")
-		(property "Reference" "L3"
+		(property "Reference" "LD2"
 			(at 138.1125 176.53 0)
 			(effects
 				(font
@@ -10097,7 +10573,7 @@
 		(instances
 			(project "frank_rm2-2350A"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/8bee434d-b73e-4983-be7d-d7713b037f0d"
-					(reference "L3")
+					(reference "LD2")
 					(unit 1)
 				)
 			)
@@ -10304,6 +10780,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -10331,8 +10808,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "eb79d22f-a98b-49b3-a49a-3368fc61fd2d")
-		(property "Reference" "SW2"
-			(at 112.903 89.3353 90)
+		(property "Reference" "S2"
+			(at 113.03 88.8999 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10341,7 +10818,7 @@
 			)
 		)
 		(property "Value" "TS-1233"
-			(at 112.903 91.8722 90)
+			(at 113.03 91.4399 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10390,6 +10867,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -10401,7 +10879,7 @@
 		(instances
 			(project "frank_rm2-2350A"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/8bee434d-b73e-4983-be7d-d7713b037f0d"
-					(reference "SW2")
+					(reference "S2")
 					(unit 1)
 				)
 			)
@@ -10476,6 +10954,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -10504,7 +10983,7 @@
 		(fields_autoplaced yes)
 		(uuid "fb147992-7cd8-4b94-8db9-941df344b846")
 		(property "Reference" "C21"
-			(at 142.24 53.34 0)
+			(at 142.24 53.3399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10513,7 +10992,7 @@
 			)
 		)
 		(property "Value" "4.7u"
-			(at 142.24 55.88 0)
+			(at 142.24 55.8799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10562,6 +11041,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
