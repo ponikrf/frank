@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "MiniFRANK RM1")
-		(date "2025-04-07")
+		(date "2025-04-09")
 		(rev "${VERSION}")
 		(company "Mikhail Matveev")
 		(comment 1 "https://github.com/xtremespb/frank")
@@ -103,6 +103,192 @@
 						)
 					)
 					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Jumper:SolderJumper_2_Open"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim yes)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "JP"
+				(at 0 2.032 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SolderJumper_2_Open"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Solder Jumper, 2-pole, open"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "solder jumper SPST"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SolderJumper*Open*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SolderJumper_2_Open_0_1"
+				(polyline
+					(pts
+						(xy -0.254 1.016) (xy -0.254 -1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -0.254 -1.016)
+					(mid -1.2656 0)
+					(end -0.254 1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -0.254 -1.016)
+					(mid -1.2656 0)
+					(end -0.254 1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(arc
+					(start 0.254 1.016)
+					(mid 1.2656 0)
+					(end 0.254 -1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0.254 1.016)
+					(mid 1.2656 0)
+					(end 0.254 -1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 1.016) (xy 0.254 -1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SolderJumper_2_Open_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -880,10 +1066,6 @@
 		(uuid "03b36a3a-5d55-47c4-b119-59b8412865ea")
 	)
 	(no_connect
-		(at 83.82 35.56)
-		(uuid "04834150-ca01-43c9-a914-d682bb0ccf1d")
-	)
-	(no_connect
 		(at 45.72 38.1)
 		(uuid "0a33a8a7-4df8-4467-81de-d0a17aacc3cc")
 	)
@@ -924,16 +1106,8 @@
 		(uuid "8c605ada-4a65-44f3-a471-37baf1181c46")
 	)
 	(no_connect
-		(at 124.46 40.64)
-		(uuid "8fd3f0e6-a775-40a4-99de-d2ceee1287cf")
-	)
-	(no_connect
 		(at 83.82 153.67)
 		(uuid "91b8a768-67a6-41eb-904f-e7b31dd3ba5e")
-	)
-	(no_connect
-		(at 83.82 38.1)
-		(uuid "9ff8973b-c4a1-40f2-9f46-8b3a2459d057")
 	)
 	(no_connect
 		(at 71.12 101.6)
@@ -946,10 +1120,6 @@
 	(no_connect
 		(at 83.82 163.83)
 		(uuid "d38e907a-97b0-4f0d-8545-45eee66f6e83")
-	)
-	(no_connect
-		(at 124.46 53.34)
-		(uuid "e58de85e-8f0d-4371-b883-ecf633b7fb4f")
 	)
 	(no_connect
 		(at 71.12 119.38)
@@ -1331,6 +1501,16 @@
 	)
 	(wire
 		(pts
+			(xy 229.87 76.2) (xy 217.17 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "444d9daa-f1d8-4dc4-bd56-b446b1281687")
+	)
+	(wire
+		(pts
 			(xy 111.76 71.12) (xy 124.46 71.12)
 		)
 		(stroke
@@ -1348,6 +1528,16 @@
 			(type default)
 		)
 		(uuid "49c59102-1d32-4e0b-8727-baa428ea6507")
+	)
+	(wire
+		(pts
+			(xy 111.76 40.64) (xy 124.46 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "52f26699-be58-4872-b9be-62c2223b2142")
 	)
 	(wire
 		(pts
@@ -1591,6 +1781,16 @@
 	)
 	(wire
 		(pts
+			(xy 229.87 82.55) (xy 217.17 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "926cbec2-b9e0-45f7-96f8-781f8d61445d")
+	)
+	(wire
+		(pts
 			(xy 186.69 54.61) (xy 205.74 54.61)
 		)
 		(stroke
@@ -1718,6 +1918,16 @@
 			(type default)
 		)
 		(uuid "b288dc81-f4d4-41d3-8fce-120075e90beb")
+	)
+	(wire
+		(pts
+			(xy 111.76 53.34) (xy 124.46 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b3df0f55-0c5a-4365-b100-0606268537f6")
 	)
 	(wire
 		(pts
@@ -1951,6 +2161,26 @@
 	)
 	(wire
 		(pts
+			(xy 196.85 76.2) (xy 209.55 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f3ef2195-4a19-4faf-8946-0e647802fbac")
+	)
+	(wire
+		(pts
+			(xy 196.85 82.55) (xy 209.55 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f41dc18a-962b-422e-acc5-40fe05e55ea0")
+	)
+	(wire
+		(pts
 			(xy 71.12 153.67) (xy 83.82 153.67)
 		)
 		(stroke
@@ -2008,6 +2238,16 @@
 			(justify left bottom)
 		)
 		(uuid "075e33e4-3240-46f8-a73b-00a75df808bc")
+	)
+	(label "USB_D3+"
+		(at 111.76 53.34 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "100896df-0154-400f-90ee-b4140be8318f")
 	)
 	(label "GPIO12"
 		(at 33.02 50.8 0)
@@ -2109,6 +2349,16 @@
 		)
 		(uuid "20cb7dbe-1bd4-49c8-ae6b-ea52a77a5aef")
 	)
+	(label "USB_D3-"
+		(at 196.85 82.55 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "21bf3eae-3322-4f84-8090-e7632e659ce9")
+	)
 	(label "GPIO3"
 		(at 33.02 81.28 0)
 		(effects
@@ -2189,7 +2439,7 @@
 		)
 		(uuid "2acaad7a-5f02-4d8e-a4cf-13fcc4499e68")
 	)
-	(label "D-"
+	(label "USB_D3-"
 		(at 33.02 38.1 0)
 		(effects
 			(font
@@ -2409,6 +2659,16 @@
 		)
 		(uuid "5d2ad9b4-058a-487d-aa67-1724f8f54f84")
 	)
+	(label "USB_D3-"
+		(at 111.76 40.64 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5f478d41-3107-4147-ac96-a7fe931d3da9")
+	)
 	(label "GPIO3"
 		(at 71.12 48.26 0)
 		(effects
@@ -2609,7 +2869,7 @@
 		)
 		(uuid "8b22690e-ae55-44fe-a1b4-3a28f9101f67")
 	)
-	(label "D+"
+	(label "USB_D3+"
 		(at 33.02 35.56 0)
 		(effects
 			(font
@@ -2889,6 +3149,16 @@
 		)
 		(uuid "dad3ce03-e315-41cf-b648-4e76426afa81")
 	)
+	(label "D+"
+		(at 229.87 76.2 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "dc9eab49-dccf-465b-8543-3174ea367920")
+	)
 	(label "GPIO11"
 		(at 71.12 68.58 0)
 		(effects
@@ -2939,6 +3209,16 @@
 		)
 		(uuid "e174bd67-d3b6-4d60-b8f5-e17c6b39e27d")
 	)
+	(label "USB_D3+"
+		(at 196.85 76.2 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e4e296fc-8606-4224-b8ac-81616a8d0647")
+	)
 	(label "GPIO13"
 		(at 71.12 73.66 0)
 		(effects
@@ -2988,6 +3268,16 @@
 			(justify left bottom)
 		)
 		(uuid "ed35c7b8-8c7c-4da6-9125-b521419b6efc")
+	)
+	(label "D-"
+		(at 229.87 82.55 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "fe469b9d-0b5e-4df6-a8d5-987462d6c374")
 	)
 	(label "GPIO0"
 		(at 71.12 40.64 0)
@@ -3147,6 +3437,83 @@
 			(project "valera-2350A"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61"
 					(reference "S1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:SolderJumper_2_Open")
+		(at 213.36 82.55 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b04493ae-b1e3-4b33-ac8f-16e9323f08c0")
+		(property "Reference" "JP4"
+			(at 213.36 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Jumper (Solder)"
+			(at 213.868 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "FRANK:Jumper (solder)"
+			(at 213.36 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 213.36 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Solder Jumper, 2-pole, open"
+			(at 213.36 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "AliExpress" "https://www.aliexpress.com/item/1005006454399822.html"
+			(at 213.36 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5ca60ab2-29dd-40a1-8ab7-7ee52e84ab00")
+		)
+		(pin "2"
+			(uuid "111feed5-b794-4c67-86af-929aa9292cbf")
+		)
+		(instances
+			(project "minifrank_rm1"
+				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61"
+					(reference "JP4")
 					(unit 1)
 				)
 			)
@@ -3477,6 +3844,83 @@
 		)
 	)
 	(symbol
+		(lib_id "Jumper:SolderJumper_2_Open")
+		(at 213.36 76.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d57445dc-ff2e-45a1-a1ef-ba90c2b9603e")
+		(property "Reference" "JP3"
+			(at 213.36 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Jumper (Solder)"
+			(at 213.868 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "FRANK:Jumper (solder)"
+			(at 213.36 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 213.36 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Solder Jumper, 2-pole, open"
+			(at 213.36 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "AliExpress" "https://www.aliexpress.com/item/1005006454399822.html"
+			(at 213.36 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5a60f083-2d39-4a0f-b731-18a9bf2a6d21")
+		)
+		(pin "2"
+			(uuid "23ff3f05-e0c6-473b-af86-178660e6aaee")
+		)
+		(instances
+			(project "minifrank_rm1"
+				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61"
+					(reference "JP3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Switch:SW_DIP_x06")
 		(at 213.36 59.69 0)
 		(unit 1)
@@ -3535,6 +3979,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "9"
