@@ -1012,5 +1012,7 @@
       "Gamepad"
     ]
   ],
-  "text_variables": {}
+  "text_variables": {
+    "VERSION": "1.01"
+  }
 }

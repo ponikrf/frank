@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "MiniFRANK RM24")
-		(date "2025-03-14")
-		(rev "1.00")
+		(date "2025-04-09")
+		(rev "${VERSION}")
 		(company "Mikhail Matveev")
 		(comment 1 "https://github.com/xtremespb/frank")
 	)
@@ -2051,7 +2051,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "bfeec461-fe15-44e0-87e9-ab373222bd95")
-		(property "Reference" "J11"
+		(property "Reference" "J1"
 			(at 171.45 67.31 0)
 			(effects
 				(font
@@ -2149,7 +2149,7 @@
 			)
 			(project "valera-2350A"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/e3bc68fc-1a90-4165-9d37-467f5079ac2b"
-					(reference "J11")
+					(reference "J1")
 					(unit 1)
 				)
 			)
