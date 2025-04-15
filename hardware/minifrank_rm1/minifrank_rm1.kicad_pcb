@@ -54,6 +54,7 @@
 			)
 			(layer "dielectric 1"
 				(type "core")
+				(color "#008400FF")
 				(thickness 0.91)
 				(material "FR4")
 				(epsilon_r 4.5)
