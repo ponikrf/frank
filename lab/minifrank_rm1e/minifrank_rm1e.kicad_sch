@@ -5649,7 +5649,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SW_DS05-127-2-04BK-SMT-TR"
+		(property "Footprint" "FRANK:SW_DS05-127-2-04BK-SMT-TR"
 			(at 217.17 146.05 0)
 			(effects
 				(font
