@@ -5,8 +5,8 @@
 	(uuid "e54a2d34-15de-4a83-a5a1-874852077e98")
 	(paper "A4")
 	(title_block
-		(title "MiniFRANK RM1E")
-		(date "2025-04-15")
+		(title "${NAME}")
+		(date "2025-04-16")
 		(rev "${VERSION}")
 		(company "Mikhail Matveev")
 		(comment 1 "https://github.com/xtremespb/frank")

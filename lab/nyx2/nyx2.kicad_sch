@@ -5,8 +5,8 @@
 	(uuid "8c0b3d8b-46d3-4173-ab1e-a61765f77d61")
 	(paper "A4")
 	(title_block
-		(title "MiniFRANK RM1E")
-		(date "2025-04-15")
+		(title "${NAME}")
+		(date "2025-04-16")
 		(rev "${VERSION}")
 		(company "Mikhail Matveev")
 		(comment 1 "https://github.com/xtremespb/frank")
@@ -5389,7 +5389,7 @@
 			)
 		)
 		(instances
-			(project "picofrank2"
+			(project "nyx2"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61"
 					(page "3")
 				)
@@ -5782,7 +5782,7 @@
 			)
 		)
 		(instances
-			(project "picofrank2"
+			(project "nyx2"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61"
 					(page "3")
 				)

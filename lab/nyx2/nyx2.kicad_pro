@@ -63,7 +63,16 @@
           "width": 0.3
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "malformed_courtyard|144074000|40954000|1e3b5c93-d500-44c2-9e65-22bdf711156a|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "malformed_courtyard|90921000|33898000|6fe2c0ae-3273-484e-a6c9-72711a9184f3|00000000-0000-0000-0000-000000000000",
+          ""
+        ]
+      ],
       "meta": {
         "filename": "board_design_settings.json",
         "version": 2
@@ -114,7 +123,7 @@
         "solder_mask_bridge": "error",
         "starved_thermal": "ignore",
         "text_height": "ignore",
-        "text_thickness": "warning",
+        "text_thickness": "ignore",
         "through_hole_pad_without_hole": "error",
         "too_many_vias": "error",
         "track_angle": "error",
@@ -552,7 +561,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "picofrank2.kicad_pro",
+    "filename": "nyx2.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -777,7 +786,7 @@
     },
     "net_format_name": "",
     "page_layout_descr_file": "",
-    "plot_directory": "./DOCS/2_06",
+    "plot_directory": "./DOCS/1_00",
     "space_save_all_events": true,
     "spice_adjust_passive_values": false,
     "spice_current_sheet_as_root": false,
@@ -804,6 +813,7 @@
     ]
   ],
   "text_variables": {
-    "VERSION": "2.06"
+    "NAME": "Nyx 2",
+    "VERSION": "1.00"
   }
 }
