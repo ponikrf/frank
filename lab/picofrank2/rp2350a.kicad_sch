@@ -5103,7 +5103,7 @@
 	)
 	(wire
 		(pts
-			(xy 214.63 134.62) (xy 246.38 134.62)
+			(xy 214.63 134.62) (xy 229.87 134.62)
 		)
 		(stroke
 			(width 0)
@@ -6261,16 +6261,6 @@
 		)
 		(uuid "679bc290-d88b-4e72-bfb5-6dba7e4fab02")
 	)
-	(label "GPIO25"
-		(at 246.38 134.62 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "6d953b49-1d0c-4971-ad8d-d4a1e2fe8dc8")
-	)
 	(label "QSPI_SD0"
 		(at 106.68 171.45 180)
 		(effects
@@ -6622,6 +6612,17 @@
 			(justify left)
 		)
 		(uuid "9ba8b9bc-e7f5-4d40-9fe7-3e1bb191fa7e")
+	)
+	(hierarchical_label "GPIO25"
+		(shape input)
+		(at 229.87 134.62 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a32f0eea-2e6e-4184-a9be-d608105398e5")
 	)
 	(hierarchical_label "GPIO29"
 		(shape input)

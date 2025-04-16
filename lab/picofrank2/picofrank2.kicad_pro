@@ -63,20 +63,7 @@
           "width": 0.3
         }
       ],
-      "drc_exclusions": [
-        [
-          "courtyards_overlap|233774355|87605000|5135c925-b9ac-4fc3-a652-62880745ad10|7fe1735c-4683-4c22-900f-d16d9d8f956b",
-          ""
-        ],
-        [
-          "npth_inside_courtyard|235300000|91450000|3ad9951e-2107-4ee0-8a93-4651cdfe4dc9|7fe1735c-4683-4c22-900f-d16d9d8f956b",
-          ""
-        ],
-        [
-          "npth_inside_courtyard|235300000|99450000|d6b47071-bf62-400d-ba9b-88b492ab726d|7fe1735c-4683-4c22-900f-d16d9d8f956b",
-          ""
-        ]
-      ],
+      "drc_exclusions": [],
       "meta": {
         "filename": "board_design_settings.json",
         "version": 2
@@ -120,13 +107,13 @@
         "padstack": "warning",
         "pth_inside_courtyard": "ignore",
         "shorting_items": "error",
-        "silk_edge_clearance": "warning",
+        "silk_edge_clearance": "ignore",
         "silk_over_copper": "warning",
         "silk_overlap": "warning",
         "skew_out_of_range": "error",
         "solder_mask_bridge": "error",
-        "starved_thermal": "error",
-        "text_height": "warning",
+        "starved_thermal": "ignore",
+        "text_height": "ignore",
         "text_thickness": "warning",
         "through_hole_pad_without_hole": "error",
         "too_many_vias": "error",
