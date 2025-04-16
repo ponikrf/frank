@@ -1902,10 +1902,6 @@
 		(uuid "03b36a3a-5d55-47c4-b119-59b8412865ea")
 	)
 	(no_connect
-		(at 45.72 38.1)
-		(uuid "0a33a8a7-4df8-4467-81de-d0a17aacc3cc")
-	)
-	(no_connect
 		(at 83.82 158.75)
 		(uuid "0c9a7623-486f-4e9d-a802-a0f547e63fde")
 	)
@@ -1932,10 +1928,6 @@
 	(no_connect
 		(at 45.72 93.98)
 		(uuid "5c54ff8a-35c0-4f42-98bb-538bf24c6573")
-	)
-	(no_connect
-		(at 45.72 35.56)
-		(uuid "7a7c5150-d6ea-4e0e-b333-789efa936506")
 	)
 	(no_connect
 		(at 45.72 91.44)
