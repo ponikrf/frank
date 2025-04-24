@@ -5,9 +5,9 @@
 	(uuid "fd607dcf-b8d4-4d57-b42b-2a3dedb89321")
 	(paper "A4")
 	(title_block
-		(title "Protea")
-		(date "2025-04-03")
-		(rev "2.04")
+		(title "${NAME}")
+		(date "2025-04-21")
+		(rev "${VERSION}")
 		(company "Mikhail Matveev")
 		(comment 1 "https://github.com/xtremespb/frank")
 	)
@@ -1794,6 +1794,16 @@
 	)
 	(wire
 		(pts
+			(xy 195.58 87.63) (xy 157.48 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f6298c64-8a29-4daa-bfc4-56a044c57ada")
+	)
+	(wire
+		(pts
 			(xy 157.48 80.01) (xy 185.42 80.01)
 		)
 		(stroke
@@ -2293,6 +2303,73 @@
 			(project "protea"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/a87f9c19-f253-403f-87e9-05ed3e46708d"
 					(reference "R21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 195.58 87.63 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4a5f84ea-59a9-4aca-be5b-4bb78e4b0280")
+		(property "Reference" "#PWR055"
+			(at 201.93 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 199.39 87.6299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 195.58 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 195.58 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 195.58 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f69c9e0c-a96b-4d72-843a-39c4885246ef")
+		)
+		(instances
+			(project "protea"
+				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/a87f9c19-f253-403f-87e9-05ed3e46708d"
+					(reference "#PWR055")
 					(unit 1)
 				)
 			)

@@ -203,7 +203,9 @@
       "track_widths": [
         0.0,
         0.2,
+        0.25,
         0.3,
+        0.35,
         0.4,
         0.5,
         0.6,
@@ -795,7 +797,7 @@
       "plot": "GERBERS/",
       "pos_files": "DOCS/2_05/",
       "specctra_dsn": "",
-      "step": "../../../../frank-m2-2350A.step",
+      "step": "../../../../frank-rm1.step",
       "svg": "",
       "vrml": ""
     },
@@ -922,11 +924,11 @@
         }
       ],
       "filter_string": "",
-      "group_symbols": true,
+      "group_symbols": false,
       "include_excluded_from_bom": false,
       "name": "",
       "sort_asc": true,
-      "sort_field": "Value"
+      "sort_field": "Reference"
     },
     "connection_grid_size": 50.0,
     "drawing": {
@@ -1023,6 +1025,14 @@
       "HDMI"
     ],
     [
+      "49c81e36-c287-4f4e-8f5d-6a6bc76bf808",
+      "Audio Multiplexer"
+    ],
+    [
+      "b20565a6-2899-4013-974a-a1ff5edddda5",
+      "USB Multiplexer"
+    ],
+    [
       "3a0b6cee-28de-4cf4-a8a0-557e76ef8313",
       "Amplifier"
     ],
@@ -1036,6 +1046,7 @@
     ]
   ],
   "text_variables": {
-    "VERSION": "2.06"
+    "NAME": "MiniFRANK RM1",
+    "VERSION": "2.07"
   }
 }

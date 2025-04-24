@@ -5,8 +5,8 @@
 	(uuid "82e2d228-49f5-4b21-835c-969dc21b86be")
 	(paper "A4")
 	(title_block
-		(title "TurboFRANK")
-		(date "2025-04-04")
+		(title "${NAME}")
+		(date "2025-04-20")
 		(rev "${VERSION}")
 		(company "Mikhail Matveev")
 		(comment 1 "https://github.com/xtremespb/frank")

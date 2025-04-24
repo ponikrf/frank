@@ -5,8 +5,8 @@
 	(uuid "9d488c28-e24d-4704-bae8-e1b23a2997e4")
 	(paper "A4")
 	(title_block
-		(title "TurboFRANK")
-		(date "2025-04-04")
+		(title "${NAME}")
+		(date "2025-04-20")
 		(rev "${VERSION}")
 		(company "Mikhail Matveev")
 		(comment 1 "https://github.com/xtremespb/frank")
@@ -3344,7 +3344,7 @@
 				)
 			)
 		)
-		(property "Value" "MONO"
+		(property "Value" "Mono"
 			(at 67.056 73.914 0)
 			(effects
 				(font
@@ -4708,7 +4708,7 @@
 				)
 			)
 		)
-		(property "Value" "100u"
+		(property "Value" "47u"
 			(at 198.374 76.454 90)
 			(effects
 				(font

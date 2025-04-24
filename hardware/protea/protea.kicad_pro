@@ -253,6 +253,14 @@
         ""
       ],
       [
+        "power_pin_not_driven|2184400|393700|cddbd808-d85d-45e2-9f64-e95675f42a84|00000000-0000-0000-0000-000000000000|/8c0b3d8b-46d3-4173-ab1e-a61765f77d61|/8c0b3d8b-46d3-4173-ab1e-a61765f77d61|",
+        ""
+      ],
+      [
+        "power_pin_not_driven|2438400|647700|ee875261-1b39-414c-b0a0-c8cc3224ea20|00000000-0000-0000-0000-000000000000|/8c0b3d8b-46d3-4173-ab1e-a61765f77d61|/8c0b3d8b-46d3-4173-ab1e-a61765f77d61|",
+        ""
+      ],
+      [
         "power_pin_not_driven|825500|495300|805fe003-b278-424a-ad0f-8ab09010b03b|00000000-0000-0000-0000-000000000000|/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/84d5e8f7-bda8-4f18-8ff8-1a8273c38b01|/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/84d5e8f7-bda8-4f18-8ff8-1a8273c38b01|",
         ""
       ]
@@ -442,8 +450,8 @@
       "duplicate_sheet_names": "error",
       "endpoint_off_grid": "warning",
       "extra_units": "error",
-      "footprint_filter": "ignore",
-      "footprint_link_issues": "warning",
+      "footprint_filter": "warning",
+      "footprint_link_issues": "ignore",
       "four_way_junction": "ignore",
       "global_label_dangling": "warning",
       "hier_label_mismatch": "error",
@@ -468,7 +476,7 @@
       "similar_labels": "warning",
       "similar_power": "warning",
       "simulation_model_issue": "warning",
-      "single_global_label": "ignore",
+      "single_global_label": "warning",
       "unannotated": "error",
       "unconnected_wire_endpoint": "warning",
       "unit_value_mismatch": "error",
@@ -746,7 +754,7 @@
       "plot": "GERBERS/",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "../../../../frank-m2-2350A.step",
+      "step": "../../../../protea.step",
       "svg": "",
       "vrml": ""
     },
@@ -908,7 +916,7 @@
     },
     "net_format_name": "",
     "page_layout_descr_file": "",
-    "plot_directory": "./DOCS",
+    "plot_directory": "./DOCS/2_05",
     "space_save_all_events": true,
     "spice_adjust_passive_values": false,
     "spice_current_sheet_as_root": false,
@@ -950,5 +958,8 @@
       "HDMI"
     ]
   ],
-  "text_variables": {}
+  "text_variables": {
+    "NAME": "Protea",
+    "VERSION": "2.05"
+  }
 }

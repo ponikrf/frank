@@ -5,9 +5,9 @@
 	(uuid "23fe2347-2065-4599-ad8b-3639dbe8c81a")
 	(paper "A4")
 	(title_block
-		(title "Protea")
-		(date "2025-04-03")
-		(rev "2.04")
+		(title "${NAME}")
+		(date "2025-04-21")
+		(rev "${VERSION}")
 		(company "Mikhail Matveev")
 		(comment 1 "https://github.com/xtremespb/frank")
 	)
