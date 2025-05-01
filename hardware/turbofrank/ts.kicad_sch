@@ -4912,6 +4912,16 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "2K"
+		(exclude_from_sim no)
+		(at 198.374 43.688 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "1668cffd-ac67-4b75-b83f-06cb1d1ad22d")
+	)
 	(text "GP_27"
 		(exclude_from_sim no)
 		(at 239.014 130.302 0)
@@ -4932,6 +4942,16 @@
 		)
 		(uuid "2e29eb12-c515-45e8-ace2-c0eadad5762a")
 	)
+	(text "2K"
+		(exclude_from_sim no)
+		(at 112.268 37.338 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "37e740c0-cf18-4331-8b59-6cb5a3ade945")
+	)
 	(text "GP_28"
 		(exclude_from_sim no)
 		(at 184.658 125.222 0)
@@ -4941,6 +4961,16 @@
 			)
 		)
 		(uuid "4ea7046d-47cf-4b9e-b7eb-04ca8110fa8e")
+	)
+	(text "2K"
+		(exclude_from_sim no)
+		(at 198.374 36.068 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "5e0e370c-2319-4b29-9649-be75c444747f")
 	)
 	(text "GP_27"
 		(exclude_from_sim no)
@@ -4952,6 +4982,16 @@
 		)
 		(uuid "947a7701-eb40-4f24-878c-ea8a900acc80")
 	)
+	(text "X"
+		(exclude_from_sim no)
+		(at 197.866 41.148 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "98a98c3a-8bf0-49de-9548-981d26f92ce6")
+	)
 	(text "GP_26"
 		(exclude_from_sim no)
 		(at 184.658 137.668 0)
@@ -4961,6 +5001,86 @@
 			)
 		)
 		(uuid "99e0d8a2-c65e-4e18-a497-e360f54e71ba")
+	)
+	(text "4.7K"
+		(exclude_from_sim no)
+		(at 113.03 47.498 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "a4e78c02-aff7-4c94-a7b3-4cf33823c06d")
+	)
+	(text "4.7K"
+		(exclude_from_sim no)
+		(at 199.136 38.608 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "a86670a8-ab86-41b5-85cb-597671e59d19")
+	)
+	(text "2K"
+		(exclude_from_sim no)
+		(at 112.268 44.958 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "d478e3ef-6683-44bd-b4c2-3f52e73e9228")
+	)
+	(text "4.7K"
+		(exclude_from_sim no)
+		(at 113.03 39.878 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "e86158bf-445f-4ff3-8fea-6753d9aa2fcc")
+	)
+	(text "X"
+		(exclude_from_sim no)
+		(at 197.866 48.768 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "e8cf4167-658d-4d03-a665-378da6a32069")
+	)
+	(text "X"
+		(exclude_from_sim no)
+		(at 111.76 50.038 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "ecf1df08-a0fb-4269-9746-21e30eb1d365")
+	)
+	(text "X"
+		(exclude_from_sim no)
+		(at 111.506 42.418 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "eea48573-28bf-4f68-92c5-e6215ec7d290")
+	)
+	(text "4.7K"
+		(exclude_from_sim no)
+		(at 199.136 46.228 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "f7e5905d-8491-4abb-8129-3fd06025329b")
 	)
 	(junction
 		(at 146.05 27.94)
