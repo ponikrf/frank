@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "${NAME}")
-		(date "2025-04-20")
+		(date "2025-05-01")
 		(rev "${VERSION}")
 		(company "Mikhail Matveev")
 		(comment 1 "https://github.com/xtremespb/frank")
@@ -1304,7 +1304,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6be7003e-bfd8-43bb-a4c5-1bf6cf26ddab")
-		(property "Reference" "#PWR071"
+		(property "Reference" "#PWR072"
 			(at 182.88 82.55 0)
 			(effects
 				(font
@@ -1355,7 +1355,7 @@
 		(instances
 			(project ""
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/50e44d6f-5022-48d1-aa5c-5d8f0f1936d3"
-					(reference "#PWR071")
+					(reference "#PWR072")
 					(unit 1)
 				)
 			)
@@ -2439,7 +2439,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fcd7efd9-62e8-4533-ba1e-ea2f10ad0807")
-		(property "Reference" "#PWR072"
+		(property "Reference" "#PWR073"
 			(at 119.38 148.59 0)
 			(effects
 				(font
@@ -2489,7 +2489,7 @@
 		(instances
 			(project ""
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/50e44d6f-5022-48d1-aa5c-5d8f0f1936d3"
-					(reference "#PWR072")
+					(reference "#PWR073")
 					(unit 1)
 				)
 			)

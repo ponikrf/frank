@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "${NAME}")
-		(date "2025-04-20")
+		(date "2025-05-01")
 		(rev "${VERSION}")
 		(company "Mikhail Matveev")
 		(comment 1 "https://github.com/xtremespb/frank")
@@ -5357,7 +5357,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0b19a2b1-d843-45b2-8218-8f7b1b03ecf7")
-		(property "Reference" "#PWR06"
+		(property "Reference" "#PWR07"
 			(at 205.74 113.03 0)
 			(effects
 				(font
@@ -5408,7 +5408,7 @@
 		(instances
 			(project ""
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61"
-					(reference "#PWR06")
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -5581,7 +5581,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4b36b105-e506-4265-85cd-2c9d683c5095")
-		(property "Reference" "#PWR04"
+		(property "Reference" "#PWR05"
 			(at 205.74 107.95 0)
 			(effects
 				(font
@@ -5632,7 +5632,7 @@
 		(instances
 			(project ""
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61"
-					(reference "#PWR04")
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -5648,7 +5648,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "72e33c91-9650-440a-a0a9-d117635860b2")
-		(property "Reference" "#PWR03"
+		(property "Reference" "#PWR04"
 			(at 215.9 92.71 0)
 			(effects
 				(font
@@ -5699,7 +5699,7 @@
 		(instances
 			(project ""
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61"
-					(reference "#PWR03")
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -5848,7 +5848,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ac765e1b-34c4-4c89-8220-cf094a478b5e")
-		(property "Reference" "#PWR05"
+		(property "Reference" "#PWR06"
 			(at 215.9 110.49 0)
 			(effects
 				(font
@@ -5899,7 +5899,7 @@
 		(instances
 			(project ""
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61"
-					(reference "#PWR05")
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -5914,7 +5914,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b17c77de-dc75-4be0-8f59-6bd966ecdece")
-		(property "Reference" "#PWR0135"
+		(property "Reference" "#PWR03"
 			(at 248.92 81.28 0)
 			(effects
 				(font
@@ -5965,7 +5965,7 @@
 		(instances
 			(project "turbofrank"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61"
-					(reference "#PWR0135")
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -6200,7 +6200,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c56b3ca0-2b71-428a-b53b-74cb1771f2e0")
-		(property "Reference" "#PWR07"
+		(property "Reference" "#PWR08"
 			(at 228.6 125.73 0)
 			(effects
 				(font
@@ -6251,7 +6251,7 @@
 		(instances
 			(project "turbofrank"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61"
-					(reference "#PWR07")
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
