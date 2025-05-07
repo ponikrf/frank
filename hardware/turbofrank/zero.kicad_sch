@@ -5,9 +5,9 @@
 	(uuid "5bd2f9a2-a920-4263-b7cf-b5c22cf6f398")
 	(paper "A4")
 	(title_block
-		(title "TurboFRANK")
-		(date "2025-03-03")
-		(rev "1.03")
+		(title "${NAME}")
+		(date "2025-05-01")
+		(rev "${VERSION}")
 		(company "Mikhail Matveev")
 		(comment 1 "https://github.com/xtremespb/frank")
 	)
@@ -597,12 +597,12 @@
 		)
 	)
 	(no_connect
-		(at 49.53 36.83)
+		(at 143.51 90.17)
 		(uuid "81f90c75-2af7-4033-8f7e-75b250d08dcf")
 	)
 	(wire
 		(pts
-			(xy 46.99 31.75) (xy 49.53 31.75)
+			(xy 140.97 85.09) (xy 143.51 85.09)
 		)
 		(stroke
 			(width 0)
@@ -612,7 +612,7 @@
 	)
 	(hierarchical_label "ZGPIO26"
 		(shape input)
-		(at 49.53 46.99 180)
+		(at 143.51 100.33 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -623,7 +623,7 @@
 	)
 	(hierarchical_label "ZGPIO7"
 		(shape input)
-		(at 74.93 49.53 0)
+		(at 168.91 102.87 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -634,7 +634,7 @@
 	)
 	(hierarchical_label "ZGPIO14"
 		(shape input)
-		(at 49.53 52.07 180)
+		(at 143.51 105.41 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -645,7 +645,7 @@
 	)
 	(hierarchical_label "ZGPIO2"
 		(shape input)
-		(at 74.93 36.83 0)
+		(at 168.91 90.17 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -656,7 +656,7 @@
 	)
 	(hierarchical_label "ZGPIO9"
 		(shape input)
-		(at 67.31 57.15 270)
+		(at 161.29 110.49 270)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -667,7 +667,7 @@
 	)
 	(hierarchical_label "ZGPIO10"
 		(shape input)
-		(at 64.77 57.15 270)
+		(at 158.75 110.49 270)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -678,7 +678,7 @@
 	)
 	(hierarchical_label "ZGPIO11"
 		(shape input)
-		(at 62.23 57.15 270)
+		(at 156.21 110.49 270)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -689,7 +689,7 @@
 	)
 	(hierarchical_label "ZGPIO12"
 		(shape input)
-		(at 59.69 57.15 270)
+		(at 153.67 110.49 270)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -700,7 +700,7 @@
 	)
 	(hierarchical_label "ZGPIO0"
 		(shape input)
-		(at 74.93 31.75 0)
+		(at 168.91 85.09 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -711,7 +711,7 @@
 	)
 	(hierarchical_label "ZGPIO13"
 		(shape input)
-		(at 57.15 57.15 270)
+		(at 151.13 110.49 270)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -722,7 +722,7 @@
 	)
 	(hierarchical_label "ZVBUS"
 		(shape input)
-		(at 46.99 31.75 180)
+		(at 140.97 85.09 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -733,7 +733,7 @@
 	)
 	(hierarchical_label "ZGPIO28"
 		(shape input)
-		(at 49.53 41.91 180)
+		(at 143.51 95.25 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -744,7 +744,7 @@
 	)
 	(hierarchical_label "ZGPIO15"
 		(shape input)
-		(at 49.53 49.53 180)
+		(at 143.51 102.87 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -755,7 +755,7 @@
 	)
 	(hierarchical_label "ZGPIO1"
 		(shape input)
-		(at 74.93 34.29 0)
+		(at 168.91 87.63 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -766,7 +766,7 @@
 	)
 	(hierarchical_label "ZGPIO5"
 		(shape input)
-		(at 74.93 44.45 0)
+		(at 168.91 97.79 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -777,7 +777,7 @@
 	)
 	(hierarchical_label "ZGPIO29"
 		(shape input)
-		(at 49.53 39.37 180)
+		(at 143.51 92.71 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -788,7 +788,7 @@
 	)
 	(hierarchical_label "ZGPIO8"
 		(shape input)
-		(at 74.93 52.07 0)
+		(at 168.91 105.41 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -799,7 +799,7 @@
 	)
 	(hierarchical_label "ZGPIO3"
 		(shape input)
-		(at 74.93 39.37 0)
+		(at 168.91 92.71 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -810,7 +810,7 @@
 	)
 	(hierarchical_label "ZGPIO27"
 		(shape input)
-		(at 49.53 44.45 180)
+		(at 143.51 97.79 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -821,7 +821,7 @@
 	)
 	(hierarchical_label "ZGPIO6"
 		(shape input)
-		(at 74.93 46.99 0)
+		(at 168.91 100.33 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -832,7 +832,7 @@
 	)
 	(hierarchical_label "ZGPIO4"
 		(shape input)
-		(at 74.93 41.91 0)
+		(at 168.91 95.25 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -843,7 +843,7 @@
 	)
 	(symbol
 		(lib_id "FRANK:RP_2040_Zero")
-		(at 62.23 40.64 0)
+		(at 156.21 93.98 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -851,8 +851,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "506f9b4e-3802-4d23-8d62-47ff0d8f9d00")
-		(property "Reference" "RP2"
-			(at 62.23 24.13 0)
+		(property "Reference" "J15"
+			(at 156.21 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -860,7 +860,7 @@
 			)
 		)
 		(property "Value" "RP2040-Zero"
-			(at 62.23 26.67 0)
+			(at 156.21 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -869,7 +869,7 @@
 			)
 		)
 		(property "Footprint" "FRANK:Raspberry Pi Zero"
-			(at 53.34 35.56 0)
+			(at 147.32 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -878,7 +878,7 @@
 			)
 		)
 		(property "Datasheet" "https://files.waveshare.com/upload/f/fd/Rp2040_datasheet.pdf"
-			(at 53.34 35.56 0)
+			(at 147.32 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -887,7 +887,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 62.23 40.64 0)
+			(at 156.21 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -896,7 +896,7 @@
 			)
 		)
 		(property "AliExpress" "https://www.aliexpress.com/item/1005006354505058.html"
-			(at 62.23 40.64 0)
+			(at 156.21 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -976,7 +976,7 @@
 		(instances
 			(project "frank2"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/fddc4167-45e2-4dc5-97ca-2de47a569f97"
-					(reference "RP2")
+					(reference "J15")
 					(unit 1)
 				)
 			)
@@ -985,7 +985,7 @@
 	(symbol
 		(lib_name "GND_1")
 		(lib_id "power:GND")
-		(at 49.53 34.29 270)
+		(at 143.51 87.63 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -993,8 +993,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f2ec1fa8-205e-4048-80db-e6b1ef4be611")
-		(property "Reference" "#PWR097"
-			(at 43.18 34.29 0)
+		(property "Reference" "#PWR063"
+			(at 137.16 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1003,7 +1003,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 45.72 34.2899 90)
+			(at 139.7 87.6299 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1012,7 +1012,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 49.53 34.29 0)
+			(at 143.51 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1021,7 +1021,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 49.53 34.29 0)
+			(at 143.51 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1030,7 +1030,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 49.53 34.29 0)
+			(at 143.51 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1044,7 +1044,7 @@
 		(instances
 			(project "frank2"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/fddc4167-45e2-4dc5-97ca-2de47a569f97"
-					(reference "#PWR097")
+					(reference "#PWR063")
 					(unit 1)
 				)
 			)

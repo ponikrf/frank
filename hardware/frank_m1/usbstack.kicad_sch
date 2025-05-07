@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "FRANK M1")
-		(date "2025-03-16")
-		(rev "1.15")
+		(date "2025-04-09")
+		(rev "${VERSION}")
 		(company "Mikhail Matveev")
 		(comment 1 "https://github.com/xtremespb/frank")
 	)
@@ -1612,7 +1612,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0bdfeba4-77f8-4615-bb7d-148f012d4d0e")
-		(property "Reference" "USB2"
+		(property "Reference" "J12"
 			(at 38.1 30.48 0)
 			(effects
 				(font
@@ -1695,7 +1695,7 @@
 		(instances
 			(project "usb2ps2"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/b237c830-8b62-42ca-9271-338aede27b72"
-					(reference "USB2")
+					(reference "J12")
 					(unit 1)
 				)
 			)

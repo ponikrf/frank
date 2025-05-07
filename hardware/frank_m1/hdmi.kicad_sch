@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "FRANK M1")
-		(date "2025-03-16")
-		(rev "1.15")
+		(date "2025-04-09")
+		(rev "${VERSION}")
 		(company "Mikhail Matveev")
 		(comment 1 "https://github.com/xtremespb/frank")
 	)
@@ -2373,7 +2373,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ad010c1a-f0cc-461f-a485-b62f135afe1f")
-		(property "Reference" "HDMI1"
+		(property "Reference" "J9"
 			(at 43.18 91.4399 0)
 			(effects
 				(font
@@ -2499,7 +2499,7 @@
 		(instances
 			(project "frank2"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/db853a64-9343-4a36-b5b8-71001392b936"
-					(reference "HDMI1")
+					(reference "J9")
 					(unit 1)
 				)
 			)

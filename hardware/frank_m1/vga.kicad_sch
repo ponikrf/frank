@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "FRANK M1")
-		(date "2025-03-16")
-		(rev "1.15")
+		(date "2025-04-09")
+		(rev "${VERSION}")
 		(company "Mikhail Matveev")
 		(comment 1 "https://github.com/xtremespb/frank")
 	)
@@ -1486,7 +1486,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9884cfa6-c9a6-485f-83c0-a7ed98be9b2d")
-		(property "Reference" "VGA1"
+		(property "Reference" "J13"
 			(at 104.14 34.29 0)
 			(effects
 				(font
@@ -1589,7 +1589,7 @@
 		(instances
 			(project "turbofrank"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/24602416-4859-4434-98d4-6bf9d7e9b6c1"
-					(reference "VGA1")
+					(reference "J13")
 					(unit 1)
 				)
 			)

@@ -1,19 +1,226 @@
 (kicad_sch
-	(version 20231120)
+	(version 20250114)
 	(generator "eeschema")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(uuid "cdd2a391-1976-4cac-9945-b5ac5a2a87f4")
 	(paper "A4")
 	(title_block
-		(title "Frank M2")
-		(date "2025-02-02")
-		(rev "1.02")
+		(title "MiniFRANK RM24")
+		(date "2025-04-09")
+		(rev "${VERSION}")
 		(company "Mikhail Matveev")
 		(comment 1 "https://github.com/xtremespb/frank")
 	)
 	(lib_symbols
+		(symbol "BC850_1"
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Q"
+				(at 5.08 1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "BC850"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+				(at 5.08 -1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.infineon.com/dgdl/Infineon-BC847SERIES_BC848SERIES_BC849SERIES_BC850SERIES-DS-v01_01-en.pdf?fileId=db3a304314dca389011541d4630a1657"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" "0.1A Ic, 45V Vce, NPN Transistor, SOT-23"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "NPN Small Signal Transistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SOT?23*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "BC850_1_0_1"
+				(polyline
+					(pts
+						(xy -2.54 0) (xy 0.635 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 1.905) (xy 0.635 -1.905)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.27 0)
+					(radius 2.8194)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "BC850_1_1_1"
+				(polyline
+					(pts
+						(xy 0.635 0.635) (xy 2.54 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 -0.635) (xy 2.54 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.778) (xy 1.778 -1.27) (xy 2.286 -2.286) (xy 1.27 -1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(pin input line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "E"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:C"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0.254)
 			)
@@ -86,7 +293,7 @@
 			(symbol "C_0_1"
 				(polyline
 					(pts
-						(xy -2.032 -0.762) (xy 2.032 -0.762)
+						(xy -2.032 0.762) (xy 2.032 0.762)
 					)
 					(stroke
 						(width 0.508)
@@ -98,7 +305,7 @@
 				)
 				(polyline
 					(pts
-						(xy -2.032 0.762) (xy 2.032 0.762)
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
 					)
 					(stroke
 						(width 0.508)
@@ -147,11 +354,16 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Device:D"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 1.016) hide)
+				(offset 1.016)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -249,10 +461,10 @@
 				)
 				(polyline
 					(pts
-						(xy 1.27 0) (xy -1.27 0)
+						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
 					)
 					(stroke
-						(width 0)
+						(width 0.254)
 						(type default)
 					)
 					(fill
@@ -261,10 +473,10 @@
 				)
 				(polyline
 					(pts
-						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+						(xy 1.27 0) (xy -1.27 0)
 					)
 					(stroke
-						(width 0.254)
+						(width 0)
 						(type default)
 					)
 					(fill
@@ -310,9 +522,12 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Device:R"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0)
 			)
@@ -431,6 +646,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "FRANK:AudioJack_3.5mm"
 			(exclude_from_sim no)
@@ -514,66 +730,6 @@
 				)
 				(polyline
 					(pts
-						(xy 0.508 -0.254) (xy 0.762 -0.762)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.778 -5.334) (xy 2.032 -5.842)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -5.08) (xy 0.635 -5.715) (xy 1.27 -5.08) (xy 2.54 -5.08)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 -7.62) (xy 1.778 -7.62) (xy 1.778 -5.334) (xy 1.524 -5.842)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 -2.54) (xy 0.508 -2.54) (xy 0.508 -0.254) (xy 0.254 -0.762)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
 						(xy -1.905 -5.08) (xy -1.27 -5.715) (xy -0.635 -5.08) (xy -0.635 0) (xy 2.54 0)
 					)
 					(stroke
@@ -586,7 +742,7 @@
 				)
 				(polyline
 					(pts
-						(xy 2.54 2.54) (xy -2.54 2.54) (xy -2.54 -5.08) (xy -3.175 -5.715) (xy -3.81 -5.08)
+						(xy 0 -5.08) (xy 0.635 -5.715) (xy 1.27 -5.08) (xy 2.54 -5.08)
 					)
 					(stroke
 						(width 0.254)
@@ -607,44 +763,20 @@
 						(type background)
 					)
 				)
+				(polyline
+					(pts
+						(xy 2.54 2.54) (xy -2.54 2.54) (xy -2.54 -5.08) (xy -3.175 -5.715) (xy -3.81 -5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
 			)
 			(symbol "AudioJack_3.5mm_1_1"
-				(pin passive line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "R"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 -2.54 180)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "RN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 				(pin passive line
 					(at 5.08 2.54 180)
 					(length 2.54)
@@ -656,6 +788,24 @@
 						)
 					)
 					(number "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "R"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -681,31 +831,18 @@
 						)
 					)
 				)
-				(pin passive line
-					(at 5.08 -7.62 180)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "TN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "GND_1"
 			(power)
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -796,12 +933,17 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "GND_2"
 			(power)
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -892,12 +1034,17 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "GND_3"
 			(power)
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -988,12 +1135,17 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "GND_4"
 			(power)
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1084,10 +1236,13 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Transistor_BJT:BC850"
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1160,7 +1315,7 @@
 			(symbol "BC850_0_1"
 				(polyline
 					(pts
-						(xy 0.635 0.635) (xy 2.54 2.54)
+						(xy -2.54 0) (xy 0.635 0)
 					)
 					(stroke
 						(width 0)
@@ -1172,19 +1327,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0.635 -0.635) (xy 2.54 -2.54) (xy 2.54 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.635 1.905) (xy 0.635 -1.905) (xy 0.635 -1.905)
+						(xy 0.635 1.905) (xy 0.635 -1.905)
 					)
 					(stroke
 						(width 0.508)
@@ -1192,18 +1335,6 @@
 					)
 					(fill
 						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -1.778) (xy 1.778 -1.27) (xy 2.286 -2.286) (xy 1.27 -1.778) (xy 1.27 -1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
 					)
 				)
 				(circle
@@ -1219,9 +1350,45 @@
 				)
 			)
 			(symbol "BC850_1_1"
+				(polyline
+					(pts
+						(xy 0.635 0.635) (xy 2.54 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 -0.635) (xy 2.54 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.778) (xy 1.778 -1.27) (xy 2.286 -2.286) (xy 1.27 -1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
 				(pin input line
 					(at -5.08 0 0)
-					(length 5.715)
+					(length 2.54)
 					(name "B"
 						(effects
 							(font
@@ -1230,24 +1397,6 @@
 						)
 					)
 					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 -5.08 90)
-					(length 2.54)
-					(name "E"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1273,13 +1422,36 @@
 						)
 					)
 				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "E"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:+3V3"
 			(power)
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1351,7 +1523,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 0) (xy 0 2.54)
+						(xy 0 2.54) (xy 0.762 1.27)
 					)
 					(stroke
 						(width 0)
@@ -1363,7 +1535,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
+						(xy 0 0) (xy 0 2.54)
 					)
 					(stroke
 						(width 0)
@@ -1394,12 +1566,17 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:GND"
 			(power)
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1490,6 +1667,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 	)
 	(junction
@@ -1527,14 +1705,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f45a752e-d268-4eb4-954c-2c7a02deb793")
-	)
-	(no_connect
-		(at 49.53 69.85)
-		(uuid "1d2746d2-2d55-4fe3-ae28-a169a1d8c999")
-	)
-	(no_connect
-		(at 49.53 74.93)
-		(uuid "6ea1b3eb-65a5-40b6-8287-9ebb56398a90")
 	)
 	(no_connect
 		(at 49.53 77.47)
@@ -1800,28 +1970,16 @@
 		)
 		(uuid "d1f02112-251a-47bc-891c-8487da164159")
 	)
-	(label "LOAD_IN"
-		(at 49.53 72.39 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "50b3d582-1d57-4e02-8abc-b8d61ff40837")
-	)
 	(hierarchical_label "LOAD_IN"
 		(shape input)
 		(at 138.43 66.04 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "0a470772-d418-4a3d-883c-935d1091e071")
+		(uuid "b0a7364b-54d8-40f1-bec2-314887179c0c")
 	)
 	(symbol
 		(lib_id "Device:D")
@@ -1833,7 +1991,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "083f2318-8eec-4b45-abc6-b5b702ddfc81")
-		(property "Reference" "D1"
+		(property "Reference" "D7"
 			(at 93.98 58.42 0)
 			(effects
 				(font
@@ -1858,7 +2016,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.vishay.com/docs/40002/293d.pdf"
+		(property "Datasheet" "https://www.vishay.com/docs/85748/1n4148w.pdf"
 			(at 93.98 64.77 0)
 			(effects
 				(font
@@ -1903,6 +2061,14 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C5443967"
+			(at 93.98 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "faf04137-98ee-4780-b879-63983cb8c36c")
 		)
@@ -1916,9 +2082,9 @@
 					(unit 1)
 				)
 			)
-			(project ""
-				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/49084664-1062-4a43-8f46-2816e4bba858"
-					(reference "D5")
+			(project "minifrank_rm24"
+				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/d5923e35-d4b3-47f2-adcd-83dccd9bbf3d"
+					(reference "D7")
 					(unit 1)
 				)
 			)
@@ -1935,7 +2101,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1cf167db-9216-40a8-ad20-8594f0d855c6")
-		(property "Reference" "#PWR07"
+		(property "Reference" "#PWR087"
 			(at 99.06 93.98 0)
 			(effects
 				(font
@@ -1989,9 +2155,9 @@
 					(unit 1)
 				)
 			)
-			(project ""
-				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/49084664-1062-4a43-8f46-2816e4bba858"
-					(reference "#PWR056")
+			(project "minifrank_rm24"
+				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/d5923e35-d4b3-47f2-adcd-83dccd9bbf3d"
+					(reference "#PWR087")
 					(unit 1)
 				)
 			)
@@ -2007,7 +2173,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "23352101-04f7-4498-a388-b97159994507")
-		(property "Reference" "R3"
+		(property "Reference" "R61"
 			(at 105.41 58.42 90)
 			(effects
 				(font
@@ -2059,6 +2225,14 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C17414"
+			(at 105.41 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "bd288503-f4d6-4524-8058-b0a31754d6ec")
 		)
@@ -2072,9 +2246,9 @@
 					(unit 1)
 				)
 			)
-			(project "38NJU24"
-				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/49084664-1062-4a43-8f46-2816e4bba858"
-					(reference "R28")
+			(project "minifrank_rm24"
+				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/d5923e35-d4b3-47f2-adcd-83dccd9bbf3d"
+					(reference "R61")
 					(unit 1)
 				)
 			)
@@ -2090,7 +2264,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "33480727-1e80-468b-92af-9b718c6b9a93")
-		(property "Reference" "#PWR06"
+		(property "Reference" "#PWR086"
 			(at 66.04 93.98 0)
 			(effects
 				(font
@@ -2144,9 +2318,9 @@
 					(unit 1)
 				)
 			)
-			(project ""
-				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/49084664-1062-4a43-8f46-2816e4bba858"
-					(reference "#PWR055")
+			(project "minifrank_rm24"
+				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/d5923e35-d4b3-47f2-adcd-83dccd9bbf3d"
+					(reference "#PWR086")
 					(unit 1)
 				)
 			)
@@ -2162,7 +2336,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "58890c70-d3bc-48dc-bbee-39e930a5abe3")
-		(property "Reference" "R2"
+		(property "Reference" "R60"
 			(at 119.38 52.0699 0)
 			(effects
 				(font
@@ -2207,13 +2381,21 @@
 				(hide yes)
 			)
 		)
-		(property "AliExpress" "https://www.vishay.com/docs/28952/mcs0402at-mct0603at-mcu0805at-mca1206at.pdf"
+		(property "AliExpress" "https://www.aliexpress.com/item/1005005945735199.html"
 			(at 116.84 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "LCSC" "C17513"
+			(at 116.84 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -2229,9 +2411,9 @@
 					(unit 1)
 				)
 			)
-			(project "38NJU24"
-				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/49084664-1062-4a43-8f46-2816e4bba858"
-					(reference "R27")
+			(project "minifrank_rm24"
+				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/d5923e35-d4b3-47f2-adcd-83dccd9bbf3d"
+					(reference "R60")
 					(unit 1)
 				)
 			)
@@ -2247,7 +2429,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5c2d9611-ebc1-40c5-b23a-bb8c4931d232")
-		(property "Reference" "AJ1"
+		(property "Reference" "J4"
 			(at 37.3381 73.4603 0)
 			(effects
 				(font
@@ -2256,7 +2438,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "PJ-325C"
+		(property "Value" "PJ-320D"
 			(at 46.99 66.04 0)
 			(effects
 				(font
@@ -2265,7 +2447,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "FRANK:Jack (3.5mm)"
+		(property "Footprint" "FRANK:Jack (3.5mm, PJ-320D)"
 			(at 44.45 77.47 0)
 			(effects
 				(font
@@ -2274,7 +2456,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://eu.mouser.com/datasheet/2/1628/sj1_353xng-3511142.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1810121716_Korean-Hroparts-Elec-PJ-320D-4A_C95562.pdf"
 			(at 44.45 77.47 0)
 			(effects
 				(font
@@ -2283,7 +2465,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Audio Jack, 3 Poles (Stereo / TRS), Switched TR Poles (Normalling)"
+		(property "Description" ""
 			(at 44.45 77.47 0)
 			(effects
 				(font
@@ -2292,29 +2474,31 @@
 				(hide yes)
 			)
 		)
-		(property "AliExpress" "https://www.aliexpress.com/item/1005006710837751.html"
+		(property "AliExpress" "https://www.aliexpress.com/item/4001158231104.html"
 			(at 44.45 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "LCSC" "C95562"
+			(at 44.45 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "R"
 			(uuid "971b802b-0852-4309-bfb5-d322c715a933")
-		)
-		(pin "RN"
-			(uuid "166ec70c-7766-4a84-a8ee-b45994bcf61d")
 		)
 		(pin "S"
 			(uuid "41a5ba80-9028-4749-8307-9b7f1958eb05")
 		)
 		(pin "T"
 			(uuid "a76f255e-e6ec-45f6-9e59-6f4e9b238de9")
-		)
-		(pin "TN"
-			(uuid "38abcdb9-82ab-46fc-879b-250aa213ffd4")
 		)
 		(instances
 			(project "38NJU24"
@@ -2323,9 +2507,9 @@
 					(unit 1)
 				)
 			)
-			(project "38NJU24"
-				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/49084664-1062-4a43-8f46-2816e4bba858"
-					(reference "AJ2")
+			(project "minifrank_rm24"
+				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/d5923e35-d4b3-47f2-adcd-83dccd9bbf3d"
+					(reference "J4")
 					(unit 1)
 				)
 			)
@@ -2340,7 +2524,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "68da7319-9c11-4034-88cc-8b74790997dd")
-		(property "Reference" "C2"
+		(property "Reference" "C36"
 			(at 71.12 68.58 90)
 			(effects
 				(font
@@ -2367,7 +2551,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://eu.mouser.com/datasheet/2/447/KEM_C1075_X7R_HT_SMD-3316221.pdf"
+		(property "Datasheet" "https://eu.mouser.com/datasheet/2/40/KGM_X7R-3223212.pdf"
 			(at 69.85 72.39 0)
 			(effects
 				(font
@@ -2394,6 +2578,14 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C1711"
+			(at 69.85 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "72a3069c-4f59-466e-9317-a6f7d70aa698")
 		)
@@ -2407,9 +2599,9 @@
 					(unit 1)
 				)
 			)
-			(project "38NJU24"
-				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/49084664-1062-4a43-8f46-2816e4bba858"
-					(reference "C28")
+			(project "minifrank_rm24"
+				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/d5923e35-d4b3-47f2-adcd-83dccd9bbf3d"
+					(reference "C36")
 					(unit 1)
 				)
 			)
@@ -2426,7 +2618,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6a33a5a7-dc40-45d5-9346-a5e73b26252a")
-		(property "Reference" "#PWR05"
+		(property "Reference" "#PWR085"
 			(at 55.88 80.01 0)
 			(effects
 				(font
@@ -2481,9 +2673,9 @@
 					(unit 1)
 				)
 			)
-			(project ""
-				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/49084664-1062-4a43-8f46-2816e4bba858"
-					(reference "#PWR054")
+			(project "minifrank_rm24"
+				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/d5923e35-d4b3-47f2-adcd-83dccd9bbf3d"
+					(reference "#PWR085")
 					(unit 1)
 				)
 			)
@@ -2499,7 +2691,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6b44f444-1c8f-4a38-9b0b-54e5c81c6d6d")
-		(property "Reference" "R4"
+		(property "Reference" "R62"
 			(at 81.28 66.04 90)
 			(effects
 				(font
@@ -2551,6 +2743,14 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C17414"
+			(at 81.28 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "222d0700-6e55-454c-a3cc-4738f84e2911")
 		)
@@ -2564,9 +2764,9 @@
 					(unit 1)
 				)
 			)
-			(project "38NJU24"
-				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/49084664-1062-4a43-8f46-2816e4bba858"
-					(reference "R29")
+			(project "minifrank_rm24"
+				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/d5923e35-d4b3-47f2-adcd-83dccd9bbf3d"
+					(reference "R62")
 					(unit 1)
 				)
 			)
@@ -2583,7 +2783,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "71bf398d-bfd9-4fff-a537-dc92e779ca9b")
-		(property "Reference" "#PWR04"
+		(property "Reference" "#PWR084"
 			(at 138.43 58.42 0)
 			(effects
 				(font
@@ -2638,9 +2838,9 @@
 					(unit 1)
 				)
 			)
-			(project ""
-				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/49084664-1062-4a43-8f46-2816e4bba858"
-					(reference "#PWR053")
+			(project "minifrank_rm24"
+				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/d5923e35-d4b3-47f2-adcd-83dccd9bbf3d"
+					(reference "#PWR084")
 					(unit 1)
 				)
 			)
@@ -2657,7 +2857,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a0903509-2467-4522-8b03-82d9e6afc782")
-		(property "Reference" "#PWR08"
+		(property "Reference" "#PWR088"
 			(at 116.84 93.98 0)
 			(effects
 				(font
@@ -2711,9 +2911,9 @@
 					(unit 1)
 				)
 			)
-			(project ""
-				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/49084664-1062-4a43-8f46-2816e4bba858"
-					(reference "#PWR057")
+			(project "minifrank_rm24"
+				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/d5923e35-d4b3-47f2-adcd-83dccd9bbf3d"
+					(reference "#PWR088")
 					(unit 1)
 				)
 			)
@@ -2729,7 +2929,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a356e3f0-5ea3-45b6-8073-ecfb1803314d")
-		(property "Reference" "#PWR03"
+		(property "Reference" "#PWR083"
 			(at 121.92 43.18 0)
 			(effects
 				(font
@@ -2783,9 +2983,9 @@
 					(unit 1)
 				)
 			)
-			(project ""
-				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/49084664-1062-4a43-8f46-2816e4bba858"
-					(reference "#PWR052")
+			(project "minifrank_rm24"
+				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/d5923e35-d4b3-47f2-adcd-83dccd9bbf3d"
+					(reference "#PWR083")
 					(unit 1)
 				)
 			)
@@ -2800,7 +3000,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "abe6f74c-13e7-4f13-9bab-5776aa5b5762")
-		(property "Reference" "C1"
+		(property "Reference" "C35"
 			(at 135.001 49.6316 0)
 			(effects
 				(font
@@ -2827,7 +3027,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://eu.mouser.com/datasheet/2/447/KEM_C1075_X7R_HT_SMD-3316221.pdf"
+		(property "Datasheet" "https://eu.mouser.com/datasheet/2/40/KGM_X7R-3223212.pdf"
 			(at 132.08 50.8 0)
 			(effects
 				(font
@@ -2854,6 +3054,14 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C1711"
+			(at 132.08 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "7d1a4d68-bc8b-4d85-a3b9-15ace2055c3f")
 		)
@@ -2867,9 +3075,9 @@
 					(unit 1)
 				)
 			)
-			(project "38NJU24"
-				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/49084664-1062-4a43-8f46-2816e4bba858"
-					(reference "C27")
+			(project "minifrank_rm24"
+				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/d5923e35-d4b3-47f2-adcd-83dccd9bbf3d"
+					(reference "C35")
 					(unit 1)
 				)
 			)
@@ -2885,7 +3093,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b7a5b83d-f428-4584-842f-ccd12df51aa7")
-		(property "Reference" "R5"
+		(property "Reference" "R63"
 			(at 67.818 82.6078 0)
 			(effects
 				(font
@@ -2939,6 +3147,14 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C3152174"
+			(at 66.04 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "da5f8c87-5053-48e8-b9a8-5c514debe6c6")
 		)
@@ -2952,15 +3168,16 @@
 					(unit 1)
 				)
 			)
-			(project "38NJU24"
-				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/49084664-1062-4a43-8f46-2816e4bba858"
-					(reference "R30")
+			(project "minifrank_rm24"
+				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/d5923e35-d4b3-47f2-adcd-83dccd9bbf3d"
+					(reference "R63")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
+		(lib_name "BC850_1")
 		(lib_id "Transistor_BJT:BC850")
 		(at 96.52 72.39 0)
 		(unit 1)
@@ -3009,7 +3226,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "0.1A Ic, 45V Vce, NPN Transistor, SOT-23"
 			(at 96.52 72.39 0)
 			(effects
 				(font
@@ -3018,13 +3235,21 @@
 				(hide yes)
 			)
 		)
-		(property "AliExpress" "https://www.aliexpress.com/item/33017911878.html"
+		(property "AliExpress" "https://www.aliexpress.com/item/1005005008637286.html"
 			(at 96.52 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "LCSC" "C78484"
+			(at 96.52 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -3043,8 +3268,8 @@
 					(unit 1)
 				)
 			)
-			(project "38NJU24"
-				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/49084664-1062-4a43-8f46-2816e4bba858"
+			(project "minifrank_rm24"
+				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/d5923e35-d4b3-47f2-adcd-83dccd9bbf3d"
 					(reference "Q2")
 					(unit 1)
 				)
@@ -3061,7 +3286,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f145edc7-ea68-44c7-943c-75efc958cee6")
-		(property "Reference" "R1"
+		(property "Reference" "R59"
 			(at 101.6 52.0699 0)
 			(effects
 				(font
@@ -3115,6 +3340,14 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C17414"
+			(at 99.06 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "95227e04-fc7e-46ad-88b6-5983d7c8e35b")
 		)
@@ -3128,9 +3361,9 @@
 					(unit 1)
 				)
 			)
-			(project "38NJU24"
-				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/49084664-1062-4a43-8f46-2816e4bba858"
-					(reference "R26")
+			(project "minifrank_rm24"
+				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/d5923e35-d4b3-47f2-adcd-83dccd9bbf3d"
+					(reference "R59")
 					(unit 1)
 				)
 			)
@@ -3185,7 +3418,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "0.1A Ic, 45V Vce, NPN Transistor, SOT-23"
 			(at 114.3 64.77 0)
 			(effects
 				(font
@@ -3194,13 +3427,21 @@
 				(hide yes)
 			)
 		)
-		(property "AliExpress" "https://www.aliexpress.com/item/33017911878.html"
+		(property "AliExpress" "https://www.aliexpress.com/item/1005005008637286.html"
 			(at 114.3 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "LCSC" "C78484"
+			(at 114.3 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -3219,8 +3460,8 @@
 					(unit 1)
 				)
 			)
-			(project "38NJU24"
-				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/49084664-1062-4a43-8f46-2816e4bba858"
+			(project "minifrank_rm24"
+				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/d5923e35-d4b3-47f2-adcd-83dccd9bbf3d"
 					(reference "Q1")
 					(unit 1)
 				)

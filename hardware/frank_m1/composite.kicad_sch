@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "FRANK M1")
-		(date "2025-03-16")
-		(rev "1.15")
+		(date "2025-04-09")
+		(rev "${VERSION}")
 		(company "Mikhail Matveev")
 		(comment 1 "https://github.com/xtremespb/frank")
 	)
@@ -2208,7 +2208,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "deb5657b-d9f5-46ad-ac9b-3ae5145f503c")
-		(property "Reference" "SC1"
+		(property "Reference" "J15"
 			(at 107.95 43.1799 0)
 			(effects
 				(font
@@ -2271,7 +2271,7 @@
 		(instances
 			(project ""
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/50e44d6f-5022-48d1-aa5c-5d8f0f1936d3"
-					(reference "SC1")
+					(reference "J15")
 					(unit 1)
 				)
 			)

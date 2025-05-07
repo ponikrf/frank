@@ -535,15 +535,15 @@
 		(uuid "ddf63dda-bfc9-4b2d-a922-c51eebdcc906")
 	)
 	(embedded_fonts no)
-	(model "${KICAD9_3DMODEL_DIR}/Connector_Video.3dshapes/HDMI_A_Contact_Technology_HDMI-19APL2_Horizontal.wrl"
+	(model "${KIPRJMOD}/3D/HDMI_vertical.stp"
 		(offset
-			(xyz 0 0 0)
+			(xyz 0 -1.5 0)
 		)
 		(scale
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz 0 0 0)
+			(xyz -90 -0 -0)
 		)
 	)
 )

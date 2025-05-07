@@ -49,7 +49,7 @@
         "silk_text_upright": false,
         "zones": {
           "45_degree_only": false,
-          "min_clearance": 0.254
+          "min_clearance": 0.15
         }
       },
       "diff_pair_dimensions": [
@@ -61,75 +61,39 @@
       ],
       "drc_exclusions": [
         [
-          "clearance|196765000|70040000|82871ca8-62ba-4a59-ae56-6dfcf093053e|f65e3462-db3d-4961-b2ca-95696c1be12b",
+          "clearance|196570500|70408400|8a3172f0-001b-467c-939f-3f40a0037476|9f677db0-2059-43bd-8d97-834a01264342",
           ""
         ],
         [
-          "clearance|196765000|75715000|7eb4b3b7-4df8-43aa-8206-3016345135bf|a28eec91-4143-459c-ad5a-9026b05aae96",
+          "clearance|196570500|76083400|5daf203b-8bcd-4950-aab4-0a2df874cccf|cbf87293-a523-4e65-9e1f-66b327d2a5d7",
           ""
         ],
         [
-          "clearance|196850000|100200000|9352f2f5-18cd-437e-a3f2-3bcd0172d82e|565667c7-ed56-4127-8025-90a01292ee85",
+          "clearance|196760000|101150000|cd311ebd-25a3-4e9c-b95c-4438ebb6f8c0|61c50913-8c58-41b4-b7e3-299673d7ad24",
           ""
         ],
         [
-          "shorting_items|106640000|59280000|d3d05847-2a7e-4f30-8c47-b4e548c2eb47|12b155bc-e7a6-44b3-9198-8d557f60e3ba",
+          "net_conflict|116250000|71000000|1b740a8d-01ee-4aff-8b08-df5c8bb5516f|00000000-0000-0000-0000-000000000000",
           ""
         ],
         [
-          "shorting_items|109180000|59280000|5825b8ad-140e-47d1-ae50-aecf4e790311|c4c79ba6-7146-479e-b3e0-bc7ac95af05a",
+          "net_conflict|116250000|71000000|4865cd91-2ecb-4fd6-a939-9e538310321d|00000000-0000-0000-0000-000000000000",
           ""
         ],
         [
-          "shorting_items|114260000|75020000|97aa660a-8083-4aca-bdc1-06fffbbff7dd|f8620d3d-ec68-4236-9107-2819bae3c087",
+          "net_conflict|116250000|71000000|5dcfa032-3a25-43be-9a0d-7cd4b038fff2|00000000-0000-0000-0000-000000000000",
           ""
         ],
         [
-          "shorting_items|116800000|75020000|281e6447-f0ce-443d-9d0b-34c666e71e13|847224be-1216-4ee8-b7c5-9c2b811ec523",
+          "net_conflict|116250000|71000000|9fde4843-87b2-4ab9-8da6-00b14abcc9e7|00000000-0000-0000-0000-000000000000",
           ""
         ],
         [
-          "shorting_items|119340000|75020000|7f90cc01-6bc4-453d-a0d9-3a45b344f888|bf2c45d5-9662-4e1b-a2c4-711695a00c72",
+          "net_conflict|116250000|71000000|ee542558-ba8e-4da3-aacd-a2357013f855|00000000-0000-0000-0000-000000000000",
           ""
         ],
         [
-          "shorting_items|121880000|59280000|1b4656e3-66b6-457e-96c2-04810fb7264b|691900bb-74c2-4ce4-8e00-deadfc80ea9b",
-          ""
-        ],
-        [
-          "shorting_items|121880000|75020000|e5ea1724-0ff8-4cbf-bf28-54691614ef14|46a8d3a1-7792-4806-9bcd-492441d4ac9b",
-          ""
-        ],
-        [
-          "shorting_items|124420000|59280000|ac8bf8d0-493e-437d-9927-cd65f313dc40|96285678-daa6-4a78-9f1c-a26f0167f1ef",
-          ""
-        ],
-        [
-          "shorting_items|126960000|59280000|878e93bb-e9be-41ab-9efa-decf943969b1|88be45b4-90d6-43c4-aba1-e829896bb2e4",
-          ""
-        ],
-        [
-          "shorting_items|127460000|62320000|93fb0a36-9fc9-4c46-8e46-e6a4225988de|cccc0b72-9e2e-4f71-8dfd-457ce9d03e52",
-          ""
-        ],
-        [
-          "shorting_items|127460000|64860000|f5b0755f-d407-4b3b-9f8d-043ce5608c59|8ee3b26f-645f-4ad0-b203-c78377d6c539",
-          ""
-        ],
-        [
-          "shorting_items|127460000|72480000|b5d3fbea-991d-4531-a02c-662521512ef9|9925d63d-80eb-401f-b11d-756d85be7de5",
-          ""
-        ],
-        [
-          "shorting_items|189370000|83280000|7f5c806d-316b-41fd-a6d3-f694a65fd743|c0be1b1a-5481-4a98-97c9-4237d91f299f",
-          ""
-        ],
-        [
-          "shorting_items|194450000|83280000|80934651-bacb-4194-881b-64c574c16ff2|8023e70c-b52f-4d1e-b2ca-4aa3f1b579a8",
-          ""
-        ],
-        [
-          "shorting_items|199530000|83280000|507d7a6e-d68a-4267-9ce5-789809b59034|f2532108-fe42-4e22-9faf-e326fea3d801",
+          "net_conflict|116250000|71000000|fe68032c-6858-484d-b954-97d99de93a3c|00000000-0000-0000-0000-000000000000",
           ""
         ]
       ],
@@ -376,6 +340,10 @@
       ],
       [
         "power_pin_not_driven|2184400|533400|aa7cbe13-d2fc-444e-923e-8912ba866bd2|00000000-0000-0000-0000-000000000000|/8c0b3d8b-46d3-4173-ab1e-a61765f77d61|/8c0b3d8b-46d3-4173-ab1e-a61765f77d61|",
+        ""
+      ],
+      [
+        "power_pin_not_driven|2209800|647700|883743a3-2111-4525-aa0b-30d10d8c5564|00000000-0000-0000-0000-000000000000|/8c0b3d8b-46d3-4173-ab1e-a61765f77d61|/8c0b3d8b-46d3-4173-ab1e-a61765f77d61|",
         ""
       ]
     ],
@@ -814,7 +782,7 @@
       "workbook_filename": ""
     },
     "page_layout_descr_file": "",
-    "plot_directory": "./DOCS",
+    "plot_directory": "./DOCS/1_17",
     "space_save_all_events": true,
     "spice_adjust_passive_values": false,
     "spice_current_sheet_as_root": false,
@@ -850,10 +818,6 @@
     [
       "e9da9b3c-e9c6-4677-bc99-391052f7625b",
       "Gamepad 2"
-    ],
-    [
-      "44b0fc63-213a-4da4-a0e4-3ab9f837f02d",
-      "Reset"
     ],
     [
       "db853a64-9343-4a36-b5b8-71001392b936",
@@ -900,5 +864,7 @@
       "RS232"
     ]
   ],
-  "text_variables": {}
+  "text_variables": {
+    "VERSION": "1.17"
+  }
 }
