@@ -58,20 +58,7 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [
-        [
-          "courtyards_overlap|166145000|66615000|d8253db2-bad6-4266-a181-0046eb6f33d6|fcf9e0fb-0bba-4c26-9c24-82803ada1004",
-          ""
-        ],
-        [
-          "courtyards_overlap|166145000|69275000|a2c7b219-e886-4eac-883b-2c2ecf7c1eb3|fcf9e0fb-0bba-4c26-9c24-82803ada1004",
-          ""
-        ],
-        [
-          "net_conflict|140100000|65900000|654458b8-40d5-4578-ac25-78051130fe09|00000000-0000-0000-0000-000000000000",
-          ""
-        ]
-      ],
+      "drc_exclusions": [],
       "meta": {
         "filename": "board_design_settings.json",
         "version": 2
@@ -881,14 +868,6 @@
     [
       "8c0b3d8b-46d3-4173-ab1e-a61765f77d61",
       "Root"
-    ],
-    [
-      "989671e2-2345-45a4-800a-c34e0be5e8a9",
-      "HDMI"
-    ],
-    [
-      "07f736c2-2601-40bb-a62a-42ff128068b3",
-      "VGA"
     ]
   ],
   "text_variables": {}
