@@ -58,7 +58,20 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "courtyards_overlap|223657400|39995900|93e50a0a-e1e8-4093-aeca-01166b0e2a45|e8e46887-ff2b-4edb-aa0d-76bb459bf5a6",
+          ""
+        ],
+        [
+          "npth_inside_courtyard|222807500|40050000|d73b5142-8688-4bb5-9a40-acb716f4ed2a|e8e46887-ff2b-4edb-aa0d-76bb459bf5a6",
+          ""
+        ],
+        [
+          "npth_inside_courtyard|230807500|40050000|a9416501-0f2f-475f-be11-6fb8fca84d60|e8e46887-ff2b-4edb-aa0d-76bb459bf5a6",
+          ""
+        ]
+      ],
       "meta": {
         "filename": "board_design_settings.json",
         "version": 2
@@ -813,7 +826,7 @@
           "group_by": false,
           "label": "LCSC",
           "name": "LCSC",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,

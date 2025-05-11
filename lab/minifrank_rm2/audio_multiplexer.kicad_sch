@@ -1363,7 +1363,7 @@
 				)
 			)
 		)
-		(property "Footprint" "FRANK:74HC4052D653"
+		(property "Footprint" "FRANK:SOP-16"
 			(at 163.83 186.36 0)
 			(effects
 				(font

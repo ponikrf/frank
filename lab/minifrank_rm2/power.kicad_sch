@@ -3292,7 +3292,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C165948"
+		(property "LCSC" ""
 			(at 55.88 60.96 0)
 			(effects
 				(font
