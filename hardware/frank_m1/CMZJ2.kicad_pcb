@@ -284,6 +284,22 @@
 	(net 158 "Net-(R52-Pad1)")
 	(net 159 "Net-(R54-Pad1)")
 	(net 160 "Net-(R56-Pad1)")
+	(net 161 "/Pico/GPIO29_1")
+	(net 162 "/Pico/GPIO23_1")
+	(net 163 "/Pico/5V_PICO_1")
+	(net 164 "/Zero/ZGPIO8")
+	(net 165 "/Zero/ZGPIO9")
+	(net 166 "/Zero/ZGPIO26_1")
+	(net 167 "unconnected-(U5-3V3-Pad21)")
+	(net 168 "/Zero/ZGPIO1")
+	(net 169 "/Zero/ZGPIO13_1")
+	(net 170 "/Zero/ZGPIO27")
+	(net 171 "/Zero/ZGPIO7")
+	(net 172 "/Zero/ZGPIO29_1")
+	(net 173 "/Zero/ZGPIO10_1")
+	(net 174 "/Zero/ZGPIO0_1")
+	(net 175 "/Zero/ZGPIO28")
+	(net 176 "/Zero/ZGPIO6_1")
 	(footprint "FRANK:Mounting Hole (2.7mm)"
 		(locked yes)
 		(layer "F.Cu")
@@ -1492,7 +1508,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://eu.mouser.com/datasheet/2/578/original-3313093.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1514,6 +1530,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "AliExpress" "https://www.aliexpress.com/item/4001214300548.html"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "108b5a53-bd13-4131-bfbb-c201d4502f48")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -8667,7 +8696,7 @@
 			(at 8.12 -10.16 90)
 			(size 2.5 1.5)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 120 "/Zero/ZGPIO0")
+			(net 174 "/Zero/ZGPIO0_1")
 			(pinfunction "0")
 			(pintype "bidirectional+no_connect")
 			(uuid "8e1fc1bf-98e5-43f4-8290-f29ab2b8f28e")
@@ -8678,7 +8707,7 @@
 			(drill 1)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 125 "/Zero/ZGPIO1_1")
+			(net 168 "/Zero/ZGPIO1")
 			(pinfunction "1")
 			(pintype "bidirectional+no_connect")
 			(uuid "4865cd91-2ecb-4fd6-a939-9e538310321d")
@@ -8787,7 +8816,7 @@
 			(at 8.12 5.08 90)
 			(size 2.5 1.5)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 63 "/Zero/ZGPIO6")
+			(net 176 "/Zero/ZGPIO6_1")
 			(pinfunction "6")
 			(pintype "bidirectional+no_connect")
 			(uuid "99677b54-7afb-4e0a-8269-e9480c67898b")
@@ -8807,7 +8836,7 @@
 			(at 8.12 7.62 90)
 			(size 2.5 1.5)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 124 "/Zero/ZGPIO7_1")
+			(net 171 "/Zero/ZGPIO7")
 			(pinfunction "7")
 			(pintype "bidirectional+no_connect")
 			(uuid "69ecc138-a451-4ec8-8d34-b19dade41539")
@@ -8827,7 +8856,7 @@
 			(at 8.12 10.16 90)
 			(size 2.5 1.5)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 64 "/Zero/ZGPIO8_1")
+			(net 164 "/Zero/ZGPIO8")
 			(pinfunction "8")
 			(pintype "bidirectional+no_connect")
 			(uuid "07a91943-4a17-4112-8d5a-fb91fe5dcdbd")
@@ -8838,7 +8867,7 @@
 			(drill 1)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 65 "/Zero/ZGPIO9_1")
+			(net 165 "/Zero/ZGPIO9")
 			(pinfunction "9")
 			(pintype "bidirectional+no_connect")
 			(uuid "1b740a8d-01ee-4aff-8b08-df5c8bb5516f")
@@ -8867,7 +8896,7 @@
 			(at 2.54 10.66 180)
 			(size 2.5 1.5)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 123 "/Zero/ZGPIO10")
+			(net 173 "/Zero/ZGPIO10_1")
 			(pinfunction "10")
 			(pintype "bidirectional+no_connect")
 			(uuid "89c461a0-b490-4268-9195-3bc908bede4f")
@@ -8918,7 +8947,7 @@
 			(drill 1)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 62 "/Zero/ZGPIO13")
+			(net 169 "/Zero/ZGPIO13_1")
 			(pinfunction "13")
 			(pintype "bidirectional+no_connect")
 			(uuid "57f20219-4e70-4656-8d1c-6cdbe7781281")
@@ -8976,7 +9005,7 @@
 			(at -8.12 5.08 90)
 			(size 2.5 1.5)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 121 "/Zero/ZGPIO26")
+			(net 166 "/Zero/ZGPIO26_1")
 			(pinfunction "26")
 			(pintype "bidirectional+no_connect")
 			(uuid "3ddff67e-a412-4111-8dff-f129237f56b7")
@@ -8996,7 +9025,7 @@
 			(at -8.12 2.54 90)
 			(size 2.5 1.5)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 61 "/Zero/ZGPIO27_1")
+			(net 170 "/Zero/ZGPIO27")
 			(pinfunction "27")
 			(pintype "bidirectional+no_connect")
 			(uuid "5dcfa032-3a25-43be-9a0d-7cd4b038fff2")
@@ -9027,7 +9056,7 @@
 			(drill 1)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 122 "/Zero/ZGPIO28_1")
+			(net 175 "/Zero/ZGPIO28")
 			(pinfunction "28")
 			(pintype "bidirectional+no_connect")
 			(uuid "95c0f7a4-ce33-4115-80eb-9165f5de5fd4")
@@ -9047,7 +9076,7 @@
 			(drill 1)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 59 "/Zero/ZGPIO29")
+			(net 172 "/Zero/ZGPIO29_1")
 			(pinfunction "29")
 			(pintype "bidirectional+no_connect")
 			(uuid "734f274b-584b-435d-9201-ed7b2ef40b3d")
@@ -9067,7 +9096,7 @@
 			(drill 1)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 128 "unconnected-(U5-3V3-Pad21)_1")
+			(net 167 "unconnected-(U5-3V3-Pad21)")
 			(pinfunction "3V3")
 			(pintype "power_out+no_connect")
 			(uuid "45c9a3fe-e66d-466b-9db2-2cfc85a5033e")
@@ -13379,7 +13408,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Generic connector, single row, 01x03, script generated"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -13388,6 +13417,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "AliExpress" "https://www.aliexpress.com/item/1005007039504981.html"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d26ab627-78b6-4c34-8073-1245d15b44ef")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -13854,7 +13896,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Generic connector, single row, 01x08, script generated"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -13863,6 +13905,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "AliExpress" "https://www.aliexpress.com/item/1005007039504981.html"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0fb03846-bbb7-449f-8384-66d0d2e9d8f7")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -22022,7 +22077,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://eu.mouser.com/datasheet/2/578/original-3313093.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -22044,6 +22099,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "AliExpress" "https://www.aliexpress.com/item/4001214300548.html"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ac9796e6-35fc-4218-9a48-9d7094a2e5b9")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -25788,7 +25856,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://eu.mouser.com/datasheet/2/578/original-3313093.pdf"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -25810,6 +25878,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "AliExpress" "https://www.aliexpress.com/item/4001214300548.html"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "05e4b3ea-323b-4ec2-8ed6-3ba35c0f9c10")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -27951,7 +28032,7 @@
 				(offset -0.8 0)
 			)
 			(layers "F.Cu" "F.Mask")
-			(net 73 "/Pico/GPIO29")
+			(net 161 "/Pico/GPIO29_1")
 			(pinfunction "ADC_VREF")
 			(pintype "unspecified+no_connect")
 			(uuid "4fa53e8a-6c1b-4bfa-a3ca-83fe974f6ced")
@@ -27997,7 +28078,7 @@
 				(offset -0.8 0)
 			)
 			(layers "F.Cu" "F.Mask")
-			(net 56 "/Pico/GPIO23")
+			(net 162 "/Pico/GPIO23_1")
 			(pinfunction "3V3_EN")
 			(pintype "input+no_connect")
 			(uuid "aee4a923-4d20-4331-9c06-eed2830f83a3")
@@ -28045,7 +28126,7 @@
 				(offset -0.8 0)
 			)
 			(layers "F.Cu" "F.Mask")
-			(net 57 "/Pico/5V_PICO")
+			(net 163 "/Pico/5V_PICO_1")
 			(pinfunction "VSYS")
 			(pintype "input+no_connect")
 			(uuid "ee7b753c-58fe-4469-b160-b51162807bba")
@@ -33351,7 +33432,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Generic connector, single row, 01x03, script generated"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -33360,6 +33441,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "AliExpress" "https://www.aliexpress.com/item/1005007039504981.html"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "68cad673-43e5-4b15-b548-88ffee8338c4")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)

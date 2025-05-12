@@ -3866,7 +3866,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "40a74e92-1d6f-4f18-81fb-3795f7ef8f5b")
-		(property "Reference" "CON1"
+		(property "Reference" "J1"
 			(at 212.725 71.12 0)
 			(effects
 				(font
@@ -3930,7 +3930,7 @@
 		(instances
 			(project ""
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61"
-					(reference "CON1")
+					(reference "J1")
 					(unit 1)
 				)
 			)
@@ -4013,7 +4013,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "65a78c1d-2b7b-4bf8-bb4e-4d5f43931cfa")
-		(property "Reference" "J1"
+		(property "Reference" "JP1"
 			(at 212.09 21.59 0)
 			(effects
 				(font
@@ -4135,7 +4135,7 @@
 		(instances
 			(project "HR3FQ"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61"
-					(reference "J1")
+					(reference "JP1")
 					(unit 1)
 				)
 			)
@@ -4643,7 +4643,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ebbfb76d-be46-4257-9d29-20caaa4260cc")
-		(property "Reference" "CON2"
+		(property "Reference" "J2"
 			(at 212.725 86.36 0)
 			(effects
 				(font
@@ -4707,7 +4707,7 @@
 		(instances
 			(project "turbofrank"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61"
-					(reference "CON2")
+					(reference "J2")
 					(unit 1)
 				)
 			)
