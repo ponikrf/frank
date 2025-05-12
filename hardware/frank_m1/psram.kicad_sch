@@ -893,34 +893,23 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "As PSRAM is optional, you need to solder the jumper\nif you are going to use it."
-		(exclude_from_sim no)
-		(at 44.196 24.892 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "31b537bd-68fd-4c0a-8b41-573b14007620")
-	)
 	(junction
-		(at 67.31 45.72)
+		(at 135.89 91.44)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "38714a38-a5a5-4434-82cf-98d7c22b618e")
 	)
 	(no_connect
-		(at 80.01 55.88)
+		(at 148.59 101.6)
 		(uuid "38ea0e50-f0c6-4fb3-af37-295e4ac5c8eb")
 	)
 	(no_connect
-		(at 80.01 58.42)
+		(at 148.59 104.14)
 		(uuid "f712e3dd-d417-419d-97c6-5fde907aad85")
 	)
 	(wire
 		(pts
-			(xy 80.01 50.8) (xy 110.49 50.8)
+			(xy 148.59 96.52) (xy 179.07 96.52)
 		)
 		(stroke
 			(width 0)
@@ -930,7 +919,7 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 67.31) (xy 91.44 63.5)
+			(xy 160.02 113.03) (xy 160.02 109.22)
 		)
 		(stroke
 			(width 0)
@@ -940,7 +929,7 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 67.31) (xy 92.71 67.31)
+			(xy 160.02 113.03) (xy 161.29 113.03)
 		)
 		(stroke
 			(width 0)
@@ -950,7 +939,7 @@
 	)
 	(wire
 		(pts
-			(xy 46.99 45.72) (xy 46.99 49.53)
+			(xy 115.57 91.44) (xy 115.57 95.25)
 		)
 		(stroke
 			(width 0)
@@ -960,7 +949,7 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 53.34) (xy 110.49 53.34)
+			(xy 148.59 99.06) (xy 179.07 99.06)
 		)
 		(stroke
 			(width 0)
@@ -970,7 +959,7 @@
 	)
 	(wire
 		(pts
-			(xy 46.99 45.72) (xy 67.31 45.72)
+			(xy 115.57 91.44) (xy 135.89 91.44)
 		)
 		(stroke
 			(width 0)
@@ -980,7 +969,7 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 45.72) (xy 77.47 45.72)
+			(xy 135.89 91.44) (xy 146.05 91.44)
 		)
 		(stroke
 			(width 0)
@@ -990,7 +979,7 @@
 	)
 	(wire
 		(pts
-			(xy 46.99 57.15) (xy 46.99 60.96)
+			(xy 115.57 102.87) (xy 115.57 106.68)
 		)
 		(stroke
 			(width 0)
@@ -1000,7 +989,7 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 60.96) (xy 110.49 60.96)
+			(xy 148.59 106.68) (xy 179.07 106.68)
 		)
 		(stroke
 			(width 0)
@@ -1010,7 +999,7 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 67.31) (xy 102.87 63.5)
+			(xy 171.45 113.03) (xy 171.45 109.22)
 		)
 		(stroke
 			(width 0)
@@ -1020,7 +1009,7 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 63.5) (xy 110.49 63.5)
+			(xy 171.45 109.22) (xy 179.07 109.22)
 		)
 		(stroke
 			(width 0)
@@ -1030,7 +1019,7 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 67.31) (xy 102.87 67.31)
+			(xy 168.91 113.03) (xy 171.45 113.03)
 		)
 		(stroke
 			(width 0)
@@ -1040,7 +1029,7 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 63.5) (xy 80.01 63.5)
+			(xy 160.02 109.22) (xy 148.59 109.22)
 		)
 		(stroke
 			(width 0)
@@ -1050,7 +1039,7 @@
 	)
 	(hierarchical_label "SISIO"
 		(shape input)
-		(at 110.49 60.96 0)
+		(at 179.07 106.68 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1061,7 +1050,7 @@
 	)
 	(hierarchical_label "CE"
 		(shape input)
-		(at 110.49 50.8 0)
+		(at 179.07 96.52 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1072,7 +1061,7 @@
 	)
 	(hierarchical_label "SCLK"
 		(shape input)
-		(at 110.49 53.34 0)
+		(at 179.07 99.06 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1083,7 +1072,7 @@
 	)
 	(hierarchical_label "SOSIO"
 		(shape input)
-		(at 110.49 63.5 0)
+		(at 179.07 109.22 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1094,7 +1083,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 67.31 71.12 0)
+		(at 135.89 116.84 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1102,7 +1091,7 @@
 		(dnp no)
 		(uuid "2c9cc415-24b5-4884-ac4c-0dc5a0300c95")
 		(property "Reference" "#PWR043"
-			(at 67.31 77.47 0)
+			(at 135.89 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1111,7 +1100,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 64.77 72.39 0)
+			(at 133.35 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1120,7 +1109,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 67.31 71.12 0)
+			(at 135.89 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1129,7 +1118,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 67.31 71.12 0)
+			(at 135.89 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1138,7 +1127,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 67.31 71.12 0)
+			(at 135.89 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1160,7 +1149,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 77.47 45.72 0)
+		(at 146.05 91.44 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1169,7 +1158,7 @@
 		(fields_autoplaced yes)
 		(uuid "6edb26c8-a2d6-4b0c-9cb3-7d7dd852f441")
 		(property "Reference" "#PWR041"
-			(at 77.47 49.53 0)
+			(at 146.05 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1178,7 +1167,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 77.47 40.64 0)
+			(at 146.05 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1186,7 +1175,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 77.47 45.72 0)
+			(at 146.05 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1195,7 +1184,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 77.47 45.72 0)
+			(at 146.05 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1204,7 +1193,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 77.47 45.72 0)
+			(at 146.05 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1226,7 +1215,7 @@
 	)
 	(symbol
 		(lib_id "FRANK:ESP-PSRAM32")
-		(at 69.85 58.42 0)
+		(at 138.43 104.14 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1235,7 +1224,7 @@
 		(fields_autoplaced yes)
 		(uuid "6fad558e-ddd8-47a6-9d00-94d3ee4e2ebb")
 		(property "Reference" "U2"
-			(at 60.96 57.1499 0)
+			(at 129.54 102.8699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1244,7 +1233,7 @@
 			)
 		)
 		(property "Value" "ESP-PSRAM32"
-			(at 60.96 59.6899 0)
+			(at 129.54 105.4099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1253,7 +1242,7 @@
 			)
 		)
 		(property "Footprint" "FRANK:SO-8"
-			(at 69.85 73.66 0)
+			(at 138.43 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1262,7 +1251,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.espressif.com/sites/default/files/documentation/esp-psram32_datasheet_en.pdf"
-			(at 59.69 45.72 0)
+			(at 128.27 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1271,7 +1260,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 69.85 58.42 0)
+			(at 138.43 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1280,7 +1269,7 @@
 			)
 		)
 		(property "AliExpress" "https://www.aliexpress.com/item/1005006440914173.html"
-			(at 69.85 58.42 0)
+			(at 138.43 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1323,7 +1312,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 46.99 53.34 0)
+		(at 115.57 99.06 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1331,7 +1320,7 @@
 		(dnp no)
 		(uuid "adb1a53b-d5fd-4040-922b-c10d890df339")
 		(property "Reference" "C6"
-			(at 49.911 52.1716 0)
+			(at 118.491 97.8916 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1340,7 +1329,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 49.911 54.483 0)
+			(at 118.491 100.203 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1349,7 +1338,7 @@
 			)
 		)
 		(property "Footprint" "FRANK:Capacitor (0805)"
-			(at 47.9552 57.15 0)
+			(at 116.5352 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1358,7 +1347,7 @@
 			)
 		)
 		(property "Datasheet" "https://eu.mouser.com/datasheet/2/40/KGM_X7R-3223212.pdf"
-			(at 46.99 53.34 0)
+			(at 115.57 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1367,7 +1356,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 46.99 53.34 0)
+			(at 115.57 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1376,7 +1365,7 @@
 			)
 		)
 		(property "AliExpress" "https://www.aliexpress.com/item/33008008276.html"
-			(at 46.99 53.34 0)
+			(at 115.57 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1401,7 +1390,7 @@
 	)
 	(symbol
 		(lib_id "Jumper:SolderJumper_2_Open")
-		(at 96.52 67.31 0)
+		(at 165.1 113.03 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1409,7 +1398,7 @@
 		(dnp no)
 		(uuid "b418311b-fc93-4696-9cba-8960a9bf89ab")
 		(property "Reference" "JP3"
-			(at 96.52 69.85 0)
+			(at 165.1 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1417,7 +1406,7 @@
 			)
 		)
 		(property "Value" "Jumper (Solder)"
-			(at 97.028 69.85 0)
+			(at 165.608 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1426,7 +1415,7 @@
 			)
 		)
 		(property "Footprint" "FRANK:Jumper (solder)"
-			(at 96.52 67.31 0)
+			(at 165.1 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1435,7 +1424,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 96.52 67.31 0)
+			(at 165.1 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1444,7 +1433,7 @@
 			)
 		)
 		(property "Description" "Solder Jumper, 2-pole, open"
-			(at 96.52 67.31 0)
+			(at 165.1 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1453,7 +1442,7 @@
 			)
 		)
 		(property "AliExpress" "https://www.aliexpress.com/item/1005006454399822.html"
-			(at 96.52 67.31 0)
+			(at 165.1 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1479,7 +1468,7 @@
 	(symbol
 		(lib_name "GND_1")
 		(lib_id "power:GND")
-		(at 46.99 60.96 0)
+		(at 115.57 106.68 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1487,7 +1476,7 @@
 		(dnp no)
 		(uuid "c76622e5-65e8-4bd9-aa46-19f51970c43e")
 		(property "Reference" "#PWR042"
-			(at 46.99 67.31 0)
+			(at 115.57 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1496,7 +1485,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 47.117 65.3542 0)
+			(at 115.697 111.0742 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1504,7 +1493,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 46.99 60.96 0)
+			(at 115.57 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1513,7 +1502,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 46.99 60.96 0)
+			(at 115.57 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1522,7 +1511,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 46.99 60.96 0)
+			(at 115.57 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)

@@ -1073,42 +1073,31 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "The gamepad uses standard DB9 male socket."
-		(exclude_from_sim no)
-		(at 49.53 31.75 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "63b467c8-bc26-4f5f-9614-016fa07ec4c4")
-	)
 	(junction
-		(at 78.74 68.58)
+		(at 147.32 104.14)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9eefdc53-a40e-4278-adea-37547db93edd")
 	)
 	(no_connect
-		(at 100.33 55.88)
+		(at 168.91 91.44)
 		(uuid "2243b814-ef35-4ebb-9ebe-3772552501f6")
 	)
 	(no_connect
-		(at 100.33 53.34)
+		(at 168.91 88.9)
 		(uuid "3c2bb2bb-4e16-472c-82dd-474c890d756a")
 	)
 	(no_connect
-		(at 100.33 66.04)
+		(at 168.91 101.6)
 		(uuid "443ab2c6-97d5-4862-8ce9-2e0a4614998f")
 	)
 	(no_connect
-		(at 100.33 73.66)
+		(at 168.91 109.22)
 		(uuid "93727048-e2b3-4953-a6a7-f80ab9641807")
 	)
 	(wire
 		(pts
-			(xy 92.71 63.5) (xy 100.33 63.5)
+			(xy 161.29 99.06) (xy 168.91 99.06)
 		)
 		(stroke
 			(width 0)
@@ -1118,7 +1107,7 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 58.42) (xy 100.33 58.42)
+			(xy 161.29 93.98) (xy 168.91 93.98)
 		)
 		(stroke
 			(width 0)
@@ -1128,7 +1117,7 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 71.12) (xy 100.33 71.12)
+			(xy 160.02 106.68) (xy 168.91 106.68)
 		)
 		(stroke
 			(width 0)
@@ -1138,7 +1127,7 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 68.58) (xy 78.74 69.85)
+			(xy 147.32 104.14) (xy 147.32 105.41)
 		)
 		(stroke
 			(width 0)
@@ -1148,7 +1137,7 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 68.58) (xy 78.74 68.58)
+			(xy 125.73 104.14) (xy 147.32 104.14)
 		)
 		(stroke
 			(width 0)
@@ -1158,7 +1147,7 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 68.58) (xy 78.74 68.58)
+			(xy 148.59 104.14) (xy 147.32 104.14)
 		)
 		(stroke
 			(width 0)
@@ -1168,7 +1157,7 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 60.96) (xy 100.33 60.96)
+			(xy 161.29 96.52) (xy 168.91 96.52)
 		)
 		(stroke
 			(width 0)
@@ -1178,7 +1167,7 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 68.58) (xy 100.33 68.58)
+			(xy 156.21 104.14) (xy 168.91 104.14)
 		)
 		(stroke
 			(width 0)
@@ -1188,7 +1177,7 @@
 	)
 	(hierarchical_label "J4"
 		(shape input)
-		(at 92.71 58.42 180)
+		(at 161.29 93.98 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1199,7 +1188,7 @@
 	)
 	(hierarchical_label "J3"
 		(shape input)
-		(at 92.71 63.5 180)
+		(at 161.29 99.06 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1210,7 +1199,7 @@
 	)
 	(hierarchical_label "DATA"
 		(shape input)
-		(at 57.15 68.58 180)
+		(at 125.73 104.14 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1221,7 +1210,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 78.74 77.47 0)
+		(at 147.32 113.03 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1229,7 +1218,7 @@
 		(dnp no)
 		(uuid "07ec014e-13f2-4dff-b2b3-eb05115e3a2b")
 		(property "Reference" "#PWR033"
-			(at 78.74 83.82 0)
+			(at 147.32 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1238,7 +1227,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 76.2 78.74 0)
+			(at 144.78 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1247,7 +1236,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 78.74 77.47 0)
+			(at 147.32 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1256,7 +1245,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 78.74 77.47 0)
+			(at 147.32 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1265,7 +1254,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 78.74 77.47 0)
+			(at 147.32 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1291,7 +1280,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_Zener")
-		(at 78.74 73.66 270)
+		(at 147.32 109.22 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1299,7 +1288,7 @@
 		(dnp no)
 		(uuid "37fb8b98-c433-47f3-81a5-b5cc620d96bd")
 		(property "Reference" "D5"
-			(at 76.2 73.66 0)
+			(at 144.78 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1307,7 +1296,7 @@
 			)
 		)
 		(property "Value" "3V3"
-			(at 81.28 73.66 0)
+			(at 149.86 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1315,7 +1304,7 @@
 			)
 		)
 		(property "Footprint" "FRANK:Diode (SOD-323)"
-			(at 78.74 73.66 0)
+			(at 147.32 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1324,7 +1313,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.vishay.com/docs/83335/bzx384g.pdf"
-			(at 78.74 73.66 0)
+			(at 147.32 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1333,7 +1322,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 78.74 73.66 0)
+			(at 147.32 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1342,7 +1331,7 @@
 			)
 		)
 		(property "AliExpress" "https://www.aliexpress.com/item/1005006143480992.html"
-			(at 78.74 73.66 0)
+			(at 147.32 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1371,7 +1360,7 @@
 	)
 	(symbol
 		(lib_id "power:VBUS")
-		(at 91.44 71.12 180)
+		(at 160.02 106.68 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1380,7 +1369,7 @@
 		(fields_autoplaced yes)
 		(uuid "64a487a7-d18a-4c39-ba88-effe77dfade1")
 		(property "Reference" "#PWR032"
-			(at 91.44 67.31 0)
+			(at 160.02 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1389,7 +1378,7 @@
 			)
 		)
 		(property "Value" "VBUS"
-			(at 91.44 76.2 0)
+			(at 160.02 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1397,7 +1386,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 91.44 71.12 0)
+			(at 160.02 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1406,7 +1395,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 91.44 71.12 0)
+			(at 160.02 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1415,7 +1404,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VBUS\""
-			(at 91.44 71.12 0)
+			(at 160.02 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1441,15 +1430,15 @@
 	)
 	(symbol
 		(lib_id "FRANK:DB9_Male_Small")
-		(at 107.95 63.5 0)
+		(at 176.53 99.06 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "6a6138cd-6131-47ac-97bb-048cfcb8ef56")
-		(property "Reference" "GP1"
-			(at 109.22 50.8 0)
+		(property "Reference" "J7"
+			(at 177.8 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1458,7 +1447,7 @@
 			)
 		)
 		(property "Value" "D-SUB 9 Male"
-			(at 105.41 48.26 0)
+			(at 173.99 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1468,7 +1457,7 @@
 			)
 		)
 		(property "Footprint" "FRANK:D-SUB (9 pin, male, top mount)"
-			(at 107.95 63.5 0)
+			(at 176.53 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1477,7 +1466,7 @@
 			)
 		)
 		(property "Datasheet" "https://eu.mouser.com/datasheet/2/578/original-3313093.pdf"
-			(at 107.95 63.5 0)
+			(at 176.53 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1486,7 +1475,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 107.95 63.5 0)
+			(at 176.53 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1495,7 +1484,7 @@
 			)
 		)
 		(property "AliExpress" "https://www.aliexpress.com/item/4001214300548.html"
-			(at 107.95 63.5 0)
+			(at 176.53 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1533,11 +1522,11 @@
 		(instances
 			(project ""
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/91039a09-82d7-4099-8414-fc5647ada98f"
-					(reference "GP1")
+					(reference "J7")
 					(unit 1)
 				)
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/e9da9b3c-e9c6-4677-bc99-391052f7625b"
-					(reference "GP2")
+					(reference "J8")
 					(unit 1)
 				)
 			)
@@ -1546,7 +1535,7 @@
 	(symbol
 		(lib_name "GND_1")
 		(lib_id "power:GND")
-		(at 92.71 60.96 270)
+		(at 161.29 96.52 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1555,7 +1544,7 @@
 		(fields_autoplaced yes)
 		(uuid "94c34e60-b773-43f4-b82d-d3b330870294")
 		(property "Reference" "#PWR031"
-			(at 86.36 60.96 0)
+			(at 154.94 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1564,7 +1553,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 88.9 60.9599 90)
+			(at 157.48 96.5199 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1573,7 +1562,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 92.71 60.96 0)
+			(at 161.29 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1582,7 +1571,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 92.71 60.96 0)
+			(at 161.29 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1591,7 +1580,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 92.71 60.96 0)
+			(at 161.29 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1617,7 +1606,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 83.82 68.58 90)
+		(at 152.4 104.14 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1625,7 +1614,7 @@
 		(dnp no)
 		(uuid "f1dd8d25-dfbe-4345-af99-320762b8adbb")
 		(property "Reference" "R12"
-			(at 81.28 66.04 90)
+			(at 149.86 101.6 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1633,7 +1622,7 @@
 			)
 		)
 		(property "Value" "1K"
-			(at 85.09 66.04 90)
+			(at 153.67 101.6 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1641,7 +1630,7 @@
 			)
 		)
 		(property "Footprint" "FRANK:Resistor (0805)"
-			(at 83.82 70.358 90)
+			(at 152.4 105.918 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1650,7 +1639,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.vishay.com/docs/28952/mcs0402at-mct0603at-mcu0805at-mca1206at.pdf"
-			(at 83.82 68.58 0)
+			(at 152.4 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1659,7 +1648,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 83.82 68.58 0)
+			(at 152.4 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1668,7 +1657,7 @@
 			)
 		)
 		(property "AliExpress" "https://www.aliexpress.com/item/1005005945735199.html"
-			(at 83.82 68.58 0)
+			(at 152.4 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
